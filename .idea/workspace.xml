@@ -2,48 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2be14890-e2cc-474c-b27a-8d9113361120.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2be14890-e2cc-474c-b27a-8d9113361120/storage_v2/_src_/database/django_pugliaeventi.Nfpaaw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2be14890-e2cc-474c-b27a-8d9113361120/storage_v2/_src_/database/django_pugliaeventi.Nfpaaw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pugliaeventi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/data/items.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/data/labels_item.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/data/labels_user.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/data/ratings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/data/users.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/data_fetcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/lightfm_pugliaeventi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pugliaeventi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pugliaeventi/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pugliaeventi/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pugliaeventi/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/common/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/import_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2be14890-e2cc-474c-b27a-8d9113361120.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2be14890-e2cc-474c-b27a-8d9113361120.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2be14890-e2cc-474c-b27a-8d9113361120/storage_v2/_src_/database/django_pugliaeventi.Nfpaaw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2be14890-e2cc-474c-b27a-8d9113361120/storage_v2/_src_/database/django_pugliaeventi.Nfpaaw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommender/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pugliaeventi$import_data.coverage" NAME="import_data Coverage Results" MODIFIED="1535194718491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/engine" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -106,37 +78,40 @@
     <session id="345723609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
+          <entry key="recommender_place" value="3" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Database Element" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1914" />
-          <entry key="txt" value="25" />
+          <entry key="py" value="2691" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="1914" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="2691" />
         </counts>
       </usages-collector>
     </session>
@@ -169,14 +144,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommender/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+            <state relative-caret-position="270">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1535187459543" expanded="true" signature="152:157" ph="..." />
-                <marker date="1535187459543" expanded="true" signature="707:712" ph="..." />
-                <marker date="1535187459543" expanded="true" signature="1466:1503" ph="..." />
-                <marker date="1535187459543" expanded="true" signature="1970:2049" ph="..." />
+                <marker date="1535194357451" expanded="true" signature="152:157" ph="..." />
+                <marker date="1535194357451" expanded="true" signature="707:712" ph="..." />
+                <marker date="1535194357451" expanded="true" signature="1470:1507" ph="..." />
+                <marker date="1535194357451" expanded="true" signature="1974:2053" ph="..." />
               </folding>
             </state>
           </provider>
@@ -187,13 +162,25 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="525">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/engine/import_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding>
+                <marker date="1535194718473" expanded="true" signature="372:373" ph="..." />
               </folding>
             </state>
           </provider>
@@ -241,8 +228,9 @@
         <option value="$PROJECT_DIR$/Recommender/common/utils.py" />
         <option value="$PROJECT_DIR$/Recommender/models.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
-        <option value="$PROJECT_DIR$/recommender/models.py" />
         <option value="$PROJECT_DIR$/engine/lightfm_pugliaeventi.py" />
+        <option value="$PROJECT_DIR$/recommender/models.py" />
+        <option value="$PROJECT_DIR$/engine/import_data.py" />
       </list>
     </option>
   </component>
@@ -276,11 +264,6 @@
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -291,6 +274,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -313,7 +297,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.import_data">
+    <configuration name="import_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pugliaeventi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/engine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/engine/import_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pugliaeventi" type="Python.DjangoServer" factoryName="Django server">
       <module name="pugliaeventi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,6 +344,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.pugliaeventi" />
+      <item itemvalue="Python.import_data" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.import_data" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -350,17 +365,26 @@
       <option name="presentableId" value="Default" />
       <updated>1535181032537</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Django project including LightFM engine">
+      <created>1535192123004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535192123004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1920" height="1202" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13447171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32929105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,15 +393,16 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3302239" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3302239" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32929105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="6" weight="0.18303095" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,9 +411,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Django project including LightFM engine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Django project including LightFM engine" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2be14890-e2cc-474c-b27a-8d9113361120/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://2be14890-e2cc-474c-b27a-8d9113361120/database/django_pugliaeventi/schema/public/table/recommender_place">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -409,14 +445,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+        <state relative-caret-position="270">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1535187459543" expanded="true" signature="152:157" ph="..." />
-            <marker date="1535187459543" expanded="true" signature="707:712" ph="..." />
-            <marker date="1535187459543" expanded="true" signature="1466:1503" ph="..." />
-            <marker date="1535187459543" expanded="true" signature="1970:2049" ph="..." />
+            <marker date="1535194357451" expanded="true" signature="152:157" ph="..." />
+            <marker date="1535194357451" expanded="true" signature="707:712" ph="..." />
+            <marker date="1535194357451" expanded="true" signature="1470:1507" ph="..." />
+            <marker date="1535194357451" expanded="true" signature="1974:2053" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data/items.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data_fetcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -431,25 +490,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data/items.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data_fetcher.py">
+    <entry file="file://$PROJECT_DIR$/engine/import_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <marker date="1535194718473" expanded="true" signature="372:373" ph="..." />
           </folding>
         </state>
       </provider>

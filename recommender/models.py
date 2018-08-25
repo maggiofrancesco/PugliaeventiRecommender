@@ -18,8 +18,8 @@ class Profile(models.Model):
 
 
 class Place(models.Model):
-    placeId = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=50, blank=False)
+    placeId = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=100, blank=False)
     location = models.CharField(max_length=30, blank=False)
     freeEntry = models.BooleanField()
     bere = models.BooleanField()

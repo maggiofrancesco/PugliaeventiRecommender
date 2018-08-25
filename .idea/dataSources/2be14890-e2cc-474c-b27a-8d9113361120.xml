@@ -82,8 +82,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-08-25.10:58:17.509</IntrospectionTimestamp>
-      <IntrospectionStateNumber>641</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-08-25.12:56:55.603</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1179</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -290,7 +290,7 @@
     <table id="45" parent="16" name="recommender_place">
       <ObjectId>16766</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>641</StateNumber>
+      <StateNumber>656</StateNumber>
     </table>
     <table id="46" parent="16" name="recommender_profile">
       <ObjectId>16774</ObjectId>
@@ -300,7 +300,7 @@
     <table id="47" parent="16" name="recommender_rating">
       <ObjectId>16787</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>641</StateNumber>
+      <StateNumber>656</StateNumber>
     </table>
     <column id="48" parent="35" name="id">
       <Position>1</Position>
@@ -975,16 +975,16 @@ model</ColNames>
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>641</StateNumber>
+      <StateNumber>656</StateNumber>
       <DefaultExpression>nextval(&apos;&quot;recommender_place_placeId_seq&quot;&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
       <SequenceName>recommender_place_placeId_seq</SequenceName>
     </column>
     <column id="150" parent="45" name="name">
       <Position>2</Position>
-      <DataType>varchar(50)|0s</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>641</StateNumber>
+      <StateNumber>1179</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="151" parent="45" name="location">
@@ -1072,12 +1072,12 @@ model</ColNames>
       <TypeId>16</TypeId>
     </column>
     <index id="163" parent="45" name="recommender_place_pkey">
-      <ObjectId>16770</ObjectId>
+      <ObjectId>16814</ObjectId>
       <ColNames>placeId</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="164" parent="45" name="recommender_place_pkey">
-      <ObjectId>16771</ObjectId>
+      <ObjectId>16815</ObjectId>
       <ColNames>placeId</ColNames>
       <UnderlyingIndexName>recommender_place_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -1197,7 +1197,7 @@ model</ColNames>
       <Position>5</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>641</StateNumber>
+      <StateNumber>656</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="182" parent="47" name="userId_id">
@@ -1213,7 +1213,7 @@ model</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="184" parent="47" name="recommender_rating_userid_id_mood_companion_ef702f02_uniq">
-      <ObjectId>16793</ObjectId>
+      <ObjectId>16816</ObjectId>
       <ColNames>userId_id
 mood
 companionship
@@ -1221,7 +1221,7 @@ placeId_id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="185" parent="47" name="recommender_rating_placeId_id_f61e25ca">
-      <ObjectId>16810</ObjectId>
+      <ObjectId>16818</ObjectId>
       <ColNames>placeId_id</ColNames>
     </index>
     <index id="186" parent="47" name="recommender_rating_userId_id_d1039bce">
@@ -1235,15 +1235,15 @@ placeId_id</ColNames>
       <Primary>1</Primary>
     </key>
     <key id="188" parent="47" name="recommender_rating_userid_id_mood_companion_ef702f02_uniq">
-      <ObjectId>16794</ObjectId>
+      <ObjectId>16817</ObjectId>
       <ColNames>userId_id
 mood
 companionship
 placeId_id</ColNames>
       <UnderlyingIndexName>recommender_rating_userid_id_mood_companion_ef702f02_uniq</UnderlyingIndexName>
     </key>
-    <foreign-key id="189" parent="47" name="recommender_rating_placeId_id_f61e25ca_fk_recommend">
-      <ObjectId>16800</ObjectId>
+    <foreign-key id="189" parent="47" name="recommender_rating_placeId_id_f61e25ca_fk">
+      <ObjectId>16819</ObjectId>
       <Deferrable>1</Deferrable>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ColNames>placeId_id</ColNames>
