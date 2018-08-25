@@ -1,0 +1,600 @@
+111,Ostuni,1,0,0,1,0
+112,Ostuni,1,0,0,0,1
+121,Ostuni,0,1,0,1,0
+122,Ostuni,0,1,0,0,1
+131,Ostuni,0,0,1,1,0
+132,Ostuni,0,0,1,0,1
+211,Rutigliano,1,0,0,1,0
+212,Rutigliano,1,0,0,0,1
+221,Rutigliano,0,1,0,1,0
+222,Rutigliano,0,1,0,0,1
+231,Rutigliano,0,0,1,1,0
+232,Rutigliano,0,0,1,0,1
+311,Pulsano,1,0,0,1,0
+312,Pulsano,1,0,0,0,1
+321,Pulsano,0,1,0,1,0
+322,Pulsano,0,1,0,0,1
+331,Pulsano,0,0,1,1,0
+332,Pulsano,0,0,1,0,1
+411,Terlizzi,1,0,0,1,0
+412,Terlizzi,1,0,0,0,1
+421,Terlizzi,0,1,0,1,0
+422,Terlizzi,0,1,0,0,1
+431,Terlizzi,0,0,1,1,0
+432,Terlizzi,0,0,1,0,1
+511,Foggia,1,0,0,1,0
+512,Foggia,1,0,0,0,1
+521,Foggia,0,1,0,1,0
+522,Foggia,0,1,0,0,1
+531,Foggia,0,0,1,1,0
+532,Foggia,0,0,1,0,1
+611,Andria,1,0,0,1,0
+612,Andria,1,0,0,0,1
+621,Andria,0,1,0,1,0
+622,Andria,0,1,0,0,1
+631,Andria,0,0,1,1,0
+632,Andria,0,0,1,0,1
+711,Gravina in Puglia,1,0,0,1,0
+712,Gravina in Puglia,1,0,0,0,1
+721,Gravina in Puglia,0,1,0,1,0
+722,Gravina in Puglia,0,1,0,0,1
+731,Gravina in Puglia,0,0,1,1,0
+732,Gravina in Puglia,0,0,1,0,1
+811,Bitetto,1,0,0,1,0
+812,Bitetto,1,0,0,0,1
+821,Bitetto,0,1,0,1,0
+822,Bitetto,0,1,0,0,1
+831,Bitetto,0,0,1,1,0
+832,Bitetto,0,0,1,0,1
+911,Mola di Bari,1,0,0,1,0
+912,Mola di Bari,1,0,0,0,1
+921,Mola di Bari,0,1,0,1,0
+922,Mola di Bari,0,1,0,0,1
+931,Mola di Bari,0,0,1,1,0
+932,Mola di Bari,0,0,1,0,1
+1011,Corigliano d'Otranto,1,0,0,1,0
+1012,Corigliano d'Otranto,1,0,0,0,1
+1021,Corigliano d'Otranto,0,1,0,1,0
+1022,Corigliano d'Otranto,0,1,0,0,1
+1031,Corigliano d'Otranto,0,0,1,1,0
+1032,Corigliano d'Otranto,0,0,1,0,1
+1111,Bisceglie,1,0,0,1,0
+1112,Bisceglie,1,0,0,0,1
+1121,Bisceglie,0,1,0,1,0
+1122,Bisceglie,0,1,0,0,1
+1131,Bisceglie,0,0,1,1,0
+1132,Bisceglie,0,0,1,0,1
+1211,Trani,1,0,0,1,0
+1212,Trani,1,0,0,0,1
+1221,Trani,0,1,0,1,0
+1222,Trani,0,1,0,0,1
+1231,Trani,0,0,1,1,0
+1232,Trani,0,0,1,0,1
+1311,Locorotondo,1,0,0,1,0
+1312,Locorotondo,1,0,0,0,1
+1321,Locorotondo,0,1,0,1,0
+1322,Locorotondo,0,1,0,0,1
+1331,Locorotondo,0,0,1,1,0
+1332,Locorotondo,0,0,1,0,1
+1411,Trani,1,0,0,1,0
+1412,Trani,1,0,0,0,1
+1421,Trani,0,1,0,1,0
+1422,Trani,0,1,0,0,1
+1431,Trani,0,0,1,1,0
+1432,Trani,0,0,1,0,1
+1511,Palagiano,1,0,0,1,0
+1512,Palagiano,1,0,0,0,1
+1521,Palagiano,0,1,0,1,0
+1522,Palagiano,0,1,0,0,1
+1531,Palagiano,0,0,1,1,0
+1532,Palagiano,0,0,1,0,1
+1611,Bitonto,1,0,0,1,0
+1612,Bitonto,1,0,0,0,1
+1621,Bitonto,0,1,0,1,0
+1622,Bitonto,0,1,0,0,1
+1631,Bitonto,0,0,1,1,0
+1632,Bitonto,0,0,1,0,1
+1711,Alberobello,1,0,0,1,0
+1712,Alberobello,1,0,0,0,1
+1721,Alberobello,0,1,0,1,0
+1722,Alberobello,0,1,0,0,1
+1731,Alberobello,0,0,1,1,0
+1732,Alberobello,0,0,1,0,1
+1811,Polignano a Mare,1,0,0,1,0
+1812,Polignano a Mare,1,0,0,0,1
+1821,Polignano a Mare,0,1,0,1,0
+1822,Polignano a Mare,0,1,0,0,1
+1831,Polignano a Mare,0,0,1,1,0
+1832,Polignano a Mare,0,0,1,0,1
+1911,Pulsano,1,0,0,1,0
+1912,Pulsano,1,0,0,0,1
+1921,Pulsano,0,1,0,1,0
+1922,Pulsano,0,1,0,0,1
+1931,Pulsano,0,0,1,1,0
+1932,Pulsano,0,0,1,0,1
+2011,Adelfia,1,0,0,1,0
+2012,Adelfia,1,0,0,0,1
+2021,Adelfia,0,1,0,1,0
+2022,Adelfia,0,1,0,0,1
+2031,Adelfia,0,0,1,1,0
+2032,Adelfia,0,0,1,0,1
+2111,Adelfia,1,0,0,1,0
+2112,Adelfia,1,0,0,0,1
+2121,Adelfia,0,1,0,1,0
+2122,Adelfia,0,1,0,0,1
+2131,Adelfia,0,0,1,1,0
+2132,Adelfia,0,0,1,0,1
+2211,Polignano a Mare,1,0,0,1,0
+2212,Polignano a Mare,1,0,0,0,1
+2221,Polignano a Mare,0,1,0,1,0
+2222,Polignano a Mare,0,1,0,0,1
+2231,Polignano a Mare,0,0,1,1,0
+2232,Polignano a Mare,0,0,1,0,1
+2311,Palagiano,1,0,0,1,0
+2312,Palagiano,1,0,0,0,1
+2321,Palagiano,0,1,0,1,0
+2322,Palagiano,0,1,0,0,1
+2331,Palagiano,0,0,1,1,0
+2332,Palagiano,0,0,1,0,1
+2411,Adelfia,1,0,0,1,0
+2412,Adelfia,1,0,0,0,1
+2421,Adelfia,0,1,0,1,0
+2422,Adelfia,0,1,0,0,1
+2431,Adelfia,0,0,1,1,0
+2432,Adelfia,0,0,1,0,1
+2511,Molfetta,1,0,0,1,0
+2512,Molfetta,1,0,0,0,1
+2521,Molfetta,0,1,0,1,0
+2522,Molfetta,0,1,0,0,1
+2531,Molfetta,0,0,1,1,0
+2532,Molfetta,0,0,1,0,1
+2611,Taranto,1,0,0,1,0
+2612,Taranto,1,0,0,0,1
+2621,Taranto,0,1,0,1,0
+2622,Taranto,0,1,0,0,1
+2631,Taranto,0,0,1,1,0
+2632,Taranto,0,0,1,0,1
+2711,Martina Franca,1,0,0,1,0
+2712,Martina Franca,1,0,0,0,1
+2721,Martina Franca,0,1,0,1,0
+2722,Martina Franca,0,1,0,0,1
+2731,Martina Franca,0,0,1,1,0
+2732,Martina Franca,0,0,1,0,1
+2811,Lecce,1,0,0,1,0
+2812,Lecce,1,0,0,0,1
+2821,Lecce,0,1,0,1,0
+2822,Lecce,0,1,0,0,1
+2831,Lecce,0,0,1,1,0
+2832,Lecce,0,0,1,0,1
+2911,Corigliano d'Otranto,1,0,0,1,0
+2912,Corigliano d'Otranto,1,0,0,0,1
+2921,Corigliano d'Otranto,0,1,0,1,0
+2922,Corigliano d'Otranto,0,1,0,0,1
+2931,Corigliano d'Otranto,0,0,1,1,0
+2932,Corigliano d'Otranto,0,0,1,0,1
+3011,Martina Franca,1,0,0,1,0
+3012,Martina Franca,1,0,0,0,1
+3021,Martina Franca,0,1,0,1,0
+3022,Martina Franca,0,1,0,0,1
+3031,Martina Franca,0,0,1,1,0
+3032,Martina Franca,0,0,1,0,1
+3111,Gallipoli,1,0,0,1,0
+3112,Gallipoli,1,0,0,0,1
+3121,Gallipoli,0,1,0,1,0
+3122,Gallipoli,0,1,0,0,1
+3131,Gallipoli,0,0,1,1,0
+3132,Gallipoli,0,0,1,0,1
+3211,Palagiano,1,0,0,1,0
+3212,Palagiano,1,0,0,0,1
+3221,Palagiano,0,1,0,1,0
+3222,Palagiano,0,1,0,0,1
+3231,Palagiano,0,0,1,1,0
+3232,Palagiano,0,0,1,0,1
+3311,Monopoli,1,0,0,1,0
+3312,Monopoli,1,0,0,0,1
+3321,Monopoli,0,1,0,1,0
+3322,Monopoli,0,1,0,0,1
+3331,Monopoli,0,0,1,1,0
+3332,Monopoli,0,0,1,0,1
+3411,Ostuni,1,0,0,1,0
+3412,Ostuni,1,0,0,0,1
+3421,Ostuni,0,1,0,1,0
+3422,Ostuni,0,1,0,0,1
+3431,Ostuni,0,0,1,1,0
+3432,Ostuni,0,0,1,0,1
+3511,Bitetto,1,0,0,1,0
+3512,Bitetto,1,0,0,0,1
+3521,Bitetto,0,1,0,1,0
+3522,Bitetto,0,1,0,0,1
+3531,Bitetto,0,0,1,1,0
+3532,Bitetto,0,0,1,0,1
+3611,Castellana Grotte,1,0,0,1,0
+3612,Castellana Grotte,1,0,0,0,1
+3621,Castellana Grotte,0,1,0,1,0
+3622,Castellana Grotte,0,1,0,0,1
+3631,Castellana Grotte,0,0,1,1,0
+3632,Castellana Grotte,0,0,1,0,1
+3711,Trani,1,0,0,1,0
+3712,Trani,1,0,0,0,1
+3721,Trani,0,1,0,1,0
+3722,Trani,0,1,0,0,1
+3731,Trani,0,0,1,1,0
+3732,Trani,0,0,1,0,1
+3811,Mola di Bari,1,0,0,1,0
+3812,Mola di Bari,1,0,0,0,1
+3821,Mola di Bari,0,1,0,1,0
+3822,Mola di Bari,0,1,0,0,1
+3831,Mola di Bari,0,0,1,1,0
+3832,Mola di Bari,0,0,1,0,1
+3911,Monopoli,1,0,0,1,0
+3912,Monopoli,1,0,0,0,1
+3921,Monopoli,0,1,0,1,0
+3922,Monopoli,0,1,0,0,1
+3931,Monopoli,0,0,1,1,0
+3932,Monopoli,0,0,1,0,1
+4011,Rutigliano,1,0,0,1,0
+4012,Rutigliano,1,0,0,0,1
+4021,Rutigliano,0,1,0,1,0
+4022,Rutigliano,0,1,0,0,1
+4031,Rutigliano,0,0,1,1,0
+4032,Rutigliano,0,0,1,0,1
+4111,Bari,1,0,0,1,0
+4112,Bari,1,0,0,0,1
+4121,Bari,0,1,0,1,0
+4122,Bari,0,1,0,0,1
+4131,Bari,0,0,1,1,0
+4132,Bari,0,0,1,0,1
+4211,Rutigliano,1,0,0,1,0
+4212,Rutigliano,1,0,0,0,1
+4221,Rutigliano,0,1,0,1,0
+4222,Rutigliano,0,1,0,0,1
+4231,Rutigliano,0,0,1,1,0
+4232,Rutigliano,0,0,1,0,1
+4311,Alberobello,1,0,0,1,0
+4312,Alberobello,1,0,0,0,1
+4321,Alberobello,0,1,0,1,0
+4322,Alberobello,0,1,0,0,1
+4331,Alberobello,0,0,1,1,0
+4332,Alberobello,0,0,1,0,1
+4411,Taranto,1,0,0,1,0
+4412,Taranto,1,0,0,0,1
+4421,Taranto,0,1,0,1,0
+4422,Taranto,0,1,0,0,1
+4431,Taranto,0,0,1,1,0
+4432,Taranto,0,0,1,0,1
+4511,Corato,1,0,0,1,0
+4512,Corato,1,0,0,0,1
+4521,Corato,0,1,0,1,0
+4522,Corato,0,1,0,0,1
+4531,Corato,0,0,1,1,0
+4532,Corato,0,0,1,0,1
+4611,Gallipoli,1,0,0,1,0
+4612,Gallipoli,1,0,0,0,1
+4621,Gallipoli,0,1,0,1,0
+4622,Gallipoli,0,1,0,0,1
+4631,Gallipoli,0,0,1,1,0
+4632,Gallipoli,0,0,1,0,1
+4711,Brindisi,1,0,0,1,0
+4712,Brindisi,1,0,0,0,1
+4721,Brindisi,0,1,0,1,0
+4722,Brindisi,0,1,0,0,1
+4731,Brindisi,0,0,1,1,0
+4732,Brindisi,0,0,1,0,1
+4811,Bisceglie,1,0,0,1,0
+4812,Bisceglie,1,0,0,0,1
+4821,Bisceglie,0,1,0,1,0
+4822,Bisceglie,0,1,0,0,1
+4831,Bisceglie,0,0,1,1,0
+4832,Bisceglie,0,0,1,0,1
+4911,Barletta,1,0,0,1,0
+4912,Barletta,1,0,0,0,1
+4921,Barletta,0,1,0,1,0
+4922,Barletta,0,1,0,0,1
+4931,Barletta,0,0,1,1,0
+4932,Barletta,0,0,1,0,1
+5011,Mola di Bari,1,0,0,1,0
+5012,Mola di Bari,1,0,0,0,1
+5021,Mola di Bari,0,1,0,1,0
+5022,Mola di Bari,0,1,0,0,1
+5031,Mola di Bari,0,0,1,1,0
+5032,Mola di Bari,0,0,1,0,1
+5111,Bitetto,1,0,0,1,0
+5112,Bitetto,1,0,0,0,1
+5121,Bitetto,0,1,0,1,0
+5122,Bitetto,0,1,0,0,1
+5131,Bitetto,0,0,1,1,0
+5132,Bitetto,0,0,1,0,1
+5211,Giovinazzo,1,0,0,1,0
+5212,Giovinazzo,1,0,0,0,1
+5221,Giovinazzo,0,1,0,1,0
+5222,Giovinazzo,0,1,0,0,1
+5231,Giovinazzo,0,0,1,1,0
+5232,Giovinazzo,0,0,1,0,1
+5311,Pulsano,1,0,0,1,0
+5312,Pulsano,1,0,0,0,1
+5321,Pulsano,0,1,0,1,0
+5322,Pulsano,0,1,0,0,1
+5331,Pulsano,0,0,1,1,0
+5332,Pulsano,0,0,1,0,1
+5411,Foggia,1,0,0,1,0
+5412,Foggia,1,0,0,0,1
+5421,Foggia,0,1,0,1,0
+5422,Foggia,0,1,0,0,1
+5431,Foggia,0,0,1,1,0
+5432,Foggia,0,0,1,0,1
+5511,Giovinazzo,1,0,0,1,0
+5512,Giovinazzo,1,0,0,0,1
+5521,Giovinazzo,0,1,0,1,0
+5522,Giovinazzo,0,1,0,0,1
+5531,Giovinazzo,0,0,1,1,0
+5532,Giovinazzo,0,0,1,0,1
+5611,Cisternino,1,0,0,1,0
+5612,Cisternino,1,0,0,0,1
+5621,Cisternino,0,1,0,1,0
+5622,Cisternino,0,1,0,0,1
+5631,Cisternino,0,0,1,1,0
+5632,Cisternino,0,0,1,0,1
+5711,Cisternino,1,0,0,1,0
+5712,Cisternino,1,0,0,0,1
+5721,Cisternino,0,1,0,1,0
+5722,Cisternino,0,1,0,0,1
+5731,Cisternino,0,0,1,1,0
+5732,Cisternino,0,0,1,0,1
+5811,Lecce,1,0,0,1,0
+5812,Lecce,1,0,0,0,1
+5821,Lecce,0,1,0,1,0
+5822,Lecce,0,1,0,0,1
+5831,Lecce,0,0,1,1,0
+5832,Lecce,0,0,1,0,1
+5911,Taranto,1,0,0,1,0
+5912,Taranto,1,0,0,0,1
+5921,Taranto,0,1,0,1,0
+5922,Taranto,0,1,0,0,1
+5931,Taranto,0,0,1,1,0
+5932,Taranto,0,0,1,0,1
+6011,Molfetta,1,0,0,1,0
+6012,Molfetta,1,0,0,0,1
+6021,Molfetta,0,1,0,1,0
+6022,Molfetta,0,1,0,0,1
+6031,Molfetta,0,0,1,1,0
+6032,Molfetta,0,0,1,0,1
+6111,Gioia del Colle,1,0,0,1,0
+6112,Gioia del Colle,1,0,0,0,1
+6121,Gioia del Colle,0,1,0,1,0
+6122,Gioia del Colle,0,1,0,0,1
+6131,Gioia del Colle,0,0,1,1,0
+6132,Gioia del Colle,0,0,1,0,1
+6211,Foggia,1,0,0,1,0
+6212,Foggia,1,0,0,0,1
+6221,Foggia,0,1,0,1,0
+6222,Foggia,0,1,0,0,1
+6231,Foggia,0,0,1,1,0
+6232,Foggia,0,0,1,0,1
+6311,Corigliano d'Otranto,1,0,0,1,0
+6312,Corigliano d'Otranto,1,0,0,0,1
+6321,Corigliano d'Otranto,0,1,0,1,0
+6322,Corigliano d'Otranto,0,1,0,0,1
+6331,Corigliano d'Otranto,0,0,1,1,0
+6332,Corigliano d'Otranto,0,0,1,0,1
+6411,Monopoli,1,0,0,1,0
+6412,Monopoli,1,0,0,0,1
+6421,Monopoli,0,1,0,1,0
+6422,Monopoli,0,1,0,0,1
+6431,Monopoli,0,0,1,1,0
+6432,Monopoli,0,0,1,0,1
+6511,Bisceglie,1,0,0,1,0
+6512,Bisceglie,1,0,0,0,1
+6521,Bisceglie,0,1,0,1,0
+6522,Bisceglie,0,1,0,0,1
+6531,Bisceglie,0,0,1,1,0
+6532,Bisceglie,0,0,1,0,1
+6611,Gravina in Puglia,1,0,0,1,0
+6612,Gravina in Puglia,1,0,0,0,1
+6621,Gravina in Puglia,0,1,0,1,0
+6622,Gravina in Puglia,0,1,0,0,1
+6631,Gravina in Puglia,0,0,1,1,0
+6632,Gravina in Puglia,0,0,1,0,1
+6711,Gioia del Colle,1,0,0,1,0
+6712,Gioia del Colle,1,0,0,0,1
+6721,Gioia del Colle,0,1,0,1,0
+6722,Gioia del Colle,0,1,0,0,1
+6731,Gioia del Colle,0,0,1,1,0
+6732,Gioia del Colle,0,0,1,0,1
+6811,Giovinazzo,1,0,0,1,0
+6812,Giovinazzo,1,0,0,0,1
+6821,Giovinazzo,0,1,0,1,0
+6822,Giovinazzo,0,1,0,0,1
+6831,Giovinazzo,0,0,1,1,0
+6832,Giovinazzo,0,0,1,0,1
+6911,Rutigliano,1,0,0,1,0
+6912,Rutigliano,1,0,0,0,1
+6921,Rutigliano,0,1,0,1,0
+6922,Rutigliano,0,1,0,0,1
+6931,Rutigliano,0,0,1,1,0
+6932,Rutigliano,0,0,1,0,1
+7011,Gioia del Colle,1,0,0,1,0
+7012,Gioia del Colle,1,0,0,0,1
+7021,Gioia del Colle,0,1,0,1,0
+7022,Gioia del Colle,0,1,0,0,1
+7031,Gioia del Colle,0,0,1,1,0
+7032,Gioia del Colle,0,0,1,0,1
+7111,Brindisi,1,0,0,1,0
+7112,Brindisi,1,0,0,0,1
+7121,Brindisi,0,1,0,1,0
+7122,Brindisi,0,1,0,0,1
+7131,Brindisi,0,0,1,1,0
+7132,Brindisi,0,0,1,0,1
+7211,Martina Franca,1,0,0,1,0
+7212,Martina Franca,1,0,0,0,1
+7221,Martina Franca,0,1,0,1,0
+7222,Martina Franca,0,1,0,0,1
+7231,Martina Franca,0,0,1,1,0
+7232,Martina Franca,0,0,1,0,1
+7311,Locorotondo,1,0,0,1,0
+7312,Locorotondo,1,0,0,0,1
+7321,Locorotondo,0,1,0,1,0
+7322,Locorotondo,0,1,0,0,1
+7331,Locorotondo,0,0,1,1,0
+7332,Locorotondo,0,0,1,0,1
+7411,Gioia del Colle,1,0,0,1,0
+7412,Gioia del Colle,1,0,0,0,1
+7421,Gioia del Colle,0,1,0,1,0
+7422,Gioia del Colle,0,1,0,0,1
+7431,Gioia del Colle,0,0,1,1,0
+7432,Gioia del Colle,0,0,1,0,1
+7511,Molfetta,1,0,0,1,0
+7512,Molfetta,1,0,0,0,1
+7521,Molfetta,0,1,0,1,0
+7522,Molfetta,0,1,0,0,1
+7531,Molfetta,0,0,1,1,0
+7532,Molfetta,0,0,1,0,1
+7611,Giovinazzo,1,0,0,1,0
+7612,Giovinazzo,1,0,0,0,1
+7621,Giovinazzo,0,1,0,1,0
+7622,Giovinazzo,0,1,0,0,1
+7631,Giovinazzo,0,0,1,1,0
+7632,Giovinazzo,0,0,1,0,1
+7711,Pulsano,1,0,0,1,0
+7712,Pulsano,1,0,0,0,1
+7721,Pulsano,0,1,0,1,0
+7722,Pulsano,0,1,0,0,1
+7731,Pulsano,0,0,1,1,0
+7732,Pulsano,0,0,1,0,1
+7811,Ruvo di Puglia,1,0,0,1,0
+7812,Ruvo di Puglia,1,0,0,0,1
+7821,Ruvo di Puglia,0,1,0,1,0
+7822,Ruvo di Puglia,0,1,0,0,1
+7831,Ruvo di Puglia,0,0,1,1,0
+7832,Ruvo di Puglia,0,0,1,0,1
+7911,Bitetto,1,0,0,1,0
+7912,Bitetto,1,0,0,0,1
+7921,Bitetto,0,1,0,1,0
+7922,Bitetto,0,1,0,0,1
+7931,Bitetto,0,0,1,1,0
+7932,Bitetto,0,0,1,0,1
+8011,Ostuni,1,0,0,1,0
+8012,Ostuni,1,0,0,0,1
+8021,Ostuni,0,1,0,1,0
+8022,Ostuni,0,1,0,0,1
+8031,Ostuni,0,0,1,1,0
+8032,Ostuni,0,0,1,0,1
+8111,Otranto,1,0,0,1,0
+8112,Otranto,1,0,0,0,1
+8121,Otranto,0,1,0,1,0
+8122,Otranto,0,1,0,0,1
+8131,Otranto,0,0,1,1,0
+8132,Otranto,0,0,1,0,1
+8211,Corato,1,0,0,1,0
+8212,Corato,1,0,0,0,1
+8221,Corato,0,1,0,1,0
+8222,Corato,0,1,0,0,1
+8231,Corato,0,0,1,1,0
+8232,Corato,0,0,1,0,1
+8311,Taranto,1,0,0,1,0
+8312,Taranto,1,0,0,0,1
+8321,Taranto,0,1,0,1,0
+8322,Taranto,0,1,0,0,1
+8331,Taranto,0,0,1,1,0
+8332,Taranto,0,0,1,0,1
+8411,Bitonto,1,0,0,1,0
+8412,Bitonto,1,0,0,0,1
+8421,Bitonto,0,1,0,1,0
+8422,Bitonto,0,1,0,0,1
+8431,Bitonto,0,0,1,1,0
+8432,Bitonto,0,0,1,0,1
+8511,Bisceglie,1,0,0,1,0
+8512,Bisceglie,1,0,0,0,1
+8521,Bisceglie,0,1,0,1,0
+8522,Bisceglie,0,1,0,0,1
+8531,Bisceglie,0,0,1,1,0
+8532,Bisceglie,0,0,1,0,1
+8611,Ruvo di Puglia,1,0,0,1,0
+8612,Ruvo di Puglia,1,0,0,0,1
+8621,Ruvo di Puglia,0,1,0,1,0
+8622,Ruvo di Puglia,0,1,0,0,1
+8631,Ruvo di Puglia,0,0,1,1,0
+8632,Ruvo di Puglia,0,0,1,0,1
+8711,Taranto,1,0,0,1,0
+8712,Taranto,1,0,0,0,1
+8721,Taranto,0,1,0,1,0
+8722,Taranto,0,1,0,0,1
+8731,Taranto,0,0,1,1,0
+8732,Taranto,0,0,1,0,1
+8811,Molfetta,1,0,0,1,0
+8812,Molfetta,1,0,0,0,1
+8821,Molfetta,0,1,0,1,0
+8822,Molfetta,0,1,0,0,1
+8831,Molfetta,0,0,1,1,0
+8832,Molfetta,0,0,1,0,1
+8911,Barletta,1,0,0,1,0
+8912,Barletta,1,0,0,0,1
+8921,Barletta,0,1,0,1,0
+8922,Barletta,0,1,0,0,1
+8931,Barletta,0,0,1,1,0
+8932,Barletta,0,0,1,0,1
+9011,Locorotondo,1,0,0,1,0
+9012,Locorotondo,1,0,0,0,1
+9021,Locorotondo,0,1,0,1,0
+9022,Locorotondo,0,1,0,0,1
+9031,Locorotondo,0,0,1,1,0
+9032,Locorotondo,0,0,1,0,1
+9111,Terlizzi,1,0,0,1,0
+9112,Terlizzi,1,0,0,0,1
+9121,Terlizzi,0,1,0,1,0
+9122,Terlizzi,0,1,0,0,1
+9131,Terlizzi,0,0,1,1,0
+9132,Terlizzi,0,0,1,0,1
+9211,Corato,1,0,0,1,0
+9212,Corato,1,0,0,0,1
+9221,Corato,0,1,0,1,0
+9222,Corato,0,1,0,0,1
+9231,Corato,0,0,1,1,0
+9232,Corato,0,0,1,0,1
+9311,Locorotondo,1,0,0,1,0
+9312,Locorotondo,1,0,0,0,1
+9321,Locorotondo,0,1,0,1,0
+9322,Locorotondo,0,1,0,0,1
+9331,Locorotondo,0,0,1,1,0
+9332,Locorotondo,0,0,1,0,1
+9411,Cerignola,1,0,0,1,0
+9412,Cerignola,1,0,0,0,1
+9421,Cerignola,0,1,0,1,0
+9422,Cerignola,0,1,0,0,1
+9431,Cerignola,0,0,1,1,0
+9432,Cerignola,0,0,1,0,1
+9511,Fasano,1,0,0,1,0
+9512,Fasano,1,0,0,0,1
+9521,Fasano,0,1,0,1,0
+9522,Fasano,0,1,0,0,1
+9531,Fasano,0,0,1,1,0
+9532,Fasano,0,0,1,0,1
+9611,Monopoli,1,0,0,1,0
+9612,Monopoli,1,0,0,0,1
+9621,Monopoli,0,1,0,1,0
+9622,Monopoli,0,1,0,0,1
+9631,Monopoli,0,0,1,1,0
+9632,Monopoli,0,0,1,0,1
+9711,Palagiano,1,0,0,1,0
+9712,Palagiano,1,0,0,0,1
+9721,Palagiano,0,1,0,1,0
+9722,Palagiano,0,1,0,0,1
+9731,Palagiano,0,0,1,1,0
+9732,Palagiano,0,0,1,0,1
+9811,Alberobello,1,0,0,1,0
+9812,Alberobello,1,0,0,0,1
+9821,Alberobello,0,1,0,1,0
+9822,Alberobello,0,1,0,0,1
+9831,Alberobello,0,0,1,1,0
+9832,Alberobello,0,0,1,0,1
+9911,Foggia,1,0,0,1,0
+9912,Foggia,1,0,0,0,1
+9921,Foggia,0,1,0,1,0
+9922,Foggia,0,1,0,0,1
+9931,Foggia,0,0,1,1,0
+9932,Foggia,0,0,1,0,1
+10011,Martina Franca,1,0,0,1,0
+10012,Martina Franca,1,0,0,0,1
+10021,Martina Franca,0,1,0,1,0
+10022,Martina Franca,0,1,0,0,1
+10031,Martina Franca,0,0,1,1,0
+10032,Martina Franca,0,0,1,0,1
