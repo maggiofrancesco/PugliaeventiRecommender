@@ -8,11 +8,11 @@ def _read_raw_data():
     Return the raw lines of the train and test files.
     """
 
-    ratings = open('/home/francesco/PycharmProjects/RecommenderSystem/pugliaeventi/data/ratings.csv', 'rb')
-    items = open('/home/francesco/PycharmProjects/RecommenderSystem/pugliaeventi/data/items.csv', 'rb')
-    users = open('/home/francesco/PycharmProjects/RecommenderSystem/pugliaeventi/data/users.csv', 'rb')
-    labels_item = open('/home/francesco/PycharmProjects/RecommenderSystem/pugliaeventi/data/labels_item.csv', 'rb')
-    labels_user = open('/home/francesco/PycharmProjects/RecommenderSystem/pugliaeventi/data/labels_user.csv', 'rb')
+    ratings = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/ratings.csv', 'rb')
+    items = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/items.csv', 'rb')
+    users = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/users.csv', 'rb')
+    labels_item = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/labels_item.csv', 'rb')
+    labels_user = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/labels_user.csv', 'rb')
 
     return (ratings.read().decode().split('\n'),
             items.read().decode().split('\n'),
@@ -33,6 +33,19 @@ def _parse(data):
         # Subtract one from ids to shift
         # to zero-based indexing
         yield uid - 1, iid - 1, rating
+
+
+def _parse_items(items):
+    iids = []
+    for line in items:
+
+        if not line:
+            continue
+
+        iid = int(line.split(',')[0])
+        iids.append(iid)
+
+    return iids
 
 
 def _get_dimensions(train_data, test_data):
@@ -199,6 +212,9 @@ def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0
 
     # Figure out the dimensions
     num_users, num_items = _get_dimensions(_parse(ratings), None)
+
+    # The maximum item_id is not included into the ratings set. So, I have to set the correct number of items
+    num_items = _parse_items(items)[-1]
 
     # Load train interactions
     train = _build_interaction_matrix(num_users,

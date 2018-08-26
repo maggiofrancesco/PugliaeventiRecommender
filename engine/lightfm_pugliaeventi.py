@@ -33,8 +33,8 @@ def sample_reccomendation(model, data, user_ids):
 
         scores = model.predict(user_id,
                                np.arange(n_items),
-                               item_features=data['item_features'],
-                               user_features=data['user_features'])
+                               item_features=data['item_features'])
+                               #user_features=data['user_features'])
         # rank them in order of most liked to least
         top_items = data['item_labels'][np.argsort(-scores)]
 
@@ -53,14 +53,14 @@ def sample_reccomendation(model, data, user_ids):
     train_auc = auc_score(model,
                           data['train'],
                           item_features=data['item_features'],
-                          user_features=data['user_features'],
+                          #user_features=data['user_features'],
                           num_threads=NUM_THREADS).mean()
     print('\nHybrid training set AUC: %s' % train_auc)
 
 
 if __name__ == "__main__":
 
-    data = fetch_pugliaeventi(min_rating=0.0, indicator_features=True, tag_features=True)
+    data = fetch_pugliaeventi(min_rating=0.0, indicator_features=False, tag_features=True)
 
     if os.path.isfile(MODEL_CHECKPOINT_PATH):
         with open(MODEL_CHECKPOINT_PATH, 'rb') as fle:
@@ -86,11 +86,11 @@ if __name__ == "__main__":
         model.fit(
             data['train'],
             item_features=item_features,
-            user_features=user_features,
+            #user_features=user_features,
             epochs=NUM_EPOCHS,
             num_threads=NUM_THREADS)
 
         with open(MODEL_CHECKPOINT_PATH, 'wb') as fle:
             pickle.dump(model, fle, protocol=pickle.HIGHEST_PROTOCOL)
 
-    sample_reccomendation(model, data, [110, 111, 120, 121, 130, 131])
+    sample_reccomendation(model, data, [110, 111, 120, 121, 130, 131, 1031, 2031, 3231])

@@ -7,5 +7,13 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/django_pugliaeventi</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="e0b257a5-4da5-442d-92c5-0bb2bab70532">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/pugliaeventi/settings.py</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/django_pugliaeventi</jdbc-url>
+    </data-source>
   </component>
 </project>
