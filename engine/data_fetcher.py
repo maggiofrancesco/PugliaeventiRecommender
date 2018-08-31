@@ -8,13 +8,15 @@ def _read_raw_data():
     Return the raw lines of the train and test files.
     """
 
-    ratings = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/ratings.csv', 'rb')
+    ratings_train = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/ratings_train.csv', 'rb')
+    ratings_test = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/ratings_test.csv', 'rb')
     items = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/items.csv', 'rb')
     users = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/users.csv', 'rb')
     labels_item = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/labels_item.csv', 'rb')
     labels_user = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/labels_user.csv', 'rb')
 
-    return (ratings.read().decode().split('\n'),
+    return (ratings_train.read().decode().split('\n'),
+            ratings_test.read().decode().split('\n'),
             items.read().decode().split('\n'),
             users.read().decode().split('\n'),
             labels_item.read().decode(errors='ignore').split('\n'),
@@ -208,10 +210,10 @@ def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0
                          'or genre_features must be True')
 
     # Load raw data
-    (ratings, items, users, labels_item, labels_user) = _read_raw_data()
+    (ratings_train, ratings_test, items, users, labels_item, labels_user) = _read_raw_data()
 
     # Figure out the dimensions
-    num_users, num_items = _get_dimensions(_parse(ratings), None)
+    num_users, num_items = _get_dimensions(_parse(ratings_train), _parse(ratings_test))
 
     # The maximum item_id is not included into the ratings set. So, I have to set the correct number of items
     num_items = _parse_items(items)[-1]
@@ -219,15 +221,15 @@ def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0
     # Load train interactions
     train = _build_interaction_matrix(num_users,
                                       num_items,
-                                      _parse(ratings),
+                                      _parse(ratings_train),
                                       min_rating)
     # Load test interactions
-    """test = _build_interaction_matrix(num_users,
+    test = _build_interaction_matrix(num_users,
                                      num_items,
-                                     _parse(test_raw),
-                                     min_rating)"""
+                                     _parse(ratings_test),
+                                     min_rating)
 
-    # assert train.shape == test.shape
+    assert train.shape == test.shape
 
     # Load metadata features
     (iid_features, iid_feature_labels, item_tag_features_matrix, item_tag_feature_labels,
@@ -253,13 +255,13 @@ def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0
     else:
         item_features = sp.hstack([iid_features, item_tag_features_matrix]).tocsr()
         item_feature_labels = np.concatenate((iid_feature_labels,
-                                         item_tag_feature_labels))
+                                              item_tag_feature_labels))
         user_features = sp.hstack([uid_features, user_tag_features_matrix]).tocsr()
         user_feature_labels = np.concatenate((uid_feature_labels,
                                               user_tag_feature_labels))
 
     data = {'train': train,
-            #'test': test,
+            'test': test,
             'item_features': item_features,
             'user_features': user_features,
             'item_feature_labels': item_feature_labels,
