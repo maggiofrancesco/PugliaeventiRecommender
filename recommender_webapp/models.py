@@ -55,7 +55,6 @@ class User(AbstractUser):
 
 class Profile(models.Model):
     user = models.OneToOneField(User, null=True, blank=True, on_delete=models.SET_NULL)
-    userId = models.AutoField(primary_key=True)
     location = models.CharField(max_length=40, blank=False)
     birth_date = models.DateField(null=True, blank=True)
     bio = models.TextField(max_length=500, blank=True)
@@ -63,13 +62,17 @@ class Profile(models.Model):
     empathy = models.FloatField(null=True, blank=True)
 
     def __str__(self):
-        return str(self.userId) + '|' + self.location + '|' + self.birth_date.strftime('%d/%m/%Y')
+        return str(self.user.email) + '|' + self.location + '|' + self.birth_date.strftime('%d/%m/%Y')
 
 
 @receiver(post_save, sender=User)
-def update_user_profile(sender, instance, created, **kwargs):
+def create_user_profile(sender, instance, created, **kwargs):
     if created:
         Profile.objects.create(user=instance)
+
+
+@receiver(post_save, sender=User)
+def save_user_profile(sender, instance, **kwargs):
     instance.profile.save()
 
 
@@ -106,15 +109,42 @@ class Companionship(ChoiceEnum):
 
 class Rating(models.Model):
     id = models.AutoField(primary_key=True)
-    userId = models.ForeignKey(Profile, on_delete=models.PROTECT, blank=False)
+    user = models.ForeignKey(Profile, on_delete=models.PROTECT, blank=False)
     mood = models.CharField(max_length=1, choices=Mood.choices(), blank=False)
     companionship = models.CharField(max_length=1, choices=Companionship.choices(), blank=False)
+    place = models.ForeignKey(Place, on_delete=models.PROTECT, blank=False)
+    rating = models.IntegerField(blank=False)
+
+    class Meta:
+        unique_together = ('user', 'mood', 'companionship', 'place')
+
+    def __str__(self):
+        return str(self.user.email) + '|' + str(self.mood) + '|' + str(self.companionship) \
+               + '|' + str(self.place.placeId) + '|' + str(self.rating)
+
+
+class SampleRating(models.Model):
+    id = models.AutoField(primary_key=True)
+    userId = models.IntegerField(blank=False)
     placeId = models.ForeignKey(Place, on_delete=models.PROTECT, blank=False)
     rating = models.IntegerField(blank=False)
 
     class Meta:
-        unique_together = ('userId', 'mood', 'companionship', 'placeId')
+        unique_together = ('userId', 'placeId')
 
-    def __str__(self):
-        return str(self.userId) + '|' + str(self.mood) + '|' + str(self.companionship) \
-               + '|' + str(self.placeId) + '|' + str(self.rating)
+
+class Comune(models.Model):
+    istat = models.CharField(max_length=7, primary_key=True)
+    nome = models.CharField(max_length=100, blank=False)
+    provincia = models.CharField(max_length=3, blank=False)
+    regione = models.CharField(max_length=4, blank=False)
+    prefisso = models.CharField(max_length=6)
+    cap = models.CharField(max_length=6)
+    cod_fis = models.CharField(max_length=6)
+    abitanti = models.IntegerField()
+
+
+class Distanza(models.Model):
+    cittaA = models.CharField(max_length=100, blank=False)
+    cittaB = models.CharField(max_length=100, blank=False)
+    distanza = models.FloatField()
