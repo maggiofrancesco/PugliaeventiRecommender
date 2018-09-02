@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pugliaeventi/static/images/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/profile_configuration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pugliaeventi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender_webapp/common/constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/constant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender_webapp/common/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/common/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender_webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommender_webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile_configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile_configuration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +113,7 @@
           <entry key="download" value="1" />
           <entry key="html" value="17" />
           <entry key="png" value="2" />
-          <entry key="py" value="86" />
+          <entry key="py" value="88" />
           <entry key="pyi" value="1" />
           <entry key="recommender_place" value="3" />
           <entry key="recommender_profile" value="1" />
@@ -133,7 +127,7 @@
           <entry key="HTML" value="17" />
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="86" />
+          <entry key="Python" value="88" />
           <entry key="PythonStub" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -142,32 +136,23 @@
         <counts>
           <entry key="csv" value="23" />
           <entry key="dummy" value="9" />
-          <entry key="html" value="1446" />
-          <entry key="py" value="15059" />
-          <entry key="txt" value="471" />
+          <entry key="html" value="1691" />
+          <entry key="py" value="15650" />
+          <entry key="txt" value="589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="23" />
-          <entry key="HTML" value="1446" />
-          <entry key="PLAIN_TEXT" value="480" />
-          <entry key="Python" value="15059" />
+          <entry key="HTML" value="1691" />
+          <entry key="PLAIN_TEXT" value="598" />
+          <entry key="Python" value="15650" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -193,14 +178,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+            <state relative-caret-position="900">
+              <caret line="117" column="12" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
-                <marker date="1535924915155" expanded="true" signature="449:1147" ph="..." />
-                <marker date="1535924915155" expanded="true" signature="1100:1147" ph="..." />
-                <marker date="1535924915155" expanded="true" signature="1147:1149" ph="..." />
+                <marker date="1535929563449" expanded="true" signature="457:1155" ph="..." />
+                <marker date="1535929563449" expanded="true" signature="1108:1155" ph="..." />
+                <marker date="1535929563449" expanded="true" signature="1155:1157" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/handlers/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -217,8 +211,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+            <state relative-caret-position="510">
+              <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -244,7 +238,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="-218">
               <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
               <folding>
                 <marker date="1535925962645" expanded="true" signature="2848:2851" ph="..." />
@@ -340,8 +334,8 @@
         <option value="$PROJECT_DIR$/recommender_webapp/common/utils.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/urls.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/constant.py" />
-        <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
         <option value="$PROJECT_DIR$/recommender_webapp/models.py" />
+        <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
         <option value="$PROJECT_DIR$/templates/profile_configuration.html" />
       </list>
     </option>
@@ -379,19 +373,6 @@
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
@@ -596,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535883643328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Started the development of the process of user profile configuration">
+      <created>1535926240681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535926240681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +597,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27145523" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39925373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39925373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -643,7 +631,8 @@
     <MESSAGE value="Implemented user sign up with email (rather than username as it is default)" />
     <MESSAGE value="Implemented login and signup of Users with relative Profile information" />
     <MESSAGE value="Implemented lookup of locations on user registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented lookup of locations on user registration" />
+    <MESSAGE value="Started the development of the process of user profile configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started the development of the process of user profile configuration" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -877,28 +866,15 @@
     <entry file="file://$PROJECT_DIR$/templates/actor_list.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1535883336622" expanded="true" signature="598:601" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1535903063374" expanded="true" signature="97:102" ph="..." />
+            <marker date="1535903063374" expanded="true" signature="203:244" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -912,13 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -954,19 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-            <marker date="1535924915155" expanded="true" signature="449:1147" ph="..." />
-            <marker date="1535924915155" expanded="true" signature="1100:1147" ph="..." />
-            <marker date="1535924915155" expanded="true" signature="1147:1149" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pugliaeventi/constant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -974,9 +930,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1535883336622" expanded="true" signature="598:601" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="-218">
           <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
           <folding>
             <marker date="1535925962645" expanded="true" signature="2848:2851" ph="..." />
@@ -985,10 +959,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="117" column="12" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <marker date="1535929563449" expanded="true" signature="457:1155" ph="..." />
+            <marker date="1535929563449" expanded="true" signature="1108:1155" ph="..." />
+            <marker date="1535929563449" expanded="true" signature="1155:1157" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+        <state relative-caret-position="510">
+          <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
         </state>
       </provider>
     </entry>

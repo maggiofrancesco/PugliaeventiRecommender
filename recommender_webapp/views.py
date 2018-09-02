@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.forms import ProfileForm, UserRegisterForm
-from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship
+from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating
 from pugliaeventi import constant
 
 
@@ -63,14 +63,29 @@ def user_signup(request):
 def profile_configuration(request):
     if request.user.is_authenticated:
 
-        """
-        user_contexts = []
-        for (mood_name, mood_index) in Mood.choices():
-            for (comp_name, comp_index) in Companionship.choices():
-                # user_context = str(mood_index) + str(comp_index)
-                user_context = (mood_name, comp_name)
-                user_contexts.append(user_context)
-        """
+        mood_configuration = {}
+        companionship_configuration = {}
+        step = 1
+
+        user_ratings = Rating.objects.filter(user=request.user.profile)
+        if user_ratings:
+            for (mood_name, mood_index) in Mood.choices():
+                for (comp_name, comp_index) in Companionship.choices():
+                    contextual_ratings = user_ratings.filter(mood=mood_index, companionship=comp_index)
+                    if not contextual_ratings:
+                        mood_configuration['index'] = mood_index
+                        mood_configuration['name'] = mood_name
+                        companionship_configuration['index'] = mood_index
+                        companionship_configuration['name'] = mood_name
+                    else:
+                        step += 1
+        else:
+            mood_configuration['index'] = Mood.joyful.value
+            mood_configuration['name'] = Mood.joyful.name
+            companionship_configuration['index'] = Companionship.withFriends.value
+            companionship_configuration['name'] = Companionship.withFriends.name
+
+        # I have to filter out places already selected in previous contexts
 
         close_places = []
         user_location = request.user.profile.location
@@ -89,7 +104,9 @@ def profile_configuration(request):
         return redirect('/')
 
     context = {
-        #'contexts': user_contexts,
+        'step': step,
+        'mood': mood_configuration,
+        'companionship': companionship_configuration,
         'places': close_places
     }
 
