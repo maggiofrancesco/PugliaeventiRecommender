@@ -19,3 +19,6 @@ def index(request):
         user_data['empathy'] = user.profile.empathy
 
     return render(request, 'base.html', user_data)
+
+
+

@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.forms import ProfileForm, UserRegisterForm
+from recommender_webapp.models import Comune
 
 
 @csrf_protect
@@ -41,13 +42,14 @@ def user_signup(request):
         location = profile_form.cleaned_data.get('location')
         user.set_password(password)
         user.save()
-        user.profile.location = location
+
+        location_found = Comune.objects.filter(nome__iexact=location)
+        user.profile.location = location_found.first().nome
         user.save()
+
         new_user = authenticate(username=user.email, password=password)
         login(request, new_user)
-
         return redirect('/')
-        # return render(request, 'base.html', {'message': 'Registered successfully, congratulations! Please login'})
 
     context = {
         'user_form': user_form,

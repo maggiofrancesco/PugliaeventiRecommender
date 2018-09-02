@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'recommender_webapp.apps.RecommenderConfig',
     'crispy_forms',
+    'ajax_select',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'

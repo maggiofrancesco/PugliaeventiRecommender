@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.shortcuts import render
+from django.urls import include
 
 from recommender_webapp import views
 from pugliaeventi import views as main_views
+from ajax_select import urls as ajax_select_urls
 
 urlpatterns = [
     url(r'^$', main_views.index, name='index'),
@@ -26,6 +27,11 @@ urlpatterns = [
     url(r'^login/', views.user_login, name='login'),
     url(r'^logout/', views.user_logout, name='logout'),
     url(r'^register/', views.user_signup, name='register'),
+
+    # place it at whatever base url you like
+    url(r'^ajax_select/', include(ajax_select_urls)),
+
+    #path(r'^ajax/load-cities/', views.load_cities, name='ajax_load_cities'),
     #url(r'.*', lambda request: render(request, '404.html'), name='404')
 
 ]

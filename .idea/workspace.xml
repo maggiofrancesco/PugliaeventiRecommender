@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pugliaeventi/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender_webapp/common/constant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender_webapp/common/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender_webapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender_webapp/initializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/actor_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/actor_search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/expect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/movie_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/movie_search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/seen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender_webapp/lookups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/city_dropdown_list_options.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/import_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/import_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pugliaeventi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pugliaeventi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender_webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pugliaeventi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommender_webapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommender_webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,28 +94,30 @@
     <session id="345723609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.25" value="4" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="32" />
-          <entry key="html" value="8" />
-          <entry key="py" value="55" />
+          <entry key="download" value="1" />
+          <entry key="html" value="12" />
+          <entry key="py" value="74" />
           <entry key="pyi" value="1" />
           <entry key="recommender_place" value="3" />
           <entry key="recommender_profile" value="1" />
@@ -139,9 +128,9 @@
         <counts>
           <entry key="CSV" value="31" />
           <entry key="Database Element" value="4" />
-          <entry key="HTML" value="8" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="55" />
+          <entry key="HTML" value="12" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="74" />
           <entry key="PythonStub" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -150,17 +139,17 @@
         <counts>
           <entry key="csv" value="23" />
           <entry key="dummy" value="9" />
-          <entry key="html" value="185" />
-          <entry key="py" value="11974" />
-          <entry key="txt" value="333" />
+          <entry key="html" value="425" />
+          <entry key="py" value="13526" />
+          <entry key="txt" value="413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="23" />
-          <entry key="HTML" value="185" />
-          <entry key="PLAIN_TEXT" value="342" />
-          <entry key="Python" value="11974" />
+          <entry key="HTML" value="425" />
+          <entry key="PLAIN_TEXT" value="422" />
+          <entry key="Python" value="13526" />
         </counts>
       </usages-collector>
     </session>
@@ -170,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -179,24 +168,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommender_webapp/forms.py">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="195">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1535808620274" expanded="true" signature="159:164" ph="..." />
-                <marker date="1535808620274" expanded="true" signature="795:1215" ph="..." />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+                <marker date="1535883465216" expanded="true" signature="377:1075" ph="..." />
+                <marker date="1535883465216" expanded="true" signature="1028:1075" ph="..." />
+                <marker date="1535883465216" expanded="true" signature="1075:1077" ph="..." />
               </folding>
             </state>
           </provider>
@@ -205,46 +204,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="420">
+              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
               <folding>
-                <element signature="e#636#668#0" expanded="true" />
+                <element signature="e#637#669#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-              <folding>
-                <marker date="1535816982051" expanded="true" signature="332:1021" ph="..." />
-                <marker date="1535816982051" expanded="true" signature="974:1021" ph="..." />
-                <marker date="1535816982051" expanded="true" signature="1021:1023" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/lookups.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+                <marker date="1535880643157" expanded="true" signature="566:617" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="65" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="65" />
+            <state relative-caret-position="225">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1535817080640" expanded="true" signature="224:229" ph="..." />
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1535883336622" expanded="true" signature="598:601" ph="..." />
               </folding>
             </state>
           </provider>
@@ -253,25 +242,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <element signature="e#382#1765#0" />
-                <marker date="1535812465994" expanded="true" signature="2792:2795" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/import_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1535789459989" expanded="true" signature="2650:4556" ph="..." />
+                <marker date="1535882596584" expanded="true" signature="2792:2795" ph="..." />
               </folding>
             </state>
           </provider>
@@ -282,8 +258,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -341,16 +317,18 @@
         <option value="$PROJECT_DIR$/user/models.py" />
         <option value="$PROJECT_DIR$/user/admin.py" />
         <option value="$PROJECT_DIR$/recommender_webapp/admin.py" />
-        <option value="$PROJECT_DIR$/recommender_webapp/forms.py" />
-        <option value="$PROJECT_DIR$/pugliaeventi/urls.py" />
-        <option value="$PROJECT_DIR$/recommender_webapp/models.py" />
         <option value="$PROJECT_DIR$/recommender_webapp/initializer.py" />
-        <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
-        <option value="$PROJECT_DIR$/templates/signup.html" />
         <option value="$PROJECT_DIR$/templates/register.html" />
-        <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/pugliaeventi/views.py" />
+        <option value="$PROJECT_DIR$/templates/city_dropdown_list_options.html" />
+        <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
+        <option value="$PROJECT_DIR$/pugliaeventi/urls.py" />
+        <option value="$PROJECT_DIR$/templates/signup.html" />
+        <option value="$PROJECT_DIR$/recommender_webapp/lookups.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/recommender_webapp/models.py" />
+        <option value="$PROJECT_DIR$/recommender_webapp/forms.py" />
+        <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
       </list>
     </option>
   </component>
@@ -372,7 +350,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,7 +370,31 @@
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
@@ -404,6 +405,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -562,20 +564,27 @@
       <option name="project" value="LOCAL" />
       <updated>1535722790463</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented login and signup of Users with relative Profile information">
+      <created>1535817294365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535817294365</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1920" height="1202" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24332978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24866596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4477612" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39925373" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27145523" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39925373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -583,7 +592,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.70335823" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.40951493" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32929105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -607,10 +616,36 @@
     <MESSAGE value="Added classes implementing LightFM model" />
     <MESSAGE value="Added new dataset from which LightFM model must learn" />
     <MESSAGE value="Implemented user sign up with email (rather than username as it is default)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented user sign up with email (rather than username as it is default)" />
+    <MESSAGE value="Implemented login and signup of Users with relative Profile information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented login and signup of Users with relative Profile information" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>qs.filter(nome__istartswith=self.q).values_list('nome')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>qs.filter(nome__istartswith=self.q).values_list('nome', flat=True)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>qs.filter(nome__istartswith=self.q).values('nome')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>qs.filter(nome__istartswith=self.q).values()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>qs.filter(nome__istartswith=self.q)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>user.profile</expression-string>
         <language-id>Python</language-id>
@@ -624,10 +659,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2be14890-e2cc-474c-b27a-8d9113361120/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://2be14890-e2cc-474c-b27a-8d9113361120/database/django_pugliaeventi/schema/public/table/recommender_place" />
     <entry file="file://$PROJECT_DIR$/engine/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -724,13 +755,6 @@
     <entry file="file://$PROJECT_DIR$/user/apps.py" />
     <entry file="file://$PROJECT_DIR$/user/models.py" />
     <entry file="file://$PROJECT_DIR$/user/views.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/forms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -766,18 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <marker date="1535791416831" expanded="true" signature="110:115" ph="..." />
-            <marker date="1535791416831" expanded="true" signature="216:257" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine/data_fetcher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1015">
@@ -788,108 +800,170 @@
     <entry file="file://$PROJECT_DIR$/engine/import_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1535789459989" expanded="true" signature="2650:4556" ph="..." />
-          </folding>
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/city_dropdown_list_options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        <state relative-caret-position="330">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#382#1765#0" />
-            <marker date="1535812465994" expanded="true" signature="2792:2795" ph="..." />
+            <element signature="e#0#46#0" expanded="true" />
+            <marker date="1535791416831" expanded="true" signature="110:115" ph="..." />
+            <marker date="1535791416831" expanded="true" signature="216:257" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#636#668#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1535818989138" expanded="true" signature="224:229" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/forms.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/dal/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1535808620274" expanded="true" signature="159:164" ph="..." />
-            <marker date="1535808620274" expanded="true" signature="795:1215" ph="..." />
-          </folding>
+        <state relative-caret-position="205">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/handlers/exception.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/views/generic/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        <state relative-caret-position="420">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
           <folding>
-            <marker date="1535816982051" expanded="true" signature="332:1021" ph="..." />
-            <marker date="1535816982051" expanded="true" signature="974:1021" ph="..." />
-            <marker date="1535816982051" expanded="true" signature="1021:1023" ph="..." />
+            <element signature="e#637#669#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/lookups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="65" />
+        <state relative-caret-position="240">
+          <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1535817080640" expanded="true" signature="224:229" ph="..." />
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1535880643157" expanded="true" signature="566:617" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#382#1765#0" />
+            <marker date="1535882596584" expanded="true" signature="2792:2795" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1535883336622" expanded="true" signature="598:601" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <marker date="1535883465216" expanded="true" signature="377:1075" ph="..." />
+            <marker date="1535883465216" expanded="true" signature="1028:1075" ph="..." />
+            <marker date="1535883465216" expanded="true" signature="1075:1077" ph="..." />
           </folding>
         </state>
       </provider>
