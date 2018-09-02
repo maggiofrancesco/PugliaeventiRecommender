@@ -1,0 +1,178 @@
+{% load crispy_forms_tags %}
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		{% load static %}
+        <link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
+
+        <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<title>Pugliaeventi Rec.</title>
+
+        <style>
+            @media (min-width: 768px) {
+              /* show 3 items */
+              .carousel-inner .active,
+              .carousel-inner .active + .carousel-item,
+              .carousel-inner .active + .carousel-item + .carousel-item,
+              .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+                display: block;
+              }
+
+              .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+              .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+              .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+              .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+                transition: none;
+              }
+
+              .carousel-inner .carousel-item-next,
+              .carousel-inner .carousel-item-prev {
+                position: relative;
+                transform: translate3d(0, 0, 0);
+              }
+
+              .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+                position: absolute;
+                top: 0;
+                right: -33.3333%;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+              }
+
+              /* left or forward direction */
+              .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+              .carousel-item-next.carousel-item-left + .carousel-item,
+              .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+              .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+                position: relative;
+                transform: translate3d(-100%, 0, 0);
+                visibility: visible;
+              }
+
+              /* farthest right hidden item must be abso position for animations */
+              .carousel-inner .carousel-item-prev.carousel-item-right {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+              }
+
+              /* right or prev direction */
+              .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+              .carousel-item-prev.carousel-item-right + .carousel-item,
+              .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+              .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+              .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+                position: relative;
+                transform: translate3d(100%, 0, 0);
+                visibility: visible;
+                display: block;
+                visibility: visible;
+              }
+            }
+
+            h1.title {
+                font-size: 50px;
+                font-family: 'Passion One', cursive;
+                font-weight: 400;
+            }
+
+        </style>
+
+	</head>
+	<body>
+
+        <div class="container-fluid">
+          <h1 class="text-center mb-3 title">Let's create your profile!</h1>
+          <hr />
+          <h5 class="text-center mb-3">Loaded {{ places|length }} places close to you</h5>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto">
+
+              {% for place in places %}
+              {% if forloop.counter0 == 0 %}
+                  <div class="carousel-item col-md-2 active">
+              {% else %}
+                  <div class="carousel-item col-md-2">
+              {% endif %}
+
+                  <div class="card">
+                  <img class="card-img-top img-fluid" src="{% static "images/demo.png" %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ place.name }}</h5>
+                        <p class="card-text"><strong>Labels:</strong> {{ place.labels }}</p>
+                        <p class="card-text"><small class="text-muted">{{ place.location }}</small></p>
+                    </div>
+                  </div>
+              </div>
+              {% endfor %}
+
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+	</body>
+
+    <script>
+        $(document).ready(function() {
+          $("#myCarousel").on("slide.bs.carousel", function(e) {
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 6;
+            var totalItems = $(".carousel-item").length;
+
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+              var it = itemsPerSlide - (totalItems - idx);
+              for (var i = 0; i < it; i++) {
+                // append slides to end
+                if (e.direction == "left") {
+                  $(".carousel-item")
+                    .eq(i)
+                    .appendTo(".carousel-inner");
+                } else {
+                  $(".carousel-item")
+                    .eq(0)
+                    .appendTo($(this).find(".carousel-inner"));
+                }
+              }
+            }
+          });
+
+
+
+        });
+    </script>
+
+</html>

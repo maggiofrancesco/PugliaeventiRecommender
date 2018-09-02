@@ -1,10 +1,15 @@
 from django.db import models
 from django.dispatch import receiver
 from django.db.models.signals import post_save
+
+from pugliaeventi import constant
 from recommender_webapp.common.utils import ChoiceEnum
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.base_user import BaseUserManager
 from django.contrib.auth.models import User, AbstractUser
+
+
+DEFAULT_RATING = 3
 
 
 class UserManager(BaseUserManager):
@@ -92,17 +97,45 @@ class Place(models.Model):
     spiaggia = models.BooleanField()
     teatro = models.BooleanField()
 
+    def labels(self):
+        labels = ""
+        if self.freeEntry:
+            labels += constant.FREE_ENTRY + ', '
+        if self.bere:
+            labels += constant.BERE + ', '
+        if self.mangiare:
+            labels += constant.MANGIARE + ', '
+        if self.benessere:
+            labels += constant.BENESSERE + ', '
+        if self.dormire:
+            labels += constant.DORMIRE + ', '
+        if self.goloso:
+            labels += constant.GOLOSO + ', '
+        if self.libri:
+            labels += constant.LIBRI + ', '
+        if self.romantico:
+            labels += constant.ROMANTICO + ', '
+        if self.museo:
+            labels += constant.MUSEO + ', '
+        if self.spiaggia:
+            labels += constant.SPIAGGIA + ', '
+        if self.teatro:
+            labels += constant.TEATRO + ', '
+        return labels
+
     def __str__(self):
         return str(self.placeId) + '|' + self.name + '|' + self.location
 
 
 class Mood(ChoiceEnum):
+    __order__ = 'angry joyful sad'
     angry = 1
     joyful = 2
     sad = 3
 
 
 class Companionship(ChoiceEnum):
+    __order__ = 'withFriends alone'
     withFriends = 1
     alone = 2
 
@@ -113,7 +146,7 @@ class Rating(models.Model):
     mood = models.CharField(max_length=1, choices=Mood.choices(), blank=False)
     companionship = models.CharField(max_length=1, choices=Companionship.choices(), blank=False)
     place = models.ForeignKey(Place, on_delete=models.PROTECT, blank=False)
-    rating = models.IntegerField(blank=False)
+    rating = models.IntegerField(blank=False, default=DEFAULT_RATING)
 
     class Meta:
         unique_together = ('user', 'mood', 'companionship', 'place')

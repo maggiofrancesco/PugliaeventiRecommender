@@ -9,3 +9,6 @@ ROMANTICO = 'romantico'
 MUSEO = 'museo'
 SPIAGGIA = 'spiaggia'
 TEATRO = 'teatro'
+
+DEFAULT_RATING = 3
+KM_RANGE_CONFIGURATION = 10

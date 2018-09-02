@@ -1,4 +1,4 @@
-from recommender_webapp.common import constant
+from pugliaeventi import constant
 from recommender_webapp.models import Place
 
 

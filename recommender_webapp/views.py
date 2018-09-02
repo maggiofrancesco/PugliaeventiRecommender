@@ -6,7 +6,8 @@ from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.forms import ProfileForm, UserRegisterForm
-from recommender_webapp.models import Comune
+from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship
+from pugliaeventi import constant
 
 
 @csrf_protect
@@ -57,3 +58,54 @@ def user_signup(request):
     }
 
     return render(request, "signup.html", context)
+
+
+def profile_configuration(request):
+    if request.user.is_authenticated:
+
+        """
+        user_contexts = []
+        for (mood_name, mood_index) in Mood.choices():
+            for (comp_name, comp_index) in Companionship.choices():
+                # user_context = str(mood_index) + str(comp_index)
+                user_context = (mood_name, comp_name)
+                user_contexts.append(user_context)
+        """
+
+        close_places = []
+        user_location = request.user.profile.location
+        distances_in_range = Distanza.objects.filter(cittaA=user_location, distanza__lte=constant.KM_RANGE_CONFIGURATION).order_by('distanza')
+
+        user_location_places = Place.objects.filter(location=user_location)
+        for place in user_location_places:
+            close_places.append(place)
+
+        for distance in distances_in_range:
+            places = Place.objects.filter(location=distance.cittaB)
+            for place in places:
+                close_places.append(place)
+
+    else:
+        return redirect('/')
+
+    context = {
+        #'contexts': user_contexts,
+        'places': close_places
+    }
+
+    return render(request, "profile_configuration.html", context)
+
+
+def add_rating(request):
+    if request.user.is_authenticated:
+        pass
+
+    else:
+        return redirect('/')
+
+    context = {
+        'contexts': None,
+        'places': None
+    }
+
+    return render(request, "profile_configuration.html", context)
