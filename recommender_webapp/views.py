@@ -5,8 +5,10 @@ from django.shortcuts import render, redirect
 # Create your views here.
 from django.views.decorators.csrf import csrf_protect
 
+from recommender_webapp.common import lightfm_manager
 from recommender_webapp.forms import ProfileForm, UserRegisterForm
 from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating
+
 from pugliaeventi import constant
 
 
@@ -67,23 +69,26 @@ def profile_configuration(request):
         companionship_configuration = {}
         rated_places = []
         user_contexts = []
-        user_ratings = Rating.objects.filter(user=request.user.profile)
 
-        if len(user_ratings) >= (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS):
-            # Profile configuration finished
+        user_ratings = Rating.objects.filter(user=request.user.profile)
+        user_contexts.append({'mood': Mood.joyful, 'companionship': Companionship.withFriends})
+        user_contexts.append({'mood': Mood.joyful, 'companionship': Companionship.alone})
+        user_contexts.append({'mood': Mood.angry, 'companionship': Companionship.withFriends})
+        user_contexts.append({'mood': Mood.angry, 'companionship': Companionship.alone})
+        user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.withFriends})
+        user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.alone})
+
+        if len(user_ratings) == (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS):
+            # Profile configuration finished. We must add user data to LightFM dataset
+            if not request.user.profile.first_configuration:
+                lightfm_manager.add_user(request.user.id, request.user.profile.location, user_contexts, user_ratings)
+                request.user.profile.first_configuration = True
+                request.user.save()
             return redirect('/')
 
         else:
             percentage_completion = int(
                 (len(user_ratings) * 100 / (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS)))
-
-            user_contexts.append({'mood': Mood.joyful, 'companionship': Companionship.withFriends})
-            user_contexts.append({'mood': Mood.joyful, 'companionship': Companionship.alone})
-            user_contexts.append({'mood': Mood.angry, 'companionship': Companionship.withFriends})
-            user_contexts.append({'mood': Mood.angry, 'companionship': Companionship.alone})
-            user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.withFriends})
-            user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.alone})
-
 
             # We start asking preferences according to contexts (joyful, withfriends) and (joyful, alone)
             # I have to filter out places already selected in previous contexts

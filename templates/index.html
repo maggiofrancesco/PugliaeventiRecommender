@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    {% load static %}
+    <link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
+
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+    <title>Pugliaeventi Rec.</title>
+
+    <style>
+        button:focus {
+            outline: 0;
+        }
+
+        .navbar .dropdown-menu .form-control {
+            width: 230px;
+        }
+    </style>
+
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+            <div class="container">
+                <a class="navbar-brand" href="/">PugliaEventi Rec.</a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                    &#9776;
+                </button>
+                <div class="collapse navbar-collapse" id="exCollapsingNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">Places</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
+                    </ul>
+
+                    {% if user.is_authenticated %}
+                        <span class="navbar-text">Welcome, {{ email_splitted }}</span>
+                        <ul class="nav navbar-nav flex-row justify-content-between">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fa fa-caret-down"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">My places</a>
+                                    <a class="dropdown-item" onclick="logout()" href="#">Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                    {% else %}
+
+                        <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+                            <li class="dropdown order-1">
+                                <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
+                                <ul class="dropdown-menu dropdown-menu-right mt-2">
+                                   <li class="px-3 py-2">
+                                       <form class="form" role="form" method="post" action="/login/" accept-charset="UTF-8" id="login-nav">
+                                           {% csrf_token %}
+                                            <div class="form-group">
+                                                <input id="emailInput" name='username' placeholder="Email" class="form-control form-control-sm" type="text">
+                                            </div>
+                                            <div class="form-group">
+                                                <input id="passwordInput" name="password" placeholder="Password" class="form-control form-control-sm" type="password">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="hidden" name="path" value="{{ request.path }}">
+                                                <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                            </div>
+                                            <div class="form-group text-center">
+                                                <small>New here ? <a href="/register/"><b>Join Us</b></a></small>
+                                            </div>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    {% endif %}
+                </div>
+            </div>
+        </nav>
+
+        <div class="card-columns">
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title that wraps to a new line</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card p-3">
+            <blockquote class="blockquote mb-0 card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card bg-primary text-white text-center p-3">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+              <footer class="blockquote-footer">
+                <small>
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="..." alt="Card image">
+          </div>
+          <div class="card p-3 text-right">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <script>
+            function logout() {
+                $.get("/logout/", function () {
+                    location.reload();
+                });
+            }
+        </script>
+
+    </body>
+</html>

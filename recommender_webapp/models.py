@@ -65,6 +65,7 @@ class Profile(models.Model):
     bio = models.TextField(max_length=500, blank=True)
     profession = models.CharField(max_length=40, blank=True)
     empathy = models.FloatField(null=True, blank=True)
+    first_configuration = models.BooleanField(default=False)
 
     def __str__(self):
         return str(self.user.email) + '|' + self.location + '|' + self.birth_date.strftime('%d/%m/%Y')
