@@ -102,6 +102,10 @@
                 font-weight: 400;
             }
 
+            .carousel-control-prev, .carousel-control-next {
+                width: 5%;
+            }
+
         </style>
 
 	</head>
@@ -113,6 +117,9 @@
           <hr />
           <h5 class="text-center">Loaded <strong>{{ places|length }} places</strong> close to you</h5>
           <h5  class="text-center mb-3">Select <strong>5 places</strong> according to the following context: <strong>{{ mood.name }}</strong> and <strong>{{ companionship.name }}</strong></h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="min-width: 2em; width: {{ percentage }}%;" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="100">{{ percentage }}%</div>
+          </div>
           <hr />
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner row w-100 mx-auto">
@@ -124,16 +131,21 @@
                   <div class="carousel-item col-md-2">
               {% endif %}
 
-                  <div class="card">
-                  <img class="card-img-top img-fluid" src="{% static "images/demo.png" %}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ place.name }}</h5>
-                        <p class="card-text"><strong>Labels:</strong> {{ place.labels }}</p>
-                        <p class="card-text"><small class="text-muted">{{ place.location }}</small></p>
-                        <a href="#" class="btn btn-primary btn-sm">Add to my places</a>
-                    </div>
+                      <div class="card">
+                      <img class="card-img-top img-fluid" src="{% static "images/demo.png" %}" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ place.name }}</h5>
+                            <p class="card-text"><strong>Labels:</strong> {{ place.labels }}</p>
+                            <p class="card-text"><small class="text-muted">{{ place.location }}</small></p>
+                            {% if place.rated %}
+                                <h5><span class="badge badge-success">Place added</span></h5>
+                            {% else %}
+                                <a href="{% url 'add_rating' place_id=place.placeId mood=mood.index companionship=companionship.index %}" class="btn btn-primary btn-sm">Add to my places</a>
+                            {% endif %}
+
+                        </div>
+                      </div>
                   </div>
-              </div>
               {% endfor %}
 
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -146,11 +158,11 @@
             </a>
           </div>
         </div>
-
 	</body>
 
     <script>
         $(document).ready(function() {
+
           $("#myCarousel").on("slide.bs.carousel", function(e) {
             var $e = $(e.relatedTarget);
             var idx = $e.index();
@@ -173,8 +185,6 @@
               }
             }
           });
-
-
 
         });
     </script>

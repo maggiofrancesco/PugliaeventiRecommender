@@ -1,5 +1,5 @@
 from django.contrib.auth import authenticate, login, logout
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -20,7 +20,7 @@ def user_login(request):
             print('User login: Email: ' + email + '     Password: ' + password)
             print(request.POST)
             login(request, user)
-            return render(request, 'base.html', {'email_splitted': user.email.split('@')[0]})
+            return redirect('/')
         else:
             return render(request, 'base.html', {'message': 'Username or Password wrong!'})
     else:
@@ -65,46 +65,78 @@ def profile_configuration(request):
 
         mood_configuration = {}
         companionship_configuration = {}
-        step = 1
-
+        rated_places = []
+        user_contexts = []
         user_ratings = Rating.objects.filter(user=request.user.profile)
-        if user_ratings:
-            for (mood_name, mood_index) in Mood.choices():
-                for (comp_name, comp_index) in Companionship.choices():
-                    contextual_ratings = user_ratings.filter(mood=mood_index, companionship=comp_index)
-                    if not contextual_ratings:
-                        mood_configuration['index'] = mood_index
-                        mood_configuration['name'] = mood_name
-                        companionship_configuration['index'] = mood_index
-                        companionship_configuration['name'] = mood_name
-                    else:
-                        step += 1
+
+        if len(user_ratings) >= (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS):
+            # Profile configuration finished
+            return redirect('/')
+
         else:
-            mood_configuration['index'] = Mood.joyful.value
-            mood_configuration['name'] = Mood.joyful.name
-            companionship_configuration['index'] = Companionship.withFriends.value
-            companionship_configuration['name'] = Companionship.withFriends.name
+            percentage_completion = int(
+                (len(user_ratings) * 100 / (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS)))
 
-        # I have to filter out places already selected in previous contexts
+            user_contexts.append({'mood': Mood.joyful, 'companionship': Companionship.withFriends})
+            user_contexts.append({'mood': Mood.joyful, 'companionship': Companionship.alone})
+            user_contexts.append({'mood': Mood.angry, 'companionship': Companionship.withFriends})
+            user_contexts.append({'mood': Mood.angry, 'companionship': Companionship.alone})
+            user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.withFriends})
+            user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.alone})
 
-        close_places = []
-        user_location = request.user.profile.location
-        distances_in_range = Distanza.objects.filter(cittaA=user_location, distanza__lte=constant.KM_RANGE_CONFIGURATION).order_by('distanza')
 
-        user_location_places = Place.objects.filter(location=user_location)
-        for place in user_location_places:
-            close_places.append(place)
+            # We start asking preferences according to contexts (joyful, withfriends) and (joyful, alone)
+            # I have to filter out places already selected in previous contexts
+            # I put them at the end of the list; in this way the user could select different places in different contexts
 
-        for distance in distances_in_range:
-            places = Place.objects.filter(location=distance.cittaB)
-            for place in places:
-                close_places.append(place)
+            step = 1
+            for user_context in user_contexts:
+                contextual_ratings = user_ratings.filter(mood=user_context.get('mood').name, companionship=user_context.get('companionship').name)
+                if len(contextual_ratings) < constant.RATINGS_PER_CONTEXT_CONF:
+                    mood_configuration['index'] = user_context.get('mood').value
+                    mood_configuration['name'] = user_context.get('mood').name
+                    companionship_configuration['index'] = user_context.get('companionship').value
+                    companionship_configuration['name'] = user_context.get('companionship').name
+                    break
+                else:
+                    step += 1
+
+            close_places = []
+            user_location = request.user.profile.location
+            distances_in_range = Distanza.objects.filter(cittaA=user_location, distanza__lte=constant.KM_RANGE_CONFIGURATION).order_by('distanza')
+
+            user_location_places = Place.objects.filter(location=user_location)
+            for place in user_location_places:
+                place_dict = vars(place)
+                place_dict['labels'] = place.labels()
+                rated_place = Rating.objects.filter(place=place, user=request.user.profile)
+                if rated_place:
+                    place_dict['rated'] = True
+                    rated_places.append(place_dict)
+                else:
+                    close_places.append(place_dict)
+
+            for distance in distances_in_range:
+                places = Place.objects.filter(location=distance.cittaB)
+                for place in places:
+                    place_dict = vars(place)
+                    place_dict['labels'] = place.labels()
+                    rated_place = Rating.objects.filter(place=place)
+                    if rated_place:
+                        place_dict['rated'] = True
+                        rated_places.append(place_dict)
+                    else:
+                        close_places.append(place_dict)
+
+        # Excluded places already selected
+        # close_places.extend(rated_places)
 
     else:
         return redirect('/')
 
     context = {
         'step': step,
+        'percentage': percentage_completion,
         'mood': mood_configuration,
         'companionship': companionship_configuration,
         'places': close_places
@@ -113,16 +145,16 @@ def profile_configuration(request):
     return render(request, "profile_configuration.html", context)
 
 
-def add_rating(request):
+def add_rating_config(request, place_id, mood, companionship):
     if request.user.is_authenticated:
-        pass
 
+        place = Place.objects.get(placeId=place_id)
+        rating = Rating(user=request.user.profile,
+                        mood=Mood(mood).name,
+                        companionship=Companionship(companionship).name,
+                        place=place,
+                        rating=constant.DEFAULT_RATING)
+        rating.save()
+        return redirect('profile_configuration')
     else:
         return redirect('/')
-
-    context = {
-        'contexts': None,
-        'places': None
-    }
-
-    return render(request, "profile_configuration.html", context)

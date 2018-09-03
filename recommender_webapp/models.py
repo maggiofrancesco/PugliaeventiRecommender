@@ -143,13 +143,14 @@ class Companionship(ChoiceEnum):
 class Rating(models.Model):
     id = models.AutoField(primary_key=True)
     user = models.ForeignKey(Profile, on_delete=models.PROTECT, blank=False)
-    mood = models.CharField(max_length=1, choices=Mood.choices(), blank=False)
-    companionship = models.CharField(max_length=1, choices=Companionship.choices(), blank=False)
+    mood = models.CharField(max_length=20, choices=Mood.choices(), blank=False)
+    companionship = models.CharField(max_length=20, choices=Companionship.choices(), blank=False)
+    companionship = models.CharField(max_length=20, choices=Companionship.choices(), blank=False)
     place = models.ForeignKey(Place, on_delete=models.PROTECT, blank=False)
     rating = models.IntegerField(blank=False, default=DEFAULT_RATING)
 
-    class Meta:
-        unique_together = ('user', 'mood', 'companionship', 'place')
+    # class Meta:
+    #    unique_together = ('user', 'mood', 'companionship', 'place')
 
     def __str__(self):
         return str(self.user.email) + '|' + str(self.mood) + '|' + str(self.companionship) \

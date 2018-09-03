@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.urls import include
+from django.urls import include, path
 
 from recommender_webapp import views
 from pugliaeventi import views as main_views
@@ -28,7 +28,7 @@ urlpatterns = [
     url(r'^logout/', views.user_logout, name='logout'),
     url(r'^register/', views.user_signup, name='register'),
     url(r'^profile_configuration/', views.profile_configuration, name='profile_configuration'),
-
+    path('ratings/<int:place_id>/<int:mood>/<int:companionship>/', views.add_rating_config, name='add_rating'),
     # place it at whatever base url you like
     url(r'^ajax_select/', include(ajax_select_urls)),
 

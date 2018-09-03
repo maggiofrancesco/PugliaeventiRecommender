@@ -8,7 +8,7 @@ from recommender_webapp.models import User
 @csrf_protect
 def index(request):
     user_data = {}
-    movie_dict = data_loader.data_in_memory['places_dict']
+    places_dict = data_loader.data_in_memory['places_dict']
     if request.user.is_authenticated:
         user_data = {'email': request.user.email, 'email_splitted': request.user.email.split('@')[0]}
         user = User.objects.get(email=user_data['email'])
