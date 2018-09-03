@@ -24,7 +24,7 @@ def user_login(request):
             login(request, user)
             return redirect('/')
         else:
-            return render(request, 'base.html', {'message': 'Username or Password wrong!'})
+            return render(request, 'index_old.html', {'message': 'Username or Password wrong!'})
     else:
         return render(request, '404.html')
 
