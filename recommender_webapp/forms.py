@@ -2,6 +2,7 @@ from django import forms
 from django.forms.widgets import PasswordInput
 from ajax_select.fields import AutoCompleteField
 
+from recommender_webapp.common.utils import ChoiceEnum
 from recommender_webapp.models import User, Profile, Comune, Companionship, Mood
 
 
@@ -63,4 +64,21 @@ class SearchRecommendationForm(forms.Form):
         required=True,
         widget=forms.Select,
         choices=[choice[::-1] for choice in Companionship.choices()]
+    )
+
+
+class DistanceRange(ChoiceEnum):
+    __order__ = 'km5 km10'
+    km5 = 5
+    km10 = 10
+    # km30 = 30
+    # km40 = 40
+    # km50 = 50
+
+
+class SearchNearPlacesForm(forms.Form):
+    km_range = forms.ChoiceField(
+        required=True,
+        widget=forms.Select,
+        choices=[choice[::-1] for choice in DistanceRange.choices()]
     )

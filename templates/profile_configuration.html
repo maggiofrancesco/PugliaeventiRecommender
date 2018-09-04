@@ -116,7 +116,7 @@
           <h5 class="text-center">Step n. {{ step }}</h5>
           <hr />
           <h5 class="text-center">Loaded <strong>{{ places|length }} places</strong> close to you</h5>
-          <h5  class="text-center mb-3">Select <strong>5 places</strong> according to the following context: <strong>{{ mood.name }}</strong> and <strong>{{ companionship.name }}</strong></h5>
+          <h5  class="text-center mb-3">Select <strong>{{ ratings_per_context }}</strong> according to the following context: <strong>{{ mood.name }}</strong> and <strong>{{ companionship.name }}</strong></h5>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="min-width: 2em; width: {{ percentage }}%;" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="100">{{ percentage }}%</div>
           </div>

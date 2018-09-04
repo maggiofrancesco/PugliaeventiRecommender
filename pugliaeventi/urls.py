@@ -23,12 +23,14 @@ from ajax_select import urls as ajax_select_urls
 
 urlpatterns = [
     url(r'^$', main_views.index, name='index'),
-    url(r'^admin/', admin.site.urls),
-    url(r'^login/', views.user_login, name='login'),
-    url(r'^logout/', views.user_logout, name='logout'),
-    url(r'^register/', views.user_signup, name='register'),
-    url(r'^profile_configuration/', views.profile_configuration, name='profile_configuration'),
+    url(r'^admin/$', admin.site.urls),
+    url(r'^login/$', views.user_login, name='login'),
+    url(r'^logout/$', views.user_logout, name='logout'),
+    url(r'^register/$', views.user_signup, name='register'),
+    url(r'^profile_configuration/$', views.profile_configuration, name='profile_configuration'),
+    url(r'^close_places/$', views.close_places, name='close_places'),
     path('ratings/<int:place_id>/<int:mood>/<int:companionship>/', views.add_rating_config, name='add_rating'),
+
     # place it at whatever base url you like
     url(r'^ajax_select/', include(ajax_select_urls)),
 

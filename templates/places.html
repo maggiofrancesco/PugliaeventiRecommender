@@ -14,17 +14,14 @@
 
             {% include 'header.html' %}
 
-            <h5 class="text-center">Search recommendations right for you</h5>
+            <h5 class="text-center">Search places close to you</h5>
 
             {% if user.is_authenticated %}
-                 <form  method="post" action="{% url 'index' %}">
+                 <form  method="post" action="{% url 'close_places' %}">
                  {% csrf_token %}
                   <div class="form-inline justify-content-center">
                     <div class="col-auto my-1">
-                      {{ search_form.mood|as_crispy_field }}
-                    </div>
-                    <div class="col-auto my-1">
-                      {{ search_form.companionship|as_crispy_field }}
+                      {{ search_form.km_range|as_crispy_field }}
                     </div>
                     <div class="col-auto my-1">
                       <button type="submit" class="btn btn-primary" onclick="modal();">Search</button>
@@ -44,7 +41,7 @@
             </div>
 
             <div class="card-columns">
-                {% for place in recommended_places %}
+                {% for place in close_places %}
                     <div class="card">
 
                     <div class="card-body">
