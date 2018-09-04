@@ -1,6 +1,8 @@
 import csv
 
-from pugliaeventi import constant
+from recommender_webapp.common import constant
+from engine import lightfm_pugliaeventi
+from recommender_webapp.models import Place
 
 
 def add_user(user_id, user_location,  user_contexts, data):
@@ -22,5 +24,15 @@ def add_user(user_id, user_location,  user_contexts, data):
                 writer.writerow([contextual_lightfm_user_id, rating.place.placeId, rating.rating])
 
 
-def find_recommendations(user, mood, companionship):
-    pass
+def find_recommendations(user):
+    recommended_places = []
+    user = int(user) - 1   # LightFM uses a zero-based indexing
+    model, data = lightfm_pugliaeventi.learn_model()
+    recommendations = lightfm_pugliaeventi.find_recommendations(user, model, data)
+    places_to_show = recommendations[:constant.NUM_RECOMMENDATIONS]
+    for place in places_to_show:
+        place_id = place + 1  # Because the LightFM zero-based indexing
+        place = Place.objects.get(placeId=place_id)
+        recommended_places.append(place)
+
+    return recommended_places

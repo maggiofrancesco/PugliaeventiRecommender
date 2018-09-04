@@ -136,6 +136,7 @@ def import_distanze():
                 print('Distance Insert Failure: ' + citta_a + " and " + citta_b, e)
                 continue
 
+
 if __name__ == "__main__":
     import_places()
     import_sample_ratings()

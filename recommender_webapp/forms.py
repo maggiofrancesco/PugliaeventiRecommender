@@ -2,7 +2,7 @@ from django import forms
 from django.forms.widgets import PasswordInput
 from ajax_select.fields import AutoCompleteField
 
-from recommender_webapp.models import User, Profile, Comune
+from recommender_webapp.models import User, Profile, Comune, Companionship, Mood
 
 
 class ProfileForm(forms.ModelForm):
@@ -51,3 +51,16 @@ class UserRegisterForm(forms.ModelForm):
             raise forms.ValidationError("This email has already been registered")
 
         return super(UserRegisterForm, self).clean(*args, **kwargs)
+
+
+class SearchRecommendationForm(forms.Form):
+    mood = forms.ChoiceField(
+        required=True,
+        widget=forms.Select,
+        choices=[choice[::-1] for choice in Mood.choices()]
+    )
+    companionship = forms.ChoiceField(
+        required=True,
+        widget=forms.Select,
+        choices=[choice[::-1] for choice in Companionship.choices()]
+    )

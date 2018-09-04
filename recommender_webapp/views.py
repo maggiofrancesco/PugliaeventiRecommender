@@ -1,15 +1,12 @@
 from django.contrib.auth import authenticate, login, logout
-from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
 from django.views.decorators.csrf import csrf_protect
 
-from recommender_webapp.common import lightfm_manager
+from recommender_webapp.common import lightfm_manager, constant
 from recommender_webapp.forms import ProfileForm, UserRegisterForm
 from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating
-
-from pugliaeventi import constant
 
 
 @csrf_protect
@@ -24,14 +21,14 @@ def user_login(request):
             login(request, user)
             return redirect('/')
         else:
-            return render(request, 'index_old.html', {'message': 'Username or Password wrong!'})
+            return render(request, 'index.html', {'message': 'Username or Password wrong!'})
     else:
         return render(request, '404.html')
 
 
 def user_logout(request):
     logout(request)
-    return HttpResponse()
+    return redirect('/')
 
 
 @csrf_protect

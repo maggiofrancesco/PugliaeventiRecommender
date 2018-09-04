@@ -2,7 +2,7 @@ from django.db import models
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 
-from pugliaeventi import constant
+from recommender_webapp.common import constant
 from recommender_webapp.common.utils import ChoiceEnum
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.base_user import BaseUserManager
