@@ -54,6 +54,7 @@ class UserRegisterForm(forms.ModelForm):
         return super(UserRegisterForm, self).clean(*args, **kwargs)
 
 
+# This form is used for searching recommendations and also for adding a new rating
 class SearchRecommendationForm(forms.Form):
     mood = forms.ChoiceField(
         required=True,

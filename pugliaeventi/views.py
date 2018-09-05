@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.common import lightfm_manager, constant
 from recommender_webapp.forms import SearchRecommendationForm
-from recommender_webapp.models import Mood, Place, Rating
+from recommender_webapp.models import Mood, Rating
 
 
 @csrf_protect

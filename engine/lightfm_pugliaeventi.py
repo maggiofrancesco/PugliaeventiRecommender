@@ -1,6 +1,7 @@
 from lightfm.cross_validation import random_train_test_split
 
 from engine.lightfm_data_fetcher import fetch_pugliaeventi
+from engine.lightfm_data_fetcher import _build_interaction_matrix, _read_item_data, _parse_item_metadata
 from lightfm.evaluation import auc_score, precision_at_k, recall_at_k
 from lightfm import LightFM
 import numpy as np
@@ -18,6 +19,7 @@ NUM_EPOCHS = 50
 ITEM_ALPHA = 1e-6
 
 MODEL_CHECKPOINT_PATH = "data/model_checkpoint.pickle"
+script_dir = os.path.dirname(__file__)
 
 
 def find_recommendations(user, model, data):
@@ -54,10 +56,29 @@ def find_recommendations(user, model, data):
     return items_ordered
 
 
+def add_rating_to_model(max_user_id, max_item_id, user_id, item_id, rating):
+    if os.path.isfile(os.path.join(script_dir, MODEL_CHECKPOINT_PATH)):
+        with open(os.path.join(script_dir, MODEL_CHECKPOINT_PATH), 'rb') as fle:
+            model = pickle.load(fle)
+
+        interactions = _build_interaction_matrix(max_user_id, max_item_id, [(user_id - 1, item_id - 1, rating)], 0)
+        items, labels_item = _read_item_data()
+        (iid_features, iid_feature_labels, item_features, item_tag_feature_labels
+         ) = _parse_item_metadata(max_item_id, items, labels_item)
+
+        model.fit_partial(
+            interactions,
+            item_features=item_features,
+            epochs=NUM_EPOCHS,
+            num_threads=NUM_THREADS)
+
+        with open(os.path.join(script_dir, MODEL_CHECKPOINT_PATH), 'wb') as fle:
+            pickle.dump(model, fle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
 def learn_model(force_model_creation=False):
     data = fetch_pugliaeventi(min_rating=0.0, indicator_features=False, tag_features=True)
 
-    script_dir = os.path.dirname(__file__)
     if os.path.isfile(os.path.join(script_dir, MODEL_CHECKPOINT_PATH)) and not force_model_creation:
         with open(os.path.join(script_dir, MODEL_CHECKPOINT_PATH), 'rb') as fle:
             model = pickle.load(fle)

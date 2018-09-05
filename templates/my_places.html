@@ -24,7 +24,7 @@
                         {% for place in context_places.places %}
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">{{ place.name }}</h5>
+                                <h5 class="card-title"><a href="{% url 'place_details' place_id=place.placeId %}">{{ place.name }}</a></h5>
                                 <p class="card-text"><strong>Labels:</strong> {{ place.labels }}</p>
                                 <p class="card-text"><small class="text-muted">{{ place.location }}</small></p>
                             </div>

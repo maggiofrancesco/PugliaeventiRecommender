@@ -140,7 +140,7 @@
                             {% if place.rated %}
                                 <h5><span class="badge badge-success">Place added</span></h5>
                             {% else %}
-                                <a href="{% url 'add_rating' place_id=place.placeId mood=mood.index companionship=companionship.index %}" class="btn btn-primary btn-sm">Add to my places</a>
+                                <a href="{% url 'add_rating_conf' place_id=place.placeId mood=mood.index companionship=companionship.index %}" class="btn btn-primary btn-sm">Add to my places</a>
                             {% endif %}
 
                         </div>

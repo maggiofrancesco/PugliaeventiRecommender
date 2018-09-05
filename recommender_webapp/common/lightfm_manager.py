@@ -27,6 +27,28 @@ def add_user(user_id, user_location,  user_contexts, data):
     lightfm_pugliaeventi.learn_model(force_model_creation=True)
 
 
+def add_rating(contextual_lightfm_user_id, place_id, rating):
+    # Add rating to ratings.csv
+    with open(r'engine/data/ratings_train.csv', 'a') as f:
+        writer = csv.writer(f)
+        writer.writerow([contextual_lightfm_user_id, place_id, rating])
+
+    max_user_id = 0
+    max_item_id = 0
+    # I need the max user ID and the max item ID
+    with open(r'engine/data/users.csv') as csvfile:
+        for row in reversed(list(csv.reader(csvfile, delimiter=','))):
+            max_user_id = int(row[0])
+            break
+    with open(r'engine/data/items.csv') as csvfile:
+        for row in reversed(list(csv.reader(csvfile, delimiter=','))):
+            max_item_id = int(row[0])
+            break
+
+    # Add new rating to LightFM model
+    lightfm_pugliaeventi.add_rating_to_model(max_user_id, max_item_id, contextual_lightfm_user_id, place_id, rating)
+
+
 def find_recommendations(user):
     recommended_places = []
     user = int(user) - 1   # LightFM uses a zero-based indexing

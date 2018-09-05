@@ -1,0 +1,92 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pugliaeventi Rec.</title>
+
+    {% include 'head_css_js.html' %}
+
+</head>
+    <body>
+        <div class="container">
+
+            {% include 'header.html' %}
+
+            <h1 class="my-4">{{ place.name }}</h1>
+
+              <!-- Portfolio Item Row -->
+              <div class="row">
+
+                <div class="col-md-8">
+                  <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="my-3">Località: <small>{{ place.location }}</small></h3>
+                    <h3 class="my-3">Labels: </h3>
+                    <ul>
+                        {% for label in labels %}
+                            <li>{{ label }}</li>
+                        {% endfor %}
+                    </ul>
+
+                    {% if ratings %}
+                        <h5 class="my-3">Rated in the following context:</h5>
+                        {% for rate in ratings %}
+                            <span class="badge badge-success">{{ rate.mood }}</span> + <span class="badge badge-info">{{ rate.companionship }}</span>
+                        {% endfor %}
+                        <hr />
+
+                    {% else %}
+
+                        <h6 class="my-3"><strong>You could add this place to your profile:</strong></h6>
+                        {% if user.is_authenticated %}
+                          <form  method="post" action="{% url 'place_details' place_id=place.placeId %}">
+                              {% csrf_token %}
+                              <div class="justify-content-center">
+                                  <div class="col-auto my-1">
+                                      {{ form.mood|as_crispy_field }}
+                                  </div>
+                                  <div class="col-auto my-1">
+                                      {{ form.companionship|as_crispy_field }}
+                                  </div>
+                                  <div class="col-auto my-1">
+                                      <button type="submit" class="btn btn-primary" onclick="modal();">Add to my places</button>
+                                  </div>
+                              </div>
+                          </form>
+                        {% endif %}
+
+                    {% endif %}
+
+                </div>
+
+              </div>
+                <!-- /.row -->
+
+            <hr />
+
+            <div class="modal fade bd-example-modal-lg" data-backdrop="static" data-keyboard="false" tabindex="-1">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content" style="width: 48px">
+                        <span class="fa fa-spinner fa-spin fa-3x"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            function modal() {
+               $('.modal').modal('show');
+               setTimeout(function () {
+                console.log('hejsan');
+                $('.modal').modal('hide');
+               }, 3000);
+            }
+        </script>
+
+    </body>
+</html>

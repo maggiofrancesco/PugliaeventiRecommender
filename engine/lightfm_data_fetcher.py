@@ -25,6 +25,18 @@ def _read_raw_data():
             labels_user.read().decode(errors='ignore').split('\n'))
 
 
+def _read_item_data():
+    """
+    Return the raw lines of the train and test files. (ONLY ITEM DATA)
+    """
+    script_dir = os.path.dirname(__file__)
+    items = open(os.path.join(script_dir, 'data/items.csv'), 'rb')
+    labels_item = open(os.path.join(script_dir, 'data/labels_item.csv'), 'rb')
+
+    return (items.read().decode().split('\n'),
+            labels_item.read().decode(errors='ignore').split('\n'))
+
+
 def _parse(data):
 
     for line in data:
@@ -83,7 +95,7 @@ def _build_interaction_matrix(rows, cols, data, min_rating):
     return mat.tocoo()
 
 
-def _parse_item_metadata(num_items, item_metadata_raw, item_tags_raw, num_users, user_metadata_raw, user_tags_raw):
+def _parse_item_user_metadata(num_items, item_metadata_raw, item_tags_raw, num_users, user_metadata_raw, user_tags_raw):
 
     item_tags = []
     user_tags = []
@@ -158,6 +170,47 @@ def _parse_item_metadata(num_items, item_metadata_raw, item_tags_raw, num_users,
 
     return (iid_features, iid_feature_labels, item_tag_features.tocsr(), item_tag_feature_labels,
             uid_features, uid_feature_labels, user_tag_features.tocsr(), user_tag_feature_labels)
+
+
+def _parse_item_metadata(num_items, item_metadata_raw, item_tags_raw):
+
+    item_tags = []
+
+    for line in item_tags_raw:
+        if line:
+            tid, tag = line.split(',')
+            item_tags.append('tag:{}'.format(tag))
+
+    iid_feature_labels = np.empty(num_items, dtype=np.object)
+    item_tag_feature_labels = np.array(item_tags)
+
+    iid_features = sp.identity(num_items,
+                              format='csr',
+                              dtype=np.float32)
+    item_tag_features = sp.lil_matrix((num_items, len(item_tags)),
+                                   dtype=np.float32)
+
+    for line in item_metadata_raw:
+
+        if not line:
+            continue
+
+        splt = line.split(',')
+
+        # Zero-based indexing
+        iid = int(splt[0]) - 1
+        name = splt[1]
+
+        iid_feature_labels[iid] = name
+
+        item_tags = [idx for idx, val in
+                       enumerate(splt[3:])
+                       if int(val) > 0]
+
+        for tid in item_tags:
+            item_tag_features[iid, tid] = 1.0
+
+    return iid_features, iid_feature_labels, item_tag_features.tocsr(), item_tag_feature_labels
 
 
 def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0.0):
@@ -236,7 +289,7 @@ def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0
     # Load metadata features
     (iid_features, iid_feature_labels, item_tag_features_matrix, item_tag_feature_labels,
      uid_features, uid_feature_labels, user_tag_features_matrix, user_tag_feature_labels
-     ) = _parse_item_metadata(num_items, items, labels_item, num_users, users, labels_user)
+     ) = _parse_item_user_metadata(num_items, items, labels_item, num_users, users, labels_user)
 
     assert iid_features.shape == (num_items, len(iid_feature_labels))
     assert item_tag_features_matrix.shape == (num_items, len(item_tag_feature_labels))

@@ -7,8 +7,9 @@ from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.common import lightfm_manager, constant
-from recommender_webapp.forms import ProfileForm, UserRegisterForm, SearchNearPlacesForm, DistanceRange
-from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating
+from recommender_webapp.forms import ProfileForm, UserRegisterForm, SearchNearPlacesForm, DistanceRange, \
+    SearchRecommendationForm
+from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating, User
 
 
 @csrf_protect
@@ -245,3 +246,52 @@ def my_places(request):
         }
 
     return render(request, 'my_places.html', context)
+
+
+def place_details(request, place_id):
+    context = {}
+    if request.user.is_authenticated:
+
+        search_rec_form = SearchRecommendationForm(request.POST or None)
+        initial_mood = (Mood.joyful.name, Mood.joyful.value)
+        search_rec_form.fields['mood'].initial = initial_mood
+
+        place = Place.objects.get(placeId=place_id)
+        labels = place.labels().split(',')
+        if not labels[-1].strip():
+            labels.pop()
+        place_ratings = []  # A place could be rated in several contexts (PROBABLY IN A FUTURE DEVELOPMENT)
+        ratings = Rating.objects.filter(user=request.user.profile, place=place)
+
+        # In this release a place can be rated only in one context. So, if the place is already rated, form is not given
+        if ratings:
+            for rate in ratings:
+                place_rate = {'mood': rate.mood, 'companionship': rate.companionship}
+                place_ratings.append(place_rate)
+        else:
+            context['form'] = search_rec_form
+
+        if search_rec_form.is_valid():
+            mood = int(search_rec_form.cleaned_data.get('mood'))
+            companionship = int(search_rec_form.cleaned_data.get('companionship'))
+            lightfm_user_id = constant.DJANGO_USER_ID_BASE_START_LIGHTFM + request.user.id
+            contextual_lightfm_user_id = str(lightfm_user_id) + str(mood) + str(companionship)
+            rating = Rating(user=request.user.profile,
+                            mood=Mood(mood).name,
+                            companionship=Companionship(companionship).name,
+                            place=place,
+                            rating=constant.DEFAULT_RATING)
+            rating.save()
+            place_ratings.append(rating)
+            lightfm_manager.add_rating(int(contextual_lightfm_user_id), place_id, rating.rating)
+
+        context = {
+            'place': place,
+            'labels': labels,
+            'form': search_rec_form,
+            'ratings': place_ratings,
+            'email': request.user.email,
+            'email_splitted': request.user.email.split('@')[0],
+        }
+
+    return render(request, 'place.html', context)
