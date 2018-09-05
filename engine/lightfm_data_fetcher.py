@@ -1,4 +1,6 @@
 import itertools
+import os
+
 import numpy as np
 import scipy.sparse as sp
 
@@ -7,13 +9,13 @@ def _read_raw_data():
     """
     Return the raw lines of the train and test files.
     """
-
-    ratings_train = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/ratings_train.csv', 'rb')
-    ratings_test = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/ratings_test.csv', 'rb')
-    items = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/items.csv', 'rb')
-    users = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/users.csv', 'rb')
-    labels_item = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/labels_item.csv', 'rb')
-    labels_user = open('/home/francesco/PycharmProjects/pugliaeventi/engine/data/labels_user.csv', 'rb')
+    script_dir = os.path.dirname(__file__)
+    ratings_train = open(os.path.join(script_dir, 'data/ratings_train.csv'), 'rb')
+    ratings_test = open(os.path.join(script_dir, 'data/ratings_test.csv'), 'rb')
+    items = open(os.path.join(script_dir, 'data/items.csv'), 'rb')
+    users = open(os.path.join(script_dir, 'data/users.csv'), 'rb')
+    labels_item = open(os.path.join(script_dir, 'data/labels_item.csv'), 'rb')
+    labels_user = open(os.path.join(script_dir, 'data/labels_user.csv'), 'rb')
 
     return (ratings_train.read().decode().split('\n'),
             ratings_test.read().decode().split('\n'),

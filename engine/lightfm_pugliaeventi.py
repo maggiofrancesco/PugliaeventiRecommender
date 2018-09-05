@@ -54,11 +54,12 @@ def find_recommendations(user, model, data):
     return items_ordered
 
 
-def learn_model():
+def learn_model(force_model_creation=False):
     data = fetch_pugliaeventi(min_rating=0.0, indicator_features=False, tag_features=True)
 
-    if os.path.isfile(MODEL_CHECKPOINT_PATH):
-        with open(MODEL_CHECKPOINT_PATH, 'rb') as fle:
+    script_dir = os.path.dirname(__file__)
+    if os.path.isfile(os.path.join(script_dir, MODEL_CHECKPOINT_PATH)) and not force_model_creation:
+        with open(os.path.join(script_dir, MODEL_CHECKPOINT_PATH), 'rb') as fle:
             model = pickle.load(fle)
     else:
         print("Train details\n: ")
@@ -81,8 +82,8 @@ def learn_model():
             epochs=NUM_EPOCHS,
             num_threads=NUM_THREADS)
 
-        # with open(MODEL_CHECKPOINT_PATH, 'wb') as fle:
-        #    pickle.dump(model, fle, protocol=pickle.HIGHEST_PROTOCOL)
+        with open(os.path.join(script_dir, MODEL_CHECKPOINT_PATH), 'wb') as fle:
+            pickle.dump(model, fle, protocol=pickle.HIGHEST_PROTOCOL)
 
         # Don't forget the pass in the item features again!
         train_precision = precision_at_k(model, data['train'], k=10, item_features=item_features).mean()

@@ -29,6 +29,7 @@ urlpatterns = [
     url(r'^register/$', views.user_signup, name='register'),
     url(r'^profile_configuration/$', views.profile_configuration, name='profile_configuration'),
     url(r'^close_places/$', views.close_places, name='close_places'),
+    url(r'^my_places/$', views.my_places, name='my_places'),
     path('ratings/<int:place_id>/<int:mood>/<int:companionship>/', views.add_rating_config, name='add_rating'),
 
     # place it at whatever base url you like

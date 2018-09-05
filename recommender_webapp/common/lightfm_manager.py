@@ -23,6 +23,9 @@ def add_user(user_id, user_location,  user_contexts, data):
             for rating in contextual_ratings:
                 writer.writerow([contextual_lightfm_user_id, rating.place.placeId, rating.rating])
 
+    # LightFM model recreation - NEW USER SIGN UP-> NEW MODEL
+    lightfm_pugliaeventi.learn_model(force_model_creation=True)
+
 
 def find_recommendations(user):
     recommended_places = []

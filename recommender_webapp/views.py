@@ -1,3 +1,5 @@
+import copy
+
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
 
@@ -82,7 +84,7 @@ def profile_configuration(request):
         user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.alone})
 
         if len(user_ratings) == (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS):
-            # Profile configuration finished. We must add user data to LightFM dataset
+            # Profile configuration finished. We must add user data to LightFM dataset and recreate the model
             if not request.user.profile.first_configuration:
                 lightfm_manager.add_user(request.user.id, request.user.profile.location, user_contexts, user_ratings)
                 request.user.profile.first_configuration = True
@@ -216,3 +218,30 @@ def close_places(request):
         }
 
     return render(request, 'places.html', context)
+
+
+def my_places(request):
+    context = {}
+    my_places = []
+
+    if request.user.is_authenticated:
+
+        for mood in Mood.choices():
+            context_places = {'mood': mood[0]}
+            for companionship in Companionship.choices():
+                context_places['companionship'] = companionship[0]
+                context_ratings = Rating.objects.filter(user=request.user.profile, mood=mood[0], companionship=companionship[0])
+                places = []
+                for rating in context_ratings:
+                    place = Place.objects.get(placeId=rating.place.placeId)
+                    places.append(place)
+                context_places['places'] = places
+                my_places.append(copy.deepcopy(context_places))
+
+        context = {
+            'user_places_per_context': my_places,
+            'email': request.user.email,
+            'email_splitted': request.user.email.split('@')[0],
+        }
+
+    return render(request, 'my_places.html', context)
