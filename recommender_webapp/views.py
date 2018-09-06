@@ -8,8 +8,8 @@ from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.common import lightfm_manager, constant
 from recommender_webapp.forms import ProfileForm, UserRegisterForm, SearchNearPlacesForm, DistanceRange, \
-    SearchRecommendationForm
-from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating, User
+    SearchRecommendationForm, FullProfileForm
+from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating, User, Profile
 
 
 @csrf_protect
@@ -295,3 +295,39 @@ def place_details(request, place_id):
         }
 
     return render(request, 'place.html', context)
+
+
+def user_profile(request):
+
+    context = {
+        'email': request.user.email,
+        'email_splitted': request.user.email.split('@')[0],
+    }
+
+    if request.user.is_authenticated:
+
+        instance = Profile.objects.get(user=request.user)
+        full_profile_form = FullProfileForm(request.POST or None, instance=instance)
+        context['form'] = full_profile_form
+        # initial_mood = (Mood.joyful.name, Mood.joyful.value)
+        # search_rec_form.fields['mood'].initial = initial_mood
+
+        if full_profile_form.is_valid():
+            location = full_profile_form.cleaned_data.get('location')
+            location_found = Comune.objects.filter(nome__iexact=location)
+
+            profession = full_profile_form.cleaned_data.get('profession')
+            birth_date = full_profile_form.cleaned_data.get('birth_date')
+            bio = full_profile_form.cleaned_data.get('bio')
+
+            profile = Profile.objects.get(user=request.user)
+            profile.location = location_found.first().nome
+            profile.profession = profession
+            profile.birth_date = birth_date
+            profile.bio = bio
+            profile.save()
+            context['data_updated'] = True
+        else:
+            context['data_updated'] = False
+
+    return render(request, 'profile.html', context)

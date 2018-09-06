@@ -30,13 +30,12 @@ urlpatterns = [
     url(r'^profile_configuration/$', views.profile_configuration, name='profile_configuration'),
     url(r'^close_places/$', views.close_places, name='close_places'),
     url(r'^my_places/$', views.my_places, name='my_places'),
+    url(r'^my_profile/$', views.user_profile, name='my_profile'),
     path('place/<int:place_id>/', views.place_details, name='place_details'),
     path('ratings/<int:place_id>/<int:mood>/<int:companionship>/', views.add_rating_config, name='add_rating_conf'),
 
     # place it at whatever base url you like
     url(r'^ajax_select/', include(ajax_select_urls)),
-
-    #path(r'^ajax/load-cities/', views.load_cities, name='ajax_load_cities'),
     #url(r'.*', lambda request: render(request, '404.html'), name='404')
 
 ]

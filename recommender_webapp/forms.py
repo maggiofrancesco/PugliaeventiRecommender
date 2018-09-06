@@ -1,6 +1,7 @@
 from django import forms
 from django.forms.widgets import PasswordInput
 from ajax_select.fields import AutoCompleteField
+from django.utils import timezone
 
 from recommender_webapp.common.utils import ChoiceEnum
 from recommender_webapp.models import User, Profile, Comune, Companionship, Mood
@@ -83,3 +84,25 @@ class SearchNearPlacesForm(forms.Form):
         widget=forms.Select,
         choices=[choice[::-1] for choice in DistanceRange.choices()]
     )
+
+
+def past_years(ago):
+    this_year = timezone.now().year
+    return list(range(this_year - ago - 1, this_year))
+
+
+class FullProfileForm(forms.ModelForm):
+    birth_date = forms.DateField(widget=forms.SelectDateWidget(years=past_years(100)))
+
+    class Meta:
+        model = Profile
+        fields = ('location', 'profession', 'birth_date', 'bio')
+        # widgets={'birth_date': forms.DateInput(attrs={'class': 'datepicker'})}    # Another type of datepicker
+
+    location = AutoCompleteField('cities')
+
+    def clean(self, *args, **kwargs):
+        location = self.cleaned_data.get('location')
+        location_found = Comune.objects.filter(nome__iexact=location)
+        if not location_found.exists():
+            raise forms.ValidationError("Location not found")
