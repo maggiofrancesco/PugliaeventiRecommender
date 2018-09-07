@@ -55,8 +55,37 @@ class UserRegisterForm(forms.ModelForm):
         return super(UserRegisterForm, self).clean(*args, **kwargs)
 
 
-# This form is used for searching recommendations and also for adding a new rating
+class SearchRecommendationDistanceRange(ChoiceEnum):
+    __order__ = 'unlimited km20 km40 km60'
+    unlimited = 0
+    km20 = 20
+    km40 = 40
+    km60 = 60
+
+
+# This form is used for searching recommendations
 class SearchRecommendationForm(forms.Form):
+    mood = forms.ChoiceField(
+        required=True,
+        widget=forms.Select,
+        choices=[choice[::-1] for choice in Mood.choices()]
+    )
+    companionship = forms.ChoiceField(
+        required=True,
+        widget=forms.Select,
+        choices=[choice[::-1] for choice in Companionship.choices()]
+    )
+    km_range = forms.ChoiceField(
+        required=False,
+        widget=forms.Select,
+        choices=[choice[::-1] for choice in SearchRecommendationDistanceRange.choices()],
+        label='Distance'
+    )
+    any_events = forms.BooleanField(initial=False, required=False, label='Any events')
+
+
+# This form is used for adding a new rating
+class AddRatingForm(forms.Form):
     mood = forms.ChoiceField(
         required=True,
         widget=forms.Select,
@@ -69,7 +98,7 @@ class SearchRecommendationForm(forms.Form):
     )
 
 
-class DistanceRange(ChoiceEnum):
+class SearchPlacesDistanceRange(ChoiceEnum):
     __order__ = 'km5 km10'
     km5 = 5
     km10 = 10
@@ -82,7 +111,7 @@ class SearchNearPlacesForm(forms.Form):
     km_range = forms.ChoiceField(
         required=True,
         widget=forms.Select,
-        choices=[choice[::-1] for choice in DistanceRange.choices()]
+        choices=[choice[::-1] for choice in SearchPlacesDistanceRange.choices()]
     )
 
 

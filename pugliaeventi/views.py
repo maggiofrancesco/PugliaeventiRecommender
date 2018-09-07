@@ -27,9 +27,16 @@ def index(request):
             if search_rec_form.is_valid():
                 mood = search_rec_form.cleaned_data.get('mood')
                 companionship = search_rec_form.cleaned_data.get('companionship')
+                distance = search_rec_form.cleaned_data.get('km_range')
+                any_events = search_rec_form.cleaned_data.get('any_events')
                 lightfm_user_id = constant.DJANGO_USER_ID_BASE_START_LIGHTFM + request.user.id
                 contextual_lightfm_user_id = str(lightfm_user_id) + str(mood) + str(companionship)
-                recommended_places = lightfm_manager.find_recommendations(contextual_lightfm_user_id)
+
+                recommended_places = lightfm_manager.find_recommendations(
+                    contextual_lightfm_user_id,
+                    request.user.profile.location,
+                    int(distance),
+                    any_events)
 
             context = {
                 'search_form': search_rec_form,

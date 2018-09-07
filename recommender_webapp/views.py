@@ -8,8 +8,8 @@ from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.common import lightfm_manager, constant
-from recommender_webapp.forms import ProfileForm, UserRegisterForm, SearchNearPlacesForm, DistanceRange, \
-    SearchRecommendationForm, FullProfileForm
+from recommender_webapp.forms import ProfileForm, UserRegisterForm, SearchNearPlacesForm, SearchPlacesDistanceRange, \
+    AddRatingForm, FullProfileForm
 from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating, User, Profile, Event
 
 
@@ -115,26 +115,18 @@ def profile_configuration(request):
 
             close_places = []
             user_location = request.user.profile.location
-            distances_in_range = Distanza.objects.filter(cittaA=user_location, distanza__lte=constant.KM_RANGE_CONFIGURATION).order_by('distanza')
+            locations_in_range = [distance[0] for distance in
+                                  Distanza.objects.filter(
+                                      cittaA=user_location,
+                                      distanza__lte=constant.KM_RANGE_CONFIGURATION).order_by('distanza').values_list('cittaB')]
+            locations_in_range = [user_location] + locations_in_range
 
-            user_location_places = Place.objects.filter(location=user_location)
-            for place in user_location_places:
-                place_dict = vars(place)
-                place_dict['labels'] = place.labels()
-                rated_place = Rating.objects.filter(place=place, user=request.user.profile)
-                if rated_place:
-                    place_dict['rated'] = True
-                    rated_places.append(place_dict)
-                else:
-                    close_places.append(place_dict)
-
-            for distance in distances_in_range:
-                places = Place.objects.filter(location=distance.cittaB)
+            for location in locations_in_range:
+                places = Place.objects.filter(location=location)
                 for place in places:
                     place_dict = vars(place)
                     place_dict['labels'] = place.labels()
-                    rated_place = Rating.objects.filter(place=place)
-                    if rated_place:
+                    if Rating.objects.filter(place=place, user=request.user.profile).exists():
                         place_dict['rated'] = True
                         rated_places.append(place_dict)
                     else:
@@ -175,42 +167,31 @@ def add_rating_config(request, place_id, mood, companionship):
 
 def close_places(request):
     context = {}
-    rated_places = []
     close_places = []
 
     if request.user.is_authenticated:
 
         search_near_places_form = SearchNearPlacesForm(request.POST or None)
-        initial_km_range = (DistanceRange.km5.name, DistanceRange.km5.value)
+        initial_km_range = (SearchPlacesDistanceRange.km5.name, SearchPlacesDistanceRange.km5.value)
         search_near_places_form.fields['km_range'].initial = initial_km_range
 
         if search_near_places_form.is_valid():
             km_range = search_near_places_form.cleaned_data.get('km_range')
             user_location = request.user.profile.location
-            distances_in_range = Distanza.objects.filter(cittaA=user_location, distanza__lte=km_range).order_by('distanza')
+            locations_in_range = [distance[0] for distance in
+                                  Distanza.objects.filter(
+                                      cittaA=user_location,
+                                      distanza__lte=km_range).order_by('distanza').values_list('cittaB')]
+            locations_in_range = [user_location] + locations_in_range
 
-            user_location_places = Place.objects.filter(location=user_location)
-            for place in user_location_places:
-                place_dict = vars(place)
-                place_dict['labels'] = place.labels()
-                rated_place = Rating.objects.filter(place=place, user=request.user.profile)
-                if rated_place:
-                    place_dict['rated'] = True
-                    rated_places.append(place_dict)
-                else:
-                    close_places.append(place_dict)
-
-            for distance in distances_in_range:
-                places = Place.objects.filter(location=distance.cittaB)
+            for distance in locations_in_range:
+                places = Place.objects.filter(location=distance)
                 for place in places:
                     place_dict = vars(place)
                     place_dict['labels'] = place.labels()
-                    rated_place = Rating.objects.filter(place=place)
-                    if rated_place:
+                    if Rating.objects.filter(place=place).exists():
                         place_dict['rated'] = True
-                        rated_places.append(place_dict)
-                    else:
-                        close_places.append(place_dict)
+                    close_places.append(place_dict)
 
         context = {
             'search_form': search_near_places_form,
@@ -253,7 +234,7 @@ def place_details(request, place_id):
     context = {}
     if request.user.is_authenticated:
 
-        search_rec_form = SearchRecommendationForm(request.POST or None)
+        search_rec_form = AddRatingForm(request.POST or None)
         initial_mood = (Mood.joyful.name, Mood.joyful.value)
         search_rec_form.fields['mood'].initial = initial_mood
 
