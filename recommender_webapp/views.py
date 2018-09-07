@@ -1,4 +1,5 @@
 import copy
+from datetime import datetime
 
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
@@ -9,7 +10,7 @@ from django.views.decorators.csrf import csrf_protect
 from recommender_webapp.common import lightfm_manager, constant
 from recommender_webapp.forms import ProfileForm, UserRegisterForm, SearchNearPlacesForm, DistanceRange, \
     SearchRecommendationForm, FullProfileForm
-from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating, User, Profile
+from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating, User, Profile, Event
 
 
 @csrf_protect
@@ -271,6 +272,8 @@ def place_details(request, place_id):
         else:
             context['form'] = search_rec_form
 
+        events = Event.objects.filter(place=place, date_from__gte=datetime.today().date())
+
         if search_rec_form.is_valid():
             mood = int(search_rec_form.cleaned_data.get('mood'))
             companionship = int(search_rec_form.cleaned_data.get('companionship'))
@@ -288,6 +291,7 @@ def place_details(request, place_id):
         context = {
             'place': place,
             'labels': labels,
+            'events': events,
             'form': search_rec_form,
             'ratings': place_ratings,
             'email': request.user.email,
@@ -295,6 +299,21 @@ def place_details(request, place_id):
         }
 
     return render(request, 'place.html', context)
+
+
+def event_details(request, event_id):
+    context = {}
+    if request.user.is_authenticated:
+
+        event = Event.objects.get(eventId=event_id)
+
+        context = {
+            'event': event,
+            'email': request.user.email,
+            'email_splitted': request.user.email.split('@')[0],
+        }
+
+    return render(request, 'event.html', context)
 
 
 def user_profile(request):

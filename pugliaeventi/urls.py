@@ -32,6 +32,7 @@ urlpatterns = [
     url(r'^my_places/$', views.my_places, name='my_places'),
     url(r'^my_profile/$', views.user_profile, name='my_profile'),
     path('place/<int:place_id>/', views.place_details, name='place_details'),
+    path('event/<int:event_id>/', views.event_details, name='event_details'),
     path('ratings/<int:place_id>/<int:mood>/<int:companionship>/', views.add_rating_config, name='add_rating_conf'),
 
     # place it at whatever base url you like

@@ -10,6 +10,7 @@ from django.contrib.auth.models import User, AbstractUser
 
 
 DEFAULT_RATING = 3
+DEFAULT_EVENT_PLACE = 0
 
 
 class UserManager(BaseUserManager):
@@ -126,6 +127,21 @@ class Place(models.Model):
 
     def __str__(self):
         return str(self.placeId) + '|' + self.name + '|' + self.location
+
+
+class Event(models.Model):
+    eventId = models.IntegerField(primary_key=True)
+    title = models.TextField(blank=False)
+    location = models.CharField(max_length=40, blank=True)
+    place = models.ForeignKey(Place, on_delete=models.PROTECT, blank=False, default=DEFAULT_EVENT_PLACE)
+    date_from = models.DateField(blank=False)
+    date_to = models.DateField(blank=False)
+    popularity = models.IntegerField()
+    description = models.TextField()
+
+    def __str__(self):
+        return str(self.eventId) + '|' + self.title + '|' + self.place_name + '|' \
+               + self.date_from.strftime('%d/%m/%Y') + '|' + self.date_to.strftime('%d/%m/%Y')
 
 
 class Mood(ChoiceEnum):

@@ -1,4 +1,5 @@
 import csv
+from datetime import datetime, date
 
 import psycopg2
 
@@ -8,6 +9,7 @@ def execute_sql(s):
     with con:
         cur = con.cursor()
         cur.execute(s)
+    return cur
 
 
 def single_quote(s):
@@ -137,8 +139,55 @@ def import_distanze():
                 continue
 
 
+def import_eventi():
+    with open('data/eventi.csv') as csvfile:
+        file_reader = csv.reader(csvfile, delimiter=',')
+        for row in file_reader:
+            event_id = int(row[0])
+            title = row[2]
+            place_name = row[4]
+            date_from = row[5]
+            date_to = row[6]
+            location = row[7]
+            description = row[23]
+            popularity = row[24]
+
+            date_converted = datetime.strptime(date_from.split(" ")[0], '%Y-%m-%d').date()
+            date_from_events_query = date(2018, 8, 1)
+
+            if place_name != '' and date_converted > date_from_events_query:
+                try:
+                    query_django_places = (
+                        '''SELECT "placeId" FROM recommender_webapp_place p WHERE p.name LIKE '{}' AND p.location LIKE '{}' '''.format(
+                            single_quote(place_name),
+                            single_quote(location)
+                        ))
+                    cur = execute_sql(query_django_places)
+                    result = cur.fetchone()
+                    if result:
+                        place_id = result[0]
+
+                        sql = (
+                            '''INSERT INTO recommender_webapp_event VALUES ({},\'{}\',\'{}\',\'{}\',{},\'{}\',\'{}\',{})'''.format(
+                                event_id,
+                                single_quote(title),
+                                single_quote(date_from),
+                                single_quote(date_to),
+                                popularity,
+                                single_quote(description),
+                                single_quote(location),
+                                place_id
+                            ))
+                        execute_sql(sql)
+                        print("Inserted event " + title + " for location:  " + location)
+                except Exception as e:
+                    print("Error Insert event " + title + " for location:  " + location)
+                    continue
+
+
 if __name__ == "__main__":
     import_places()
     import_sample_ratings()
     import_comuni()
     import_distanze()
+    import_eventi()

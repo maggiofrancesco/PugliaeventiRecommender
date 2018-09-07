@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <h3 class="my-3">Località: <small>{{ place.location }}</small></h3>
+                    <h3 class="my-3">Location: <small>{{ place.location }}</small></h3>
                     <h3 class="my-3">Labels: </h3>
                     <ul>
                         {% for label in labels %}
@@ -66,7 +66,37 @@
               </div>
                 <!-- /.row -->
 
-            <hr />
+                <hr />
+
+                {% if events %}
+
+                    <h5 class="text-center">Upcoming events</h5>
+                    <hr />
+
+                    <div class="table-responsive-sm">
+
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Date from</th>
+                                <th scope="col">Date to</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                {% for event in events %}
+                                    <tr>
+                                        <th scope="row"><a href="{% url 'event_details' event_id=event.eventId %}" >{{ event.title }}</a></th>
+                                        <td>{{ event.date_from }}</td>
+                                        <td>{{ event.date_to }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                {% endif %}
 
             <div class="modal fade bd-example-modal-lg" data-backdrop="static" data-keyboard="false" tabindex="-1">
                 <div class="modal-dialog modal-sm">

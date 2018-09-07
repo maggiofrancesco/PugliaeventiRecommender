@@ -1,0 +1,43 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pugliaeventi Rec.</title>
+
+    {% include 'head_css_js.html' %}
+
+</head>
+    <body>
+        <div class="container">
+
+            {% include 'header.html' %}
+
+            <h1 class="my-4">{{ event.title }}</h1>
+
+              <!-- Portfolio Item Row -->
+              <div class="row">
+
+                <div class="col-md-4">
+                  <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                </div>
+
+                <div class="col-md-8">
+                    <h5 class="my-3">Location: <small>{{ event.location }}</small></h5>
+                    <h5 class="my-3">Date from: <small>{{ event.date_from }}</small></h5>
+                    <h5 class="my-3">Date to: <small>{{ event.date_to }}</small></h5>
+                    <h5 class="my-3">Popularity: <small>{{ event.popularity }}</small></h5>
+                    <h5 class="my-3">Description:</h5>
+                    {{ event.description | safe }}
+                </div>
+
+              </div>
+                <!-- /.row -->
+
+            <hr />
+
+        </div>
+
+    </body>
+</html>
