@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/recommender_webapp/views.py" line="327" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-4.0.0.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-4.0.0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile_configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile_configuration.html" afterDir="false" />
-    </list>
+    <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +146,14 @@
           <entry key="dummy" value="60" />
           <entry key="html" value="5403" />
           <entry key="py" value="28167" />
-          <entry key="txt" value="1750" />
+          <entry key="txt" value="1887" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="24" />
           <entry key="HTML" value="5403" />
-          <entry key="PLAIN_TEXT" value="1810" />
+          <entry key="PLAIN_TEXT" value="1947" />
           <entry key="Python" value="28166" />
           <entry key="SQL" value="1" />
         </counts>
@@ -165,17 +161,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -326,13 +312,6 @@
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,17 +319,6 @@
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
@@ -631,7 +599,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536401893053</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Refactoring in libraries references (added bootstrap 4.0.0 min)">
+      <created>1536402242237</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1536402242237</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added csv data files such as locations, distances, events and ratings">
+      <created>1536402416828</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1536402416828</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -645,15 +627,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1920" height="1202" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.23212379" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.23212379" />
       <window_info id="Structure" order="1" sideWeight="0.5006353" side_tool="true" weight="0.18676628" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929105" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4347015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4347015" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929105" />
@@ -726,7 +707,9 @@
     <MESSAGE value="Implemented visualization of event on the place page (if there are upcoming events) and event details page." />
     <MESSAGE value="Implemented post-filtering with 2 parameters: km range and upcoming events" />
     <MESSAGE value="Refactoring in libraries references (JS, CSS)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring in libraries references (JS, CSS)" />
+    <MESSAGE value="Refactoring in libraries references (added bootstrap 4.0.0 min)" />
+    <MESSAGE value="Added csv data files such as locations, distances, events and ratings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added csv data files such as locations, distances, events and ratings" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1100,8 +1083,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
         </state>
       </provider>
     </entry>
