@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-4.0.0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-4.1.3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/font-oxygen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/font-passion-one.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/jquery-ui-1.12.1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-4.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-4.1.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.3.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-ui-1.12.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pugliaeventi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pugliaeventi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender_webapp/common/constant.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/common/constant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender_webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/head_css_js.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head_css_js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/place.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/place.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/places.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-4.0.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-4.0.0.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/profile_configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile_configuration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,10 +117,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
+          <entry key="css" value="9" />
           <entry key="csv" value="81" />
           <entry key="download" value="1" />
-          <entry key="html" value="84" />
+          <entry key="html" value="85" />
           <entry key="js" value="10" />
           <entry key="png" value="2" />
           <entry key="py" value="183" />
@@ -155,10 +132,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
+          <entry key="CSS" value="9" />
           <entry key="CSV" value="80" />
           <entry key="Database Element" value="4" />
-          <entry key="HTML" value="84" />
+          <entry key="HTML" value="85" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -171,16 +148,16 @@
         <counts>
           <entry key="csv" value="24" />
           <entry key="dummy" value="60" />
-          <entry key="html" value="5399" />
+          <entry key="html" value="5403" />
           <entry key="py" value="28167" />
-          <entry key="txt" value="1702" />
+          <entry key="txt" value="1750" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="24" />
-          <entry key="HTML" value="5399" />
-          <entry key="PLAIN_TEXT" value="1762" />
+          <entry key="HTML" value="5403" />
+          <entry key="PLAIN_TEXT" value="1810" />
           <entry key="Python" value="28166" />
           <entry key="SQL" value="1" />
         </counts>
@@ -188,7 +165,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -333,6 +320,19 @@
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,6 +340,17 @@
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
@@ -613,11 +624,28 @@
       <option name="project" value="LOCAL" />
       <updated>1536343421656</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Refactoring in libraries references (JS, CSS)">
+      <created>1536401893053</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1536401893053</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1920" height="1202" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.23212379" />
       <window_info id="Structure" order="1" sideWeight="0.5006353" side_tool="true" weight="0.18676628" />
@@ -625,15 +653,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4347015" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4347015" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929105" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.40764925" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.40764925" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32929105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -697,7 +725,8 @@
     <MESSAGE value="Implemented profile page and the update of it fields" />
     <MESSAGE value="Implemented visualization of event on the place page (if there are upcoming events) and event details page." />
     <MESSAGE value="Implemented post-filtering with 2 parameters: km range and upcoming events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented post-filtering with 2 parameters: km range and upcoming events" />
+    <MESSAGE value="Refactoring in libraries references (JS, CSS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring in libraries references (JS, CSS)" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -761,13 +790,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/staticfiles/handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/core/handlers/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -1059,20 +1081,27 @@
     <entry file="file://$PROJECT_DIR$/static/js/bootstrap-4.0.0.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-4.0.0.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-4.0.0.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-4.0.0.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
