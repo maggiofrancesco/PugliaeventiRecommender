@@ -1,22 +1,21 @@
+{% load static %}
 {% load crispy_forms_tags %}
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<!------ Include the above in your HEAD tag ---------->
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<{% load static %}
+        <script src="{% static "js/jquery-1.12.4.js" %}"></script>
+        <script src="{% static "js/bootstrap.min.js" %}"></script>
+        <link href="{% static "css/bootstrap-3.2.min.css" %}" rel="stylesheet" id="bootstrap-css">
         <link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
         <link href="{% static "css/selectstyle.css" %}" rel="stylesheet">
         <script src="{% static "js/selectstyle.js" %}"></script>
 
 		<!-- Google Fonts -->
-		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+		<link href='{% static "css/font-passion-one.css" %}' rel='stylesheet' type='text/css'>
+		<link href='{% static "css/font-oxygen.css" %}' rel='stylesheet' type='text/css'>
 
         <style>
 
@@ -84,7 +83,7 @@
 			<div class="row main">
 				<div class="panel-heading">
 	               <div class="panel-title text-center">
-                       <h1 class="title">Welcome to Join Us!</h1>
+                       <h1 class="title">Pugliaeventi Rec. <small>Welcome to Join Us!</small></h1>
                        <hr />
 	               	</div>
 	            </div>
@@ -103,7 +102,7 @@
                         {{ profile_form|crispy }}
 
 						<div class="form-group ">
-							<button type="submit" class="btn btn-primary btn-lg btn-block register-button">Register</button>
+							<button type="submit" class="btn btn-info btn-lg btn-block register-button">Register</button>
 						</div>
 
 					</form>

@@ -85,7 +85,7 @@ def profile_configuration(request):
         user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.withFriends})
         user_contexts.append({'mood': Mood.sad, 'companionship': Companionship.alone})
 
-        if len(user_ratings) == (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS):
+        if len(user_ratings) >= (constant.RATINGS_PER_CONTEXT_CONF * constant.CONTEXTS):
             # Profile configuration finished. We must add user data to LightFM dataset and recreate the model
             if not request.user.profile.first_configuration:
                 lightfm_manager.add_user(request.user.id, request.user.profile.location, user_contexts, user_ratings)
