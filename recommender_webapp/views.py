@@ -3,8 +3,6 @@ from datetime import datetime
 
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
-
-# Create your views here.
 from django.views.decorators.csrf import csrf_protect
 
 from recommender_webapp.common import lightfm_manager, constant
@@ -13,6 +11,13 @@ from recommender_webapp.forms import ProfileForm, UserRegisterForm, SearchNearPl
 from recommender_webapp.models import Comune, Distanza, Place, Mood, Companionship, Rating, User, Profile, Event
 
 
+"""
+Login:
+La view permette l'autenticazione dell'utente. Successivamente all'autenticazione, viene verificato il numero di rating
+effettuati dall'utente. Se quest'ultimo risulta essere inferiore al numero di rating necessari per effettuare la 
+configurazione del profilo, allora l'utente viene reindirizzato alla pagina della configurazione. In caso contrario,
+viene reindirizzato alla pagina principale.
+"""
 @csrf_protect
 def user_login(request):
     if request.POST:
@@ -36,11 +41,23 @@ def user_login(request):
         return render(request, '404.html')
 
 
+"""
+Logout:
+La view permette il logout dell'utente. Successivamente al logout si viene reindirizzati alla pagina principale.
+"""
 def user_logout(request):
     logout(request)
     return redirect('/')
 
 
+"""
+Signup:
+La view permette la registrazione di un nuovo utente. All'utente standard di Django, vengono linkate ulteriori
+informazioni, racchiuse all'interno del model Profile, tra cui la città. In fase di signup è essenziale che l'utente 
+fornisca la sua città (location). La location è importante per poter recuperare i posti nelle vicinanze in fase di 
+configurazione del profilo utente e poter effettuare post-filtering sulle raccomandazioni fornite da LightFM. Al 
+termine della procedura di signup, l'utente viene reindirizzato alla pagina principale.
+"""
 @csrf_protect
 def user_signup(request):
     user_form = UserRegisterForm(request.POST or None)
@@ -69,6 +86,26 @@ def user_signup(request):
     return render(request, "signup.html", context)
 
 
+"""
+Configurazione del profilo utente:
+La view, prima di procedere con la visualizzazione della pagina di configurazione del profilo utente, verifica il 
+numero di rating effettuati dall'utente. Se quest'ultimo risulta essere inferiore  al numero di rating necessari per la
+configurazione del profilo utente, allora l'utente non ha ancora concluso la procedura di configurazione, per cui viene
+calcolata la percentuale di completamento della procedura. In caso contrario, la procedura è stata completata, quindi 
+viene aggiornato il campo first_configuration presente nella tabella del profilo utente e si viene reindirizzati alla
+pagina principale.
+In questa prima versione del sistema, i contesti considerati sono 6, dati dalla combinazione delle variabili mood 
+(angry, joyful, sad) e companionship (withFriends, alone). Per ciascun contesto, l'utente deve scegliere 3 luoghi,
+necessari per costruire il suo profilo utente e fornirgli raccomandazioni. Di volta in volta, l'utente ha la 
+possibilità di scegliere tra quelli che sono i luoghi a lui più vicini (range di 10KM).
+IMPORTANTE: in questa prima versione del sistema, per ciascun contesto l'utente seleziona posti differenti, cioè un 
+luogo non può essere selezionato in più contesti. Infatti, di volta in volta vengono restituiti i luoghi non ancora 
+selezionati. Questa scelta è stata effettuata per meglio verificare i risultati restituiti da LightFM, dato che si
+tratta di un modello implicito (quindi non considera i rate forniti dall'utente, piuttosto sfrutta le features dei luoghi).
+Ciò non toglie che la procedura può essere impostata per consentire all'utente di scegliere il medesimo luogo in 
+contesti differenti (ed è sensato, dato che una persona potrebbe preferire un luogo etichettato come MANGIARE e BERE, 
+sia in un contesto JOYFUL-WITHFRIENDS, sia in un contesto ANGRY_WITHFRIENDS)
+"""
 def profile_configuration(request):
     if request.user.is_authenticated:
 
@@ -150,6 +187,14 @@ def profile_configuration(request):
     return render(request, "profile_configuration.html", context)
 
 
+"""
+Selezione di un luogo durante la procedura di configurazione del profilo utente:
+La view consente l'aggiunta di un luogo al proprio profilo utente, considerando il mood e la companionship.
+In questa prima versione del sistema l'utente non fornisce un rate numerico al luogo in quanto LightFM implementa un 
+modello implicito, per cui non si basa sui punteggi forniti dall'utente. Ciò non toglie che il campo rating contenente 
+il punteggio potrebbe essere utile in futuro. In questo caso, viene assegnato un rating di default. In seguito l'utente
+viene reindirizzato alla pagina della configurazione del profilo.
+"""
 def add_rating_config(request, place_id, mood, companionship):
     if request.user.is_authenticated:
 
@@ -165,6 +210,10 @@ def add_rating_config(request, place_id, mood, companionship):
         return redirect('/')
 
 
+"""
+Visualizzazione dei luoghi vicini all'utente:
+La view consente la visualizzazione dei luoghi vicini all'utente in un range di km che può essere di 5 oppure 10 KM.
+"""
 def close_places(request):
     context = {}
     close_places = []
@@ -203,6 +252,11 @@ def close_places(request):
     return render(request, 'places.html', context)
 
 
+"""
+Visualizzazione dei luoghi del profilo utente, per ciacun contesto:
+La view consente la visualizzazione dei luoghi appartenenti al proprio profilo utente, cioè i luoghi selezionati per 
+ciascun contesto (in questo caso i 6 contesti generati dalle combinazioni di Mood e Companionship).
+"""
 def my_places(request):
     context = {}
     my_places = []
@@ -230,6 +284,25 @@ def my_places(request):
     return render(request, 'my_places.html', context)
 
 
+"""
+Visualizzazione dei dettagli di un luogo:
+La view consente di visualizzare i dettagli di un luogo ed eventualmente aggiungerlo al proprio profilo utente. In 
+questa prima versione del sistema l'aggiunta del luogo al proprio profilo utente, specificando Mood e Companionship, è 
+possibile solo se non è stato aggiunto in precedenza con qualche altro contesto. Tuttavia, questo non vieta che la
+procedura descritta nel seguente metodo possa essere impostata per aggiungere il luogo ad un contesto nonostante sia
+stato già aggiunto in altri contesti (ad esempio, un utente che preferisce un luogo sia nel contesto Joyful e 
+WithFriends, sia nel contesto Angry e WithFriends).
+Quando un utente decide di aggiungere un luogo al proprio profilo sotto un contesto specifico, è necessario fornire tale
+informazione anche al modello di LightFM. In tal caso non è necessario ricalcolare il modello, ma è sufficiente 
+fornire la relazione aggiuntiva (ID UTENTE - ID LUOGO). Il metodo responsabile di questa operazione è add_rating del 
+modulo lightfm_manager.
+L'ID utente utilizzato da LightFM, e quindi passato al metodo add_rating, è una stringa che si costituisce
+delle seguenti componenti: (ID utente in Django incrementato di 100) + ID mood + ID companionship. Ad esempio, se l'id
+utente in django è 4, l'ID mood è 2 e l'ID companionship è 1 allora la stringa rappresentante l'utente è: 10421. L'id
+utente di django viene sommato a 100 in quanto gli utenti da 1 a 100 sono già presenti nel dataset di LightFM (vedi
+data/users.csv e ratings_train.csv).
+Inoltre, la seguente view fornisce anche informazioni su eventuali eventi che si svolgeranno nel luogo in questione.
+"""
 def place_details(request, place_id):
     context = {}
     if request.user.is_authenticated:
@@ -282,6 +355,10 @@ def place_details(request, place_id):
     return render(request, 'place.html', context)
 
 
+"""
+Visualizzazione dei dettagli su un evento:
+La view consente di visualizzare i dettagli di un evento, come il nome, la location, le etichette ed informazioni varie.
+"""
 def event_details(request, event_id):
     context = {}
     if request.user.is_authenticated:
@@ -297,6 +374,12 @@ def event_details(request, event_id):
     return render(request, 'event.html', context)
 
 
+"""
+Visualizzazione del profilo utente:
+La view consente di visualizzare il proprio profilo utente ed eventualmente effettuare modifiche. All'interno del 
+relativo template è stato inserito il button "Link to Myrror", che potrebbe essere utile in futuro per prelevare le 
+informazioni sul profilo utente utilizzando le api di Myrror.
+"""
 def user_profile(request):
 
     context = {
@@ -309,8 +392,6 @@ def user_profile(request):
         instance = Profile.objects.get(user=request.user)
         full_profile_form = FullProfileForm(request.POST or None, instance=instance)
         context['form'] = full_profile_form
-        # initial_mood = (Mood.joyful.name, Mood.joyful.value)
-        # search_rec_form.fields['mood'].initial = initial_mood
 
         if full_profile_form.is_valid():
             location = full_profile_form.cleaned_data.get('location')

@@ -27,7 +27,7 @@ def find_recommendations(user, model, data):
     n_users, n_items = data['train'].shape
 
     # places the user already rated
-    known_positives = data['item_labels'][data['train'].tocsr()[user].indices]
+    # known_positives = data['item_labels'][data['train'].tocsr()[user].indices]
 
     # movies our model predicts they will like
 
