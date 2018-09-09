@@ -63,6 +63,7 @@ def import_sample_ratings():
     ratings_train.csv. Tuttavia, tali ratings non sono direttamente utilizzati in Django, per cui tale funzione al
     momento risulta essere inutile.
     """
+
     with open('data/ratings_train.csv') as f:
         i = 1
         for row in f.readlines():

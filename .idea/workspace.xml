@@ -6,15 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/data/ratings_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/ratings_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/users.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/export_data_to_django.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/export_data_to_django.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/lightfm_data_fetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/lightfm_data_fetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/lightfm_pugliaeventi.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/lightfm_pugliaeventi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/lightfm_pugliaeventi_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/lightfm_pugliaeventi_old.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pugliaeventi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pugliaeventi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender_webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile_configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile_configuration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,10 +127,11 @@
           <entry key="csv" value="83" />
           <entry key="download" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="90" />
+          <entry key="html" value="91" />
+          <entry key="jpg" value="1" />
           <entry key="js" value="10" />
-          <entry key="png" value="2" />
-          <entry key="py" value="204" />
+          <entry key="png" value="8" />
+          <entry key="py" value="212" />
           <entry key="pyi" value="2" />
           <entry key="recommender_place" value="3" />
           <entry key="recommender_profile" value="1" />
@@ -143,11 +143,11 @@
           <entry key="CSS" value="9" />
           <entry key="CSV" value="82" />
           <entry key="Database Element" value="4" />
-          <entry key="HTML" value="90" />
-          <entry key="Image" value="2" />
+          <entry key="HTML" value="91" />
+          <entry key="Image" value="9" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="204" />
+          <entry key="Python" value="212" />
           <entry key="PythonStub" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -157,17 +157,17 @@
           <entry key="csv" value="24" />
           <entry key="dummy" value="63" />
           <entry key="gitignore" value="51" />
-          <entry key="html" value="5411" />
-          <entry key="py" value="42093" />
-          <entry key="txt" value="1960" />
+          <entry key="html" value="5429" />
+          <entry key="py" value="42202" />
+          <entry key="txt" value="2002" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="24" />
-          <entry key="HTML" value="5411" />
-          <entry key="PLAIN_TEXT" value="2074" />
-          <entry key="Python" value="42092" />
+          <entry key="HTML" value="5429" />
+          <entry key="PLAIN_TEXT" value="2116" />
+          <entry key="Python" value="42201" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -175,57 +175,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="84" column="85" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="84" selection-end-column="85" />
+            <state relative-caret-position="129">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#1873#2184#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi.py">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="61" />
               <folding>
-                <element signature="e#2#60#0" expanded="true" />
-                <element signature="e#528#1638#1" />
-                <element signature="e#1759#2149#1" />
-                <element signature="e#3499#4404#1" />
+                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#318#1934#1" />
+                <marker date="1536483950010" expanded="true" signature="1935:1940" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/engine/export_data_to_django.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state>
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -304,7 +304,6 @@
         <option value="$PROJECT_DIR$/recommender_webapp/common/utils.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/constant.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
         <option value="$PROJECT_DIR$/templates/my_places.html" />
         <option value="$PROJECT_DIR$/recommender_webapp/models.py" />
         <option value="$PROJECT_DIR$/templates/event.html" />
@@ -317,20 +316,21 @@
         <option value="$PROJECT_DIR$/templates/head_css_js.html" />
         <option value="$PROJECT_DIR$/templates/profile.html" />
         <option value="$PROJECT_DIR$/templates/signup.html" />
-        <option value="$PROJECT_DIR$/templates/profile_configuration.html" />
         <option value="$PROJECT_DIR$/engine/data/users.csv" />
         <option value="$PROJECT_DIR$/engine/data/ratings_train.csv" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/recommender_webapp/initializer.py" />
         <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/pugliaeventi/urls.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/views.py" />
-        <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
-        <option value="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" />
         <option value="$PROJECT_DIR$/engine/lightfm_pugliaeventi_old.py" />
         <option value="$PROJECT_DIR$/engine/lightfm_data_fetcher.py" />
         <option value="$PROJECT_DIR$/engine/lightfm_pugliaeventi.py" />
         <option value="$PROJECT_DIR$/engine/export_data_to_django.py" />
+        <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
+        <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
+        <option value="$PROJECT_DIR$/pugliaeventi/urls.py" />
+        <option value="$PROJECT_DIR$/templates/profile_configuration.html" />
+        <option value="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" />
       </list>
     </option>
   </component>
@@ -366,6 +366,12 @@
             <path>
               <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,11 +384,6 @@
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -687,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536419698465</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Refactoring and added new comments">
+      <created>1536487855100</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1536487855101</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -703,13 +711,13 @@
     <frame x="1366" y="-2" width="1920" height="1202" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.23745997" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.23745997" />
       <window_info id="Structure" order="1" sideWeight="0.5006353" side_tool="true" weight="0.18676628" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4347015" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4347015" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929105" />
@@ -786,7 +794,8 @@
     <MESSAGE value="Added csv data files such as locations, distances, events and ratings" />
     <MESSAGE value="Removed data produced during testing" />
     <MESSAGE value="Added comments for views.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments for views.py" />
+    <MESSAGE value="Refactoring and added new comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and added new comments" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -850,41 +859,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/ajax_select/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/lookups.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data/eventi.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state>
-          <caret column="87" selection-start-column="87" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index_old.html" />
-    <entry file="file:///usr/lib/python3.6/enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="254" selection-start-line="254" selection-end-line="254" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data/items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="4966" column="4" selection-start-line="4966" selection-end-line="4966" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -974,13 +948,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap-4.0.0.css" />
-    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine/data/users.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="940">
@@ -1024,23 +991,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/backend.py" />
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1053,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1067,63 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="391" column="7" selection-start-line="391" selection-start-column="7" selection-end-line="391" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#580#1013#1" />
-            <element signature="e#1936#2076#1" />
-            <element signature="e#2172#2762#1" />
-            <element signature="e#3625#5565#1" />
-            <element signature="e#9615#10263#1" />
-            <element signature="e#10766#10948#1" />
-            <element signature="e#12559#12868#1" />
-            <element signature="e#13883#15625#1" />
-            <element signature="e#17893#18076#1" />
-            <element signature="e#18438#18795#1" />
-            <marker date="1536483950030" expanded="true" signature="1013:2117" ph="..." />
-            <marker date="1536483950030" expanded="true" signature="2071:2117" ph="..." />
-            <marker date="1536483950030" expanded="true" signature="2118:2119" ph="..." />
-            <marker date="1536483950030" expanded="true" signature="15595:17796" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1536483950010" expanded="true" signature="1935:1940" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/common/constant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="84" column="85" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="84" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#1873#2184#1" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,6 +1037,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engine/export_data_to_django.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding>
+            <element signature="e#1889#1919#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -1160,10 +1060,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engine/export_data_to_django.py">
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/br_down.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/demo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/ful_grid_img.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/google.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/movie.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/stars.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding>
+            <element signature="e#5691#5881#2#HTML" expanded="true" />
+            <element signature="e#5949#6139#2#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#636#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#318#1934#1" />
+            <marker date="1536483950010" expanded="true" signature="1935:1940" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

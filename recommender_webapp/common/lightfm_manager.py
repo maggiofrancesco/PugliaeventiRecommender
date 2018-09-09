@@ -3,6 +3,7 @@ from datetime import datetime
 
 from recommender_webapp.common import constant
 from engine import lightfm_pugliaeventi
+from recommender_webapp.initializer import data_loader
 from recommender_webapp.models import Place, Distanza, Event
 
 
@@ -86,15 +87,15 @@ def find_recommendations(user, user_location, distance, any_events):
     """
 
     recommended_places = []
+    places_dict = data_loader.data_in_memory['places_dict']
     user = int(user) - 1   # LightFM uses a zero-based indexing
     model, data = lightfm_pugliaeventi.learn_model()
     recommendations = lightfm_pugliaeventi.find_recommendations(user, model, data)[:constant.NUM_RECOMMENDATIONS_FROM_LIGHTFM]
     recommendation_objects = []
     for index in recommendations:
         place_id = index + 1  # Because the LightFM zero-based indexing
-        if Place.objects.filter(placeId=place_id).exists():
-            place = Place.objects.get(placeId=place_id)
-            recommendation_objects.append(place)
+        if place_id in places_dict:
+            recommendation_objects.append(places_dict[place_id])
 
     if any_events:
         recommendations_with_events = []
