@@ -215,18 +215,8 @@ def _parse_item_metadata(num_items, item_metadata_raw, item_tags_raw):
 
 def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0.0):
     """
-    Fetch the `Movielens 100k dataset <http://grouplens.org/datasets/movielens/100k/>`_.
-
-    The dataset contains 100,000 interactions from 1000 users on 1700 movies,
-    and is exhaustively described in its
-    `README <http://files.grouplens.org/datasets/movielens/ml-100k-README.txt>`_.
-
     Parameters
     ----------
-
-    data_home: path, optional
-        Path to the directory in which the downloaded data should be placed.
-        Defaults to ``~/lightfm_data/``.
     indicator_features: bool, optional
         Use an [n_items, n_items] identity matrix for item features. When True with genre_features,
         indicator and genre features are concatenated into a single feature matrix of shape
@@ -237,8 +227,6 @@ def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0
         [n_items, n_items + n_genres].
     min_rating: float, optional
         Minimum rating to include in the interaction matrix.
-    download_if_missing: bool, optional
-        Download the data if not present. Raises an IOError if False and data is missing.
 
     Notes
     -----
@@ -262,7 +250,7 @@ def fetch_pugliaeventi(indicator_features=True, tag_features=False, min_rating=0
 
     if not (indicator_features or tag_features):
         raise ValueError('At least one of item_indicator_features '
-                         'or genre_features must be True')
+                         'or tag_features must be True')
 
     # Load raw data
     (ratings_train, ratings_test, items, users, labels_item, labels_user) = _read_raw_data()

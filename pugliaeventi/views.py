@@ -6,25 +6,26 @@ from recommender_webapp.forms import SearchRecommendationForm
 from recommender_webapp.models import Mood, Rating
 
 
-"""
-Pagina principale:
-La view, prima di procedere con la visualizzazione della pagina principale, verifica il numero di rating effettuati
-dall'utente. In questa prima versione, il rating consiste nell'aggiunta di un luogo al proprio profilo, senza un rate
-numerico. Dato che LightFM implementa un modello implicito, non è necessario un rate numerico. Se il numero di rating
-è inferiore al numero di rating necessari per la configurazione del profilo, significa che l'utente non ha ancora
-concluso la procedura di configurazione. In tal caso, l'utente viene reindirizzato alla pagina della configurazione
-del profilo. In caso contrario, si procede con la visualizzazione della pagina principale.
-La pagina principale consente di visualizzare i posti raccomandati in base al mood (angry, joyful, sad), alla 
-companionship (withFriends oppure alone), alla distanza in KM e alla presenza di eventi. Questi sono i filtri presenti
-nel form. Per ricevere le raccomandazioni viene utilizzato il metodo find_recommendations del modulo lightfm_manager.
-L'ID utente utilizzato da LightFM, e quindi passato al metodo find_recommendations, è una stringa che si costituisce
-delle seguenti componenti: (ID utente in Django incrementato di 100) + ID mood + ID companionship. Ad esempio, se l'id
-utente in django è 4, l'ID mood è 2 e l'ID companionship è 1 allora la stringa rappresentante l'utente è: 10421. L'id
-utente di django viene sommato a 100 in quanto gli utenti da 1 a 100 sono già presenti nel dataset di LightFM (vedi
-data/users.csv e ratings_train.csv)
-"""
 @csrf_protect
 def index(request):
+    """
+    Pagina principale:
+    La view, prima di procedere con la visualizzazione della pagina principale, verifica il numero di rating effettuati
+    dall'utente. In questa prima versione, il rating consiste nell'aggiunta di un luogo al proprio profilo, senza un rate
+    numerico. Dato che LightFM implementa un modello implicito, non è necessario un rate numerico. Se il numero di rating
+    è inferiore al numero di rating necessari per la configurazione del profilo, significa che l'utente non ha ancora
+    concluso la procedura di configurazione. In tal caso, l'utente viene reindirizzato alla pagina della configurazione
+    del profilo. In caso contrario, si procede con la visualizzazione della pagina principale.
+    La pagina principale consente di visualizzare i posti raccomandati in base al mood (angry, joyful, sad), alla
+    companionship (withFriends oppure alone), alla distanza in KM e alla presenza di eventi. Questi sono i filtri presenti
+    nel form. Per ricevere le raccomandazioni viene utilizzato il metodo find_recommendations del modulo lightfm_manager.
+    L'ID utente utilizzato da LightFM, e quindi passato al metodo find_recommendations, è una stringa che si costituisce
+    delle seguenti componenti: (ID utente in Django incrementato di 100) + ID mood + ID companionship. Ad esempio, se l'id
+    utente in django è 4, l'ID mood è 2 e l'ID companionship è 1 allora la stringa rappresentante l'utente è: 10421. L'id
+    utente di django viene sommato a 100 in quanto gli utenti da 1 a 100 sono già presenti nel dataset di LightFM (vedi
+    data/users.csv e ratings_train.csv)
+    """
+
     context = {}
     recommended_places = []
     # places_dict = data_loader.data_in_memory['places_dict']

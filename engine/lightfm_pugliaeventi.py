@@ -1,5 +1,3 @@
-from lightfm.cross_validation import random_train_test_split
-
 from engine.lightfm_data_fetcher import fetch_pugliaeventi
 from engine.lightfm_data_fetcher import _build_interaction_matrix, _read_item_data, _parse_item_metadata
 from lightfm.evaluation import auc_score, precision_at_k, recall_at_k
@@ -7,10 +5,6 @@ from lightfm import LightFM
 import numpy as np
 import os.path
 import pickle
-
-
-# Set the number of threads; you can increase this
-# if you have more physical cores available.
 
 
 NUM_THREADS = 2
@@ -23,13 +17,18 @@ script_dir = os.path.dirname(__file__)
 
 
 def find_recommendations(user, model, data):
+    """
+    Ricerca di raccomandazioni utili per un utente specifico:
+    Il seguente metodo consente di ricercare raccomandazioni per un utente specifico. Il metodo predict del modello di
+    LightFM restituisce la lista degli ID dei luoghi, che successivamente viene ordinata in maniera decrescente (dal
+    luogo maggiormente raccomandato a quello meno raccomandato)
+    """
+
     # number of users and places in training data
     n_users, n_items = data['train'].shape
 
     # places the user already rated
     # known_positives = data['item_labels'][data['train'].tocsr()[user].indices]
-
-    # movies our model predicts they will like
 
     scores = model.predict(user,
                            np.arange(n_items),
@@ -57,6 +56,18 @@ def find_recommendations(user, model, data):
 
 
 def add_rating_to_model(max_user_id, max_item_id, user_id, item_id, rating):
+    """
+    Aggiunta di un nuovo rating al modello:
+    Il seguente metodo consente di aggiungere un nuovo rating al modello. In tal caso, considerato che l'utente esiste
+    già, non è necessario apprendere nuovamente il modello. Infatti, è sufficiente utilizzare il metodo fit_partial del
+    modello di LightFM per poter aggiungere il rating ad un utente esistente.
+    Il modello viene caricato in memoria utilizzando il checkpoint salvato in formato .pickle. Successivamente, viene
+    costruita una matrice delle interazioni il cui shape è pari a max_user_id x max_item_id e contiene la nuova
+    interazione che si vuole aggiungere al modello. Il metodo fit_partial viene chiamato passando la matrice delle
+    interazioni creata, le features degli item, il numero di epochs da applicare per l'apprendimento e il numero di
+    threads da impiegare.
+    """
+
     if os.path.isfile(os.path.join(script_dir, MODEL_CHECKPOINT_PATH)):
         with open(os.path.join(script_dir, MODEL_CHECKPOINT_PATH), 'rb') as fle:
             model = pickle.load(fle)
@@ -77,6 +88,17 @@ def add_rating_to_model(max_user_id, max_item_id, user_id, item_id, rating):
 
 
 def learn_model(force_model_creation=False):
+    """
+    Apprendimento del modello LightFM:
+    Il seguente metodo consente di caricare (se presente in formato .pickle) oppure apprendere il modello LightFM.
+    L'apprendimento del modello avviene con il metodo fit del modello di LightFM, passandogli il dataset contenente le
+    interazioni tra utenti e item (luoghi in questo caso), le features dei luoghi, il numero di epochs da applicare con
+    l'apprendimento e il numero di threads da impiegare.
+    In caso di apprendimento di un modello, i dati da impiegare vengono caricati utilizzando il metodo
+    fetch_pugliaeventi del modulo lightfm_data_featcher, in cui i dati vengono caricati dai file .csv presenti nel
+    folder engine/data e vengono strutturati in un formato utile per la creazione del modello in LightFM.
+    """
+
     data = fetch_pugliaeventi(min_rating=0.0, indicator_features=False, tag_features=True)
 
     if os.path.isfile(os.path.join(script_dir, MODEL_CHECKPOINT_PATH)) and not force_model_creation:

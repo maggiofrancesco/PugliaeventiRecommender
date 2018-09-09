@@ -8,10 +8,6 @@ import os.path
 import pickle
 
 
-# Set the number of threads; you can increase this
-# if you have more physical cores available.
-
-
 NUM_THREADS = 2
 NUM_COMPONENTS = 30
 NUM_EPOCHS = 50
@@ -31,7 +27,7 @@ def sample_recommendation(model, data, user_ids):
         # places they already rated
         known_positives = data['item_labels'][data['train'].tocsr()[user_id].indices]
 
-        # movies our model predicts they will like
+        # places our model predicts they will like
 
         scores = model.predict(user_id,
                                np.arange(n_items),

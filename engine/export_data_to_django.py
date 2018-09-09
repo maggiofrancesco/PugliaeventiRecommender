@@ -5,7 +5,7 @@ import psycopg2
 
 
 def execute_sql(s):
-    con = psycopg2.connect('dbname=django_pugliaeventi user=postgres password=Frapama29')
+    con = psycopg2.connect('dbname=django_pugliaeventi user=postgres password=password')
     with con:
         cur = con.cursor()
         cur.execute(s)
@@ -58,6 +58,11 @@ def import_places():
 
 
 def import_sample_ratings():
+    """
+    Questo metodo effettua l'importazione nel db Django dei rating creati in maniera casuale preesistenti nel dataset
+    ratings_train.csv. Tuttavia, tali ratings non sono direttamente utilizzati in Django, per cui tale funzione al
+    momento risulta essere inutile.
+    """
     with open('data/ratings_train.csv') as f:
         i = 1
         for row in f.readlines():
@@ -187,7 +192,7 @@ def import_eventi():
 
 if __name__ == "__main__":
     import_places()
-    import_sample_ratings()
+    # import_sample_ratings() INUTILE
     import_comuni()
     import_distanze()
     import_eventi()

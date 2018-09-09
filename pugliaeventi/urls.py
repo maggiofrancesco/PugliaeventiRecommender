@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.shortcuts import render
 from django.urls import include, path
 
 from recommender_webapp import views
@@ -36,7 +37,7 @@ urlpatterns = [
     path('ratings/<int:place_id>/<int:mood>/<int:companionship>/', views.add_rating_config, name='add_rating_conf'),
 
     # place it at whatever base url you like
-    url(r'^ajax_select/', include(ajax_select_urls)),
-    #url(r'.*', lambda request: render(request, '404.html'), name='404')
+    url(r'^ajax_select/', include(ajax_select_urls))
+    # url(r'.*', lambda request: render(request, '404.html'), name='404')
 
 ]
