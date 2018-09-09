@@ -8,12 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/data/ratings_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/ratings_train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/export_data_to_django.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/export_data_to_django.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pugliaeventi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile_configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile_configuration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,16 +153,16 @@
           <entry key="dummy" value="63" />
           <entry key="gitignore" value="51" />
           <entry key="html" value="5429" />
-          <entry key="py" value="42202" />
-          <entry key="txt" value="2002" />
+          <entry key="py" value="42501" />
+          <entry key="txt" value="2192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="24" />
           <entry key="HTML" value="5429" />
-          <entry key="PLAIN_TEXT" value="2116" />
-          <entry key="Python" value="42201" />
+          <entry key="PLAIN_TEXT" value="2306" />
+          <entry key="Python" value="42500" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -178,8 +173,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="239">
+              <caret line="88" column="69" selection-start-line="88" selection-start-column="69" selection-end-line="88" selection-end-column="69" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -192,40 +187,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <element signature="e#318#1934#1" />
-                <marker date="1536483950010" expanded="true" signature="1935:1940" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -695,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536487855101</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Now it's used an initializing class for loading places objects when django starts. In this way, the system gives recommendations in a more efficient way">
+      <created>1536491773614</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1536491773614</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -770,7 +738,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Django project including LightFM engine" />
     <MESSAGE value="Implemented module for importing places data" />
     <MESSAGE value="Added classes implementing LightFM model" />
     <MESSAGE value="Added new dataset from which LightFM model must learn" />
@@ -795,7 +762,8 @@
     <MESSAGE value="Removed data produced during testing" />
     <MESSAGE value="Added comments for views.py" />
     <MESSAGE value="Refactoring and added new comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and added new comments" />
+    <MESSAGE value="Now it's used an initializing class for loading places objects when django starts. In this way, the system gives recommendations in a more efficient way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now it's used an initializing class for loading places objects when django starts. In this way, the system gives recommendations in a more efficient way" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1134,8 +1102,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="61" />
+        <state relative-caret-position="64">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
             <element signature="e#318#1934#1" />
@@ -1153,8 +1121,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="239">
+          <caret line="88" column="69" selection-start-line="88" selection-start-column="69" selection-end-line="88" selection-end-column="69" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

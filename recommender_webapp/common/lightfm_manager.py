@@ -84,6 +84,9 @@ def find_recommendations(user, user_location, distance, any_events):
     Successivamente, se l'utente ha selezionato la voce "any_events", significa che è interessato a luoghi in cui ci
     sono degli eventi in programma. Inoltre, se l'utente ha specificato un range di KM, è necessario procedere ad un
     ulteriore filtraggio dei luoghi in base alla distanza dalla location dell'utente.
+    PS. I luoghi non sono caricati dal DB Django in questo istante, ma si sfrutta un dizionario di luoghi che viene
+    caricato al momento dell'avvio di Django all'interno del modulo initializer.py. In questo modo è possibile
+    restituire i risultati di raccomandazione in modo più efficiente.
     """
 
     recommended_places = []
