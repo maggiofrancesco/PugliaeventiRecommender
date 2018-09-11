@@ -32,10 +32,8 @@
 37,Casanova,Alberobello,0,0,1,0,0,0,0,0,0,0,0
 38,Le Fogge,Taranto,0,1,1,0,0,0,0,1,0,0,0
 39,Caffé Letterario,Lecce,0,1,0,0,0,0,0,0,0,0,0
-40,Zenzero Club,Bari,0,0,0,0,0,0,0,0,0,0,0
 41,Tadadattà,Bari,0,1,0,0,0,0,0,0,0,0,0
 42,La Habana,Bari,0,1,0,0,0,0,0,0,0,0,0
-43,Mavù,Locorotondo,0,0,0,0,0,0,0,0,0,0,0
 44,il Trappeto,Monopoli,0,0,1,0,0,0,0,0,0,0,0
 45,Chez Jo,Bari,0,0,1,0,0,0,0,0,0,0,0
 46,Invidia,Francavilla Fontana,0,1,0,0,0,0,0,0,0,0,0
@@ -72,7 +70,6 @@
 80,Da Maometto,Pulsano,0,0,1,0,0,0,0,1,0,0,0
 81,la Panca,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
 82,Stop Over,Giovinazzo,0,1,0,0,0,0,0,0,0,0,0
-83,Villanova,Pulsano,0,0,0,0,0,0,0,0,0,0,0
 84,Micamale,Monopoli,0,1,1,0,0,0,0,0,0,0,0
 85,Oliver Hardy,Noci,0,0,1,0,0,0,0,0,0,0,0
 86,Orto Botanico - Maze,Bari,0,1,1,0,0,0,0,0,0,0,0
@@ -84,7 +81,6 @@
 94,Corte Ludovico,Lecce,0,0,1,0,0,0,0,0,0,0,0
 95,La Sciabica,Brindisi,0,0,1,0,0,0,0,1,0,0,0
 96,Trattoria del Porto (nuova gestione),Monopoli,0,0,1,0,0,0,0,0,0,0,0
-97,Torre Regina Giovanna,Brindisi,0,0,0,0,0,0,0,0,0,0,0
 98,La Loggia,Carovigno,0,1,0,0,0,0,0,0,0,0,0
 99,Jah Jazz,Putignano,0,1,0,0,0,0,0,0,0,0,0
 100,La Locanda dei Camini,Botrugno,0,0,1,0,0,0,0,0,0,0,0
@@ -169,7 +165,6 @@
 188,Cibus,Ceglie Messapica,0,0,1,0,0,0,0,0,0,0,0
 189,Privilege,Castellana Grotte,0,1,0,0,0,0,0,0,0,0,0
 190,Sho Ann,Ostuni,0,0,1,0,0,0,0,1,0,0,0
-191,Lino's cafè,Taranto,0,0,0,0,0,0,0,0,0,0,0
 192,Al Solito Posto,Grottaglie,0,0,1,0,0,0,0,0,0,0,0
 193,Il Forno,Grottaglie,0,0,1,0,0,0,0,0,0,0,0
 194,Penny,Brindisi,0,0,1,0,0,0,0,0,0,0,0
@@ -196,7 +191,6 @@
 215,El Cubanito,Trani,0,1,0,0,0,0,0,0,0,0,0
 216,La Remesa,Cavallino,0,0,1,0,0,0,0,0,0,0,0
 217,Sinatra Hole,Ugento,0,1,0,0,0,0,0,0,0,0,0
-218,Living,Maglie,0,0,0,0,0,0,0,0,0,0,0
 219,Magazzini Get,Andria,0,1,0,0,0,0,0,0,0,0,0
 220,Goblin's,Brindisi,0,1,0,0,0,0,0,0,0,0,0
 221,New Taylor's Pub,Bitritto,0,1,0,0,0,0,0,0,0,0,0
@@ -204,7 +198,6 @@
 223,Ramblas,Taranto,0,1,0,0,0,0,0,0,0,0,0
 224,Victorian,Monopoli,0,1,0,0,0,0,0,0,0,0,0
 225,Willy Nilly (CHIUSO),Squinzano,0,1,0,0,0,0,0,0,0,0,0
-226,Incubo,Taranto,0,0,0,0,0,0,0,0,0,0,0
 229,The Scots Lion,Lecce,0,1,1,0,0,0,0,0,0,0,0
 230,Fuori Luogo,Bari,0,1,0,0,0,0,0,0,0,0,0
 232,Swing and Soda Cafè,Noci,0,1,0,0,0,0,0,0,0,0,0
@@ -213,7 +206,6 @@
 235,Paradise Lost,Santeramo in Colle,0,1,0,0,0,0,0,0,0,0,0
 236,Jamila Pub,Collepasso,0,1,0,0,0,0,0,0,0,0,0
 237,Sir Parsifal,Collepasso,0,1,0,0,0,0,0,0,0,0,0
-238,NordWind discopub,Bari,0,0,0,0,0,0,0,0,0,0,0
 239,La Corniche,Brindisi,0,1,0,0,0,0,0,0,0,0,0
 241,Lord Sinclair,Lecce,0,1,0,0,0,0,0,0,0,0,0
 242,Terra di mezzo,Bari,0,1,0,0,0,0,0,0,0,0,0
@@ -227,7 +219,6 @@
 250,Al Gambero,Porto Cesareo,0,0,1,0,0,0,0,0,0,0,0
 251,Maly Sud,Corigliano d'Otranto,0,1,0,0,0,0,0,0,0,0,0
 252,Trattoria da Donato,Alberobello,0,0,1,0,0,0,0,1,0,0,0
-254,Jubilee Hotel Club,Corato,0,0,0,0,0,0,0,0,0,0,0
 255,Sottosuono Club,Andria,0,1,0,0,0,0,0,0,0,0,0
 256,Convivium,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
 257,Marabà (ex Taberna degli Artisti),Casarano,0,1,0,0,0,0,0,0,0,0,0
@@ -237,7 +228,6 @@
 261,Convivium (nuova gestione),Grottaglie,0,0,1,0,0,0,0,1,0,0,0
 262,Da Gino,Ceglie Messapica,0,0,1,0,0,0,0,0,0,0,0
 263,Lulu's Brasserie,Maglie,0,1,1,0,0,0,0,0,0,0,0
-265,Johnny Fox,Statte,0,0,0,0,0,0,0,0,0,0,0
 266,Il Bacaro,Lecce,0,0,1,0,0,0,0,1,0,0,0
 267,Nincasi,Cisternino,0,1,1,0,0,0,0,0,0,0,0
 268,Jacana,Massafra,0,1,0,0,0,0,0,0,0,0,0
@@ -261,7 +251,6 @@
 286,Don Piccio,Maruggio,0,0,1,0,0,0,0,0,0,0,0
 287,Zio Angiulino,Lecce,0,0,1,0,0,0,0,0,0,0,0
 288,I Maccheroni,Lecce,0,0,1,0,0,0,0,0,0,0,0
-289,Vertigo,Lecce,0,0,0,0,0,0,0,0,0,0,0
 290,Madigan's Pub,Lecce,0,1,0,0,0,0,0,0,0,0,0
 291,Queen King,Leporano,0,0,1,0,0,0,0,0,0,0,0
 292,Don Giovanni,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
@@ -280,7 +269,6 @@
 305,099 Cafè,Leporano,0,1,0,0,0,0,0,0,0,0,0
 306,Gebenà,Carosino,0,1,1,0,0,0,0,0,0,0,0
 307,La Nonna Tinda,Lecce,0,0,1,0,0,0,0,0,0,0,0
-308,Panificio da Raffaele,Lecce,0,0,0,0,0,0,0,0,0,0,0
 309,Anthony's steakhouse,Pulsano,0,0,1,0,0,0,0,0,0,0,0
 310,Triade,Copertino,0,1,0,0,0,0,0,0,0,0,0
 311,Golosoasi,Mesagne,0,1,1,0,0,0,0,0,0,0,0
@@ -347,7 +335,6 @@
 375,Il Re della Brace,Pulsano,0,0,1,0,0,0,0,0,0,0,0
 376,La Sala Azzurra,Mottola,0,0,1,0,0,0,0,0,0,0,0
 378,L'Arco Antico,Locorotondo,0,0,1,0,0,0,0,0,0,0,0
-379,Settimo Cielo,Lecce,0,0,0,0,0,0,0,0,0,0,0
 380,Teatro Orfeo,Taranto,0,0,0,0,0,0,0,0,0,0,1
 381,Teatro Kursaal Santa Lucia,Bari,0,0,0,0,0,0,0,0,0,0,1
 382,Sirtaki,Porto Cesareo,0,1,0,0,0,0,0,0,0,0,0
@@ -356,7 +343,6 @@
 385,Hard Castle 2.0,Polignano a Mare,0,1,1,0,0,0,0,0,0,0,0
 386,Martins,Galatina,0,1,0,0,0,0,0,0,0,0,0
 387,Teatro Kismet OperA,Bari,0,0,0,0,0,0,0,0,0,0,1
-388,ViceVersa,Adelfia,0,0,0,0,0,0,0,0,0,0,0
 389,Saint Patrick Irish Pub,Barletta,0,1,1,0,0,0,0,0,0,0,0
 390,AncheCinema Royal,Bari,0,0,0,0,0,0,0,0,0,0,1
 391,Roses Café,Monopoli,0,1,1,0,0,0,0,0,0,0,0
@@ -373,7 +359,6 @@
 403,La Pentola degli Gnomi,Gallipoli,0,0,1,0,0,0,0,0,0,0,0
 404,Teatro Roma,Ostuni,0,0,0,0,0,0,0,0,0,0,1
 405,Acqua &amp; Sale,Ostuni,0,0,1,0,0,0,0,1,0,0,0
-406,Showgirls,Fasano,0,0,0,0,0,0,0,0,0,0,0
 407,Da Gianni,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
 408,Osteria dei Mercanti,Manduria,0,0,1,0,0,0,0,0,0,0,0
 409,Osteria Cubiculum,Francavilla Fontana,0,0,1,0,0,0,0,0,0,0,0
@@ -391,7 +376,6 @@
 421,Cineteatro Spadaro,Massafra,0,0,0,0,0,0,0,0,0,0,1
 422,Pepe Nero,Galatina,0,1,1,0,0,0,0,0,0,0,0
 423,Re Idomeneo,Lecce,0,0,1,0,0,0,0,0,0,0,0
-424,Casa dei Popoli,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 425,Noir Café,Andria,0,1,0,0,0,0,0,0,0,0,0
 426,La Locanda di Re Artu',Crispiano,0,0,1,0,0,0,0,0,0,0,0
 427,Cagliostro,Lecce,0,1,0,0,0,0,0,0,0,0,0
@@ -436,7 +420,6 @@
 467,Masseria Gentile,Leverano,0,0,1,0,0,0,0,0,0,0,0
 468,La Piccola Rudie,Grottaglie,0,0,1,0,0,0,0,0,0,0,0
 469,Il Paiolo Magico,Mesagne,0,0,1,0,0,0,0,1,0,0,0
-470,La locanda di Zia Rosa,Cisternino,0,0,0,0,0,0,0,0,0,0,0
 471,Caffè Cavour,Ostuni,0,1,1,0,0,0,0,0,0,0,0
 472,Santa Caterina,Taranto,0,0,1,0,0,0,0,0,0,0,0
 473,I Sotterranei,Copertino,0,0,0,0,0,0,0,0,0,0,1
@@ -465,7 +448,6 @@
 496,Klicò,Gioia del Colle,0,1,0,0,0,0,0,1,0,0,0
 497,Al Castello,Manduria,0,1,1,0,0,0,0,0,0,0,0
 498,Specchia Sant' Oronzo,Polignano a Mare,0,1,0,0,0,0,0,1,0,0,0
-499,Agli Angeli Ribelli,Otranto,0,0,0,0,0,0,0,0,0,0,0
 500,Il Villino,Lecce,0,0,1,0,0,0,0,1,0,0,0
 501,Zarì,Mola di Bari,0,1,1,0,0,0,0,0,0,0,0
 502,Windigo Saloon,Bari,0,1,0,0,0,0,0,0,0,0,0
@@ -546,14 +528,12 @@
 582,La Locanda del Melograno,Gioia del Colle,0,0,1,0,0,0,0,1,0,0,0
 583,Osteria del Borgo Antico,Gioia del Colle,0,0,1,0,0,0,0,0,0,0,0
 584,Theobroma - Cibo degli Dei,Molfetta,0,0,1,0,0,0,0,1,0,0,0
-585,Jubilee Beach,Bisceglie,0,0,0,0,0,0,0,0,0,0,0
 586,Caffé degli Artisti,Corato,0,1,0,0,0,0,0,0,0,0,0
 587,Boccon Divino,Lecce,0,0,1,0,0,0,0,0,0,0,0
 588,Blu Notte,Lecce,0,0,1,0,0,0,0,1,0,0,0
 589,Macelleria Recchia Domenico,Monopoli,0,0,1,0,0,0,0,0,0,0,0
 590,I Filari,Taranto,0,1,1,0,0,0,0,0,0,0,0
 591,All'ombra del Barocco,Lecce,0,1,0,0,0,0,1,0,0,0,0
-592,Gelateria del centro,Pulsano,0,0,0,0,0,0,0,0,0,0,0
 593,Lido delle Sirene,Porto Cesareo,0,0,1,0,0,0,0,1,0,0,0
 594,Caffé Venezia,Monopoli,0,1,0,0,0,0,0,0,0,0,0
 595,El Cohiba,Trani,0,1,1,0,0,0,0,0,0,0,0
@@ -586,7 +566,6 @@
 624,Dreams,Mottola,0,1,0,0,0,0,0,0,0,0,0
 625,Fata Morgana,Barletta,0,0,1,0,0,0,0,0,0,0,0
 626,Porto di mare,Taranto,0,1,1,0,0,0,0,0,0,0,0
-627,Piazza Vecchia Cafè,Ceglie Messapica,0,0,0,0,0,0,0,0,0,0,0
 629,Smeraldo Beach,Carovigno,0,0,0,0,0,0,0,0,0,1,0
 630,L'Arcano,Bari,0,0,1,0,0,0,0,0,0,0,0
 632,Bella Bari,Bari,0,0,1,0,0,0,0,0,0,0,0
@@ -598,7 +577,6 @@
 639,L'Altro Mondo,Conversano,0,0,1,0,0,0,0,0,0,0,0
 640,I Pasticcioni,Conversano,0,0,1,0,0,0,0,0,0,0,0
 642,Pineta del Palafiom,Taranto,0,0,0,0,0,0,0,0,0,0,1
-643,Caporais,Gallipoli,0,0,0,0,0,0,0,0,0,0,0
 644,Portobello Cala Paradiso,Monopoli,0,0,0,0,0,0,0,0,0,1,0
 645,La Belle Epoque,Conversano,0,0,1,0,0,0,0,1,0,0,0
 646,Puesta De Sol Da Pierre,Gallipoli,0,0,1,0,0,0,0,1,0,0,0
@@ -729,7 +707,6 @@
 781,Novecento,Bitetto,0,1,1,0,0,0,0,0,0,0,0
 782,La Brasserie,San Marzano di San Giuseppe,0,0,1,0,0,0,0,0,0,0,0
 783,Tropicana,Bari,0,1,0,0,0,0,0,0,0,0,0
-784,Smaila's ex Cellar Club,Bari,0,0,0,0,0,0,0,0,0,0,0
 785,Carpe Diem,Conversano,0,0,1,0,0,0,0,1,0,0,0
 786,La Giara,Trani,0,0,1,0,0,0,0,0,0,0,0
 787,Falcone,Trani,0,0,1,0,0,0,0,0,0,0,0
@@ -790,12 +767,10 @@
 844,It's Wine O'Clock,Giovinazzo,0,1,1,0,0,0,0,0,0,0,0
 845,Flame,Conversano,0,1,0,0,0,0,0,0,0,0,0
 846,La Casa di Totò,Conversano,0,0,1,0,0,0,0,0,0,0,0
-847,Il Cavallo di Troia,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 848,La Cuccagna,Conversano,0,1,1,0,0,0,0,0,0,0,0
 849,Il Bosco delle Noci,Noci,0,0,1,0,0,0,0,0,0,0,0
 850,Carbonella,Castellana Grotte,0,0,1,0,0,0,0,0,0,0,0
 851,Gargà (nuova gestione),Bari,0,1,1,0,0,0,0,0,0,0,0
-852,Bar Bernardi,Grottaglie,0,0,0,0,0,0,0,0,0,0,0
 854,Enoteca il Connubio,Mesagne,0,1,0,0,0,0,0,0,0,0,0
 855,La Cantina di Cianna Cianne,Bari,0,0,1,0,0,0,0,1,0,0,0
 856,Cucina Tipica da Tonia e Figli,Cisternino,0,0,1,0,0,0,0,0,0,0,0
@@ -864,9 +839,7 @@
 922,L'Aratro,Alberobello,0,0,1,0,0,0,0,1,0,0,0
 923,La Locanda Da Franco E Giulia,Capurso,0,0,1,0,0,0,0,0,0,0,0
 924,Malto's (ex Parsifal),Bari,0,1,1,0,0,0,0,0,0,0,0
-925,Insomnia,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 926,Keep Out,Putignano,0,1,0,0,0,0,0,0,0,0,0
-927,Demodé club,Modugno,0,0,0,0,0,0,0,0,0,0,0
 928,Il Convito Delle Muse,Capurso,0,0,1,0,0,0,0,0,0,0,0
 929,Il Ghiottone,Gallipoli,0,1,1,0,0,0,0,0,0,0,0
 930,Il Cocò,Monopoli,0,0,1,0,0,0,0,0,0,0,0
@@ -968,7 +941,6 @@
 1049,Vin Cafè,Grottaglie,0,1,0,0,0,0,0,0,0,0,0
 1050,Al Solito Posto,Fasano,0,0,1,0,0,0,0,0,0,0,0
 1051,La locanda del porto,Brindisi,0,0,1,0,0,0,0,0,0,0,0
-1052,Deja Vu,Sava,0,0,0,0,0,0,0,0,0,0,0
 1054,Mohjto Club,Locorotondo,0,1,0,0,0,0,0,0,0,0,0
 1055,Crazy Bull,Casamassima,0,1,0,0,0,0,0,0,0,0,0
 1056,El Gato Borracho,Monopoli,0,1,1,0,0,0,0,0,0,0,0
@@ -1016,7 +988,6 @@
 1113,Braceria Local Carni,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
 1114,Oasi Calafetente,Polignano a Mare,0,0,0,0,0,0,0,0,0,1,0
 1115,Porto Ghiacciolo,Monopoli,0,0,0,0,0,0,0,0,0,1,0
-1116,Arco Michele,Putignano,0,0,0,0,0,0,0,0,0,0,0
 1117,Shodai,Bari,0,0,1,0,0,0,0,0,0,0,0
 1118,Solarium Cafè,Polignano a Mare,0,0,1,0,0,0,0,1,0,0,0
 1119,Enò Suggestioni Mediterranee,Bitonto,0,1,1,0,0,0,0,0,0,0,0
@@ -1105,7 +1076,6 @@
 1227,La Foggia,Alberobello,0,0,1,0,0,0,0,1,0,0,0
 1228,Imbiss,Fasano,0,1,1,0,0,0,0,0,0,0,0
 1229,La Puccia,Lecce,0,0,1,0,0,0,0,0,0,0,0
-1230,Nuclé dance &amp; dinner,Altamura,0,0,0,0,0,0,0,0,0,0,0
 1231,Center Pub,Sammichele di Bari,0,0,1,0,0,0,0,0,0,0,0
 1232,Il Cantinone Coppularossa,Carovigno,0,0,1,0,0,0,0,1,0,0,0
 1233,Libreria Ubik,Foggia,0,0,0,0,0,0,1,0,0,0,0
@@ -1136,7 +1106,6 @@
 1269,Don Felipe,Foggia,0,0,1,0,0,0,0,0,0,0,0
 1270,Mama Rhum,Sannicandro di Bari,0,1,0,0,0,0,0,0,0,0,0
 1276,Arrosteria Borgo Antico,Ceglie Messapica,0,0,1,0,0,0,0,0,0,0,0
-1278,Target,Bari,0,0,0,0,0,0,0,0,0,0,0
 1279,Artcafe,Ceglie Messapica,0,1,0,0,0,0,0,0,0,0,0
 1280,Vinarius,Monopoli,0,1,0,0,0,0,0,0,0,0,0
 1282,La Fucazzeria,Lizzanello,0,0,1,0,0,0,0,0,0,0,0
@@ -1173,7 +1142,6 @@
 1334,Il Monticello,Polignano a Mare,0,0,1,0,0,0,0,0,0,0,0
 1335,Masseria Pedali (ex il Coccodrillo),Fasano,0,0,1,0,0,0,0,0,0,0,0
 1336,Ristorante Atenze,Lecce,0,0,1,0,0,0,0,1,0,0,0
-1337,Glamour,Taviano,0,0,0,0,0,0,0,0,0,0,0
 1338,Amore di Pizza,Bari,0,0,1,0,0,0,0,1,0,0,0
 1339,La Campagnola - Accademia della Bufala,Bitritto,0,0,1,0,0,0,0,1,0,0,0
 1340,Victoria Station,Castellana Grotte,0,0,1,0,0,0,0,0,0,0,0
@@ -1193,7 +1161,6 @@
 1354,Teatro Comunale,Torre Santa Susanna,0,0,0,0,0,0,0,0,0,0,1
 1355,Antichi Sapori,Ostuni,0,0,1,0,0,0,0,1,0,0,0
 1356,Teatro Angioino,Mola di Bari,0,0,0,0,0,0,0,0,0,0,1
-1357,Kambusa,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 1358,Gusto,Lecce,0,0,1,0,0,0,0,1,0,0,0
 1359,Hendrix Guinness Pub,Erchie,0,1,1,0,0,0,0,0,0,0,0
 1360,Alle due corti,Lecce,0,0,1,0,0,0,0,0,0,0,0
@@ -1216,7 +1183,6 @@
 1378,Cinema Teatro Bellarmino,Taranto,0,0,0,0,0,0,0,0,0,0,1
 1379,Al Vecchio Fizzarotti,Bari,0,0,1,0,0,0,0,0,0,0,0
 1380,Montefarella,Putignano,0,0,1,0,0,0,0,0,0,0,0
-1381,Newlife,Acquaviva delle Fonti,0,0,0,0,0,0,0,0,0,0,0
 1382,Agriturismo Masseria Madonna Dell'arco,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
 1383, L'Affresco (Nuova Gestione) ,Locorotondo,0,0,1,0,0,0,0,1,0,0,0
 1384,Il Rugantino,Oria,0,0,1,0,0,0,0,1,0,0,0
@@ -1225,7 +1191,6 @@
 1389,History,Cisternino,0,1,0,0,0,0,0,0,0,0,0
 1390,Sax,Ostuni,0,1,0,0,0,0,0,0,0,0,0
 1391,Il Ristoro dei Templari,Lecce,0,0,1,0,0,0,0,0,0,0,0
-1393,Imperium,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,0
 1394,Cellar Pub,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
 1395,Cineteatro Manzoni,Casarano,0,0,0,0,0,0,0,0,0,0,1
 1396,Miseria e Nobiltà,Monopoli,0,0,1,0,0,0,0,0,0,0,0
@@ -1253,7 +1218,6 @@
 1442,Masseria Sant’Agapito,Lucera,0,1,0,0,0,0,0,0,0,0,0
 1443,Piazza Roma,Taranto,0,1,1,0,0,0,0,1,0,0,0
 1444,Al Rusticone,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
-1446,La Balconata,Polignano a Mare,0,0,0,0,0,0,0,0,0,0,0
 1448,Enoteca La Torre,Minervino Murge,0,1,1,0,0,0,0,0,0,0,0
 1450,Alimò e Taccitù (CHIUSO),Manduria,0,0,1,0,0,0,0,0,0,0,0
 1452,Lohengrin Bavaria Pub,Tricase,0,1,1,0,0,0,0,0,0,0,0
@@ -1326,7 +1290,6 @@
 1541,Il Basiliano,Grottaglie,0,0,1,0,0,0,0,1,0,0,0
 1542,La Cucina della Nonna,Ceglie Messapica,0,0,1,0,0,0,0,0,0,0,0
 1543,Osteria Dei Santi Di Urso Donato ,Ceglie Messapica,0,0,1,0,0,0,0,0,0,0,0
-1544,Enoteca Fedele,Brindisi,0,0,0,0,0,0,0,0,0,0,0
 1546,Gecko ,Carosino,0,1,0,0,0,0,0,0,0,0,0
 1547,Caravaggio,Taranto,0,0,1,0,0,0,0,0,0,0,0
 1548,Il Brigantino,San Michele Salentino,0,0,1,0,0,0,0,1,0,0,0
@@ -1334,7 +1297,6 @@
 1550,La Piazzetta,Putignano,0,0,1,0,0,0,0,0,0,0,0
 1551,Ristorante Borgo Antico,Galatina,0,0,1,0,0,0,0,0,0,0,0
 1552,Locanda Muscettola,Leporano,0,0,1,0,0,0,0,0,0,0,0
-1553,Sosushi,Taranto,0,0,0,0,0,0,0,0,0,0,0
 1554,La Zattera,Monopoli,0,0,1,0,0,0,0,0,0,0,0
 1555,Arcobaleno,Crispiano,0,0,1,0,0,0,0,0,0,0,0
 1556,Carpe Diem,Bari,0,0,1,0,0,0,0,0,0,0,0
@@ -1501,7 +1463,6 @@
 1736,Gruit,Brindisi,0,1,1,0,0,0,0,0,0,0,0
 1738,Taiki Sushi,Bari,0,0,1,0,0,0,0,0,0,0,0
 1739,Gold,Lecce,0,1,1,0,0,0,0,0,0,0,0
-1742,The Club,Maglie,0,0,0,0,0,0,0,0,0,0,0
 1744,Dada,Terlizzi,0,1,0,0,0,0,0,0,0,0,0
 1745,Jazz Caffè,Surbo,0,1,0,0,0,0,0,0,0,0,0
 1746,Altrove,Crispiano,0,1,0,0,0,0,0,0,0,0,0
@@ -1563,7 +1524,6 @@
 1807,Hotel Cuor di Puglia ,Alberobello,0,0,0,0,1,0,0,0,0,0,0
 1808,Hotel Rama Pendula ,Alberobello,0,0,0,0,1,0,0,0,0,0,0
 1809,Grand Hotel Olimpo,Alberobello,0,0,0,0,1,0,0,0,0,0,0
-1810,I Tre Santi,Grottaglie,0,0,0,0,0,0,0,0,0,0,0
 1811,Hotel Cecere,Mottola,0,0,0,0,1,0,0,0,0,0,0
 1812,Ostello For Young,Polignano a Mare,0,0,0,0,1,0,0,0,0,0,0
 1813,Villa Romanazzi Carducci,Bari,0,0,0,0,1,0,0,0,0,0,0
@@ -1577,7 +1537,6 @@
 1821, A Taberna do Joao,Bari,0,1,0,0,0,0,0,0,0,0,0
 1822,Guernica,Taranto,0,0,1,0,0,0,0,0,0,0,0
 1823,Glam'house,Bisceglie,0,1,1,0,0,0,0,0,0,0,0
-1824,Fabrica Fluxus,Bari,0,0,0,0,0,0,0,0,0,0,0
 1825,Il boschetto,Carovigno,0,0,1,0,0,0,0,0,0,0,0
 1826,Bina,Locorotondo,0,0,1,0,0,0,0,1,0,0,0
 1827,Osteria del Pero,Carosino,0,0,1,0,0,0,0,0,0,0,0
@@ -1677,7 +1636,6 @@
 1937,Caffè del Borgo Antico,Ginosa,0,1,0,0,0,0,0,0,0,0,0
 1938,Piccolo Paradiso,Peschici,0,0,1,0,0,0,0,0,0,0,0
 1940,Antica Osteria Le Sete,Ginosa,0,0,1,0,0,0,0,0,0,0,0
-1941,Giugrà,Ostuni,0,0,0,0,0,0,0,0,0,0,0
 1942,Bernardi,Taranto,0,1,0,0,0,0,0,0,0,0,0
 1943,La Cueva,San Marzano di San Giuseppe,0,0,1,0,0,0,0,0,0,0,0
 1944,Casina Terramora da Antimo,Ceglie Messapica,0,0,1,0,0,0,0,0,0,0,0
@@ -1738,7 +1696,6 @@
 2014,Pepe Nero Jazz Club,Barletta,0,1,0,0,0,0,0,0,0,0,0
 2015,Le Grand Tabou Bistrot,Bari,0,1,0,0,0,0,0,0,0,0,0
 2016,ART in PROGRESS,Molfetta,0,0,0,0,0,0,0,0,0,0,1
-2017,Review Piper Club,Putignano,0,0,0,0,0,0,0,0,0,0,0
 2018,Jolly,Fragagnano,0,0,1,0,0,0,0,0,0,0,0
 2019,Voice Cafè vegan bar,Campi Salentina,0,1,1,0,0,0,0,0,0,0,0
 2020,Opera Prima Ristorante,Grottaglie,0,0,1,0,0,0,0,1,0,0,0
@@ -1862,7 +1819,6 @@
 2291,The Box,Martano,0,1,0,0,0,0,0,0,0,0,0
 2294,Gran Caffè,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
 2309,Underground Club 84,Maglie,0,1,1,0,0,0,0,0,0,0,1
-2313,Le Piramidi,Villa Castelli,0,0,0,0,0,0,0,0,0,0,0
 2316,Piccolo Teatro di Bari  Eugenio D'Attoma ,Bari,0,0,0,0,0,0,0,0,0,0,1
 2317,Teatro Santa Lucia,Gioia del Colle,0,0,0,0,0,0,0,0,0,0,1
 2319,Multicinema Galleria,Bari,0,0,0,0,0,0,0,0,0,0,1
@@ -1908,13 +1864,11 @@
 2398,Galleria Spaziosei,Monopoli,0,0,0,0,0,0,0,0,1,0,0
 2399,L'Angolo Divino,Rutigliano,0,1,1,0,0,0,0,0,0,0,0
 2400,ARTcore Gallery,Bari,0,0,0,0,0,0,0,0,0,0,1
-2401,Galleria Vincenza,Grottaglie,0,0,0,0,0,0,0,0,0,0,0
 2402,Masseria La Mandra,Noci,0,0,1,0,0,0,0,1,0,0,0
 2403,La Dimora degli Angeli,Cassano delle Murge,0,0,1,0,0,0,0,0,0,0,0
 2404,Red &amp; White,Erchie,0,0,1,0,0,0,0,0,0,0,0
 2405,Bagià Cafè,Alberobello,0,1,0,0,0,0,0,0,0,0,0
 2407,Casale de Rubeis,Bitonto,0,0,1,0,0,0,0,0,0,0,0
-2408,Sun Bay,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 2409,Uni.Versus CSEI,Bari,0,0,0,0,0,0,0,0,0,0,1
 2422,La Calabrese,Grottaglie,0,0,1,0,0,0,0,0,0,0,0
 2426,Il Rifugio del Naufrago,Porto Cesareo,0,0,1,0,0,0,0,0,0,0,0
@@ -2027,7 +1981,6 @@
 2571,Il Ritrovo di Annu' ,Crispiano,0,0,1,0,0,0,0,1,0,0,0
 2572,Terre di Traiano ,Andria,0,1,1,0,0,0,0,1,0,0,0
 2573,Hippopotamus,Bari,0,0,1,0,0,0,0,1,0,0,0
-2574,Margot,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 2575,Da Mimma e Isa,Ceglie Messapica,0,0,1,0,0,0,0,1,0,0,0
 2576,Pit Stop (Chiuso),Locorotondo,0,1,1,0,0,0,0,0,0,0,0
 2577,La Bettola di Pericle,Specchia,0,0,1,0,0,0,0,0,0,0,0
@@ -2080,7 +2033,6 @@
 2640,Sepik,Putignano,0,1,0,0,0,0,0,1,0,0,0
 2641,Bombetta,Lecce,0,0,1,0,0,0,0,1,0,0,0
 2642,Teatro Bravò,Bari,0,0,0,0,0,0,0,0,0,0,1
-2643,Zia Maria,Carpignano Salentino,0,0,0,0,0,0,0,0,0,0,0
 2644,Illiria Night,Poggiardo,0,1,1,0,0,0,0,0,0,0,0
 2645,ExOpera,Cerignola,0,1,0,0,0,0,0,0,0,0,0
 2646,Il Divino,Manduria,0,1,1,0,0,0,0,0,0,0,0
@@ -2103,7 +2055,6 @@
 2666,Vineria Nobile,Bitritto,0,1,0,0,0,0,0,0,0,0,0
 2667,Hotel Residence,Casamassima,0,0,0,0,1,0,0,0,0,0,0
 2668,Empire Lounge Bar,Taranto,0,1,0,0,0,0,0,0,0,0,0
-2669,Chiascia San Barbato,Bitonto,0,0,0,0,0,0,0,0,0,0,0
 2670,Factory,Bari,0,1,1,0,0,0,0,0,0,0,0
 2671,Palazzo Pesce,Mola di Bari,0,0,0,0,0,0,0,0,0,0,1
 2672,La Locanda Del Pescatore,Locorotondo,0,0,1,0,0,0,0,0,0,0,0
@@ -2124,7 +2075,6 @@
 2689,Il Trovatore,Ceglie Messapica,0,0,0,0,0,0,0,1,0,0,0
 2690,L'angolo Nascosto,Acquaviva delle Fonti,0,0,1,0,0,0,0,0,0,0,0
 2691,Il canto del gallo,Ascoli Satriano,0,0,1,0,0,0,0,0,0,0,0
-2692,Cinema Teatro dei Trulli,Alberobello,0,0,0,0,0,0,0,0,0,0,0
 2693,Royal pub,Massafra,0,1,1,0,0,0,0,0,0,0,1
 2695,Onda Blù,Massafra,0,0,1,0,0,0,0,0,0,0,0
 2696,Velvet Cafè,Grottaglie,0,1,0,0,0,0,0,0,0,0,0
@@ -2153,7 +2103,6 @@
 2738,L'ARCIpelago - Circolo ARCI,Valenzano,0,0,0,0,0,0,0,0,1,0,1
 2739,Montalaluna food &amp; drink,Bari,0,1,1,0,0,0,0,1,0,0,0
 2740,OPEN SPACE - Art Gallery,Ceglie Messapica,0,0,0,0,0,0,0,0,1,0,0
-2741,Clave Discoteque,Porto Cesareo,0,0,0,0,0,0,0,0,0,0,0
 2742,Arci Tressett,Giovinazzo,0,0,0,0,0,0,0,0,0,0,1
 2743,La Farmacia dei Sani,Bari,0,0,1,0,0,0,0,1,0,0,0
 2744,Ai Tre Punti,Cisternino,0,0,1,0,0,0,0,0,0,0,0
@@ -2185,7 +2134,6 @@
 2774,Teatro Comunale Paolo Grassi,Cisternino,0,0,0,0,0,0,0,0,0,0,1
 2775,Momo'S Sport ,Fragagnano,0,1,0,0,0,0,0,0,0,0,0
 2776,Suite 801,Putignano,0,1,1,0,0,0,0,1,0,0,1
-2777,Divinae Follie,Bisceglie,0,0,0,0,0,0,0,0,0,0,0
 2778,Showville,Bari,0,0,0,0,0,0,0,0,0,0,1
 2780,Tatì RistoArt,Bari,0,1,0,0,0,0,0,0,0,0,0
 2781,Caffè d'arte Dolceamaro,Bari,0,1,0,0,0,0,0,0,1,0,1
@@ -2204,7 +2152,6 @@
 2796,La locanda di Sabino,Sammichele di Bari,0,0,1,0,0,0,0,1,0,0,0
 2797,5 Sensi,Galatina,0,0,1,0,0,0,0,0,0,0,0
 2798,Dogana Vecchia,Lecce,0,1,1,0,0,0,0,0,0,0,0
-2799,Chiesa Madre San Giorgio Martire,Locorotondo,0,0,0,0,0,0,0,0,0,0,0
 2800,Centro Polivalente Basile Caramia,Locorotondo,0,0,0,0,0,0,0,0,0,0,1
 2801,Caffé Passarelli,Laterza,0,1,0,0,0,0,0,1,0,0,1
 2802,Teatro Comunale  Wojtyla ,Palagiano,0,0,0,0,0,0,0,0,0,0,1
@@ -2212,7 +2159,6 @@
 2804,Bocconi Pizza &amp; Sapori,Bari,0,0,1,0,0,0,0,0,0,0,0
 2806,Al Santa Lucia,Bari,0,0,1,0,0,0,0,0,0,0,0
 2807,Zona Franka,Bari,0,0,0,0,0,0,0,0,1,0,1
-2808,Facola Fun,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 2809,Trilogy,Manduria,0,1,0,0,0,0,0,0,0,0,0
 2810,Antiche Mura,Polignano a Mare,0,0,1,0,0,0,0,1,0,0,0
 2811,Parco Avventura Ciuchino Birichino,Ostuni,0,0,0,1,0,0,0,0,0,0,0
@@ -2222,7 +2168,6 @@
 2816,Il Desco ,Taranto,0,0,1,0,0,0,0,0,0,0,0
 2817,La Taverna di Romoletto,Gioia del Colle,0,0,1,0,0,0,0,0,0,0,0
 2818,D'Attoma,Conversano,0,0,1,0,0,0,0,0,0,0,0
-2819,Gorgeous,Bari,0,0,0,0,0,0,0,0,0,0,0
 2820,Circolo Arci Carlo Cafiero,Barletta,0,0,0,0,0,0,0,0,0,0,1
 2822,CiberLab,Valenzano,0,0,0,0,0,0,0,0,1,0,1
 2823,Teatro Comunale,Carosino,0,0,0,0,0,0,0,0,0,0,1
@@ -2230,7 +2175,6 @@
 2825,La Locanda del Mazzini,Bitonto,0,0,1,0,0,0,0,0,0,0,0
 2826,Dalla Padella alla Brace,Botrugno,0,0,1,0,0,0,0,1,0,0,0
 2827,Ristorante La Cecchina,Bari,0,0,1,0,0,0,0,0,0,0,0
-2828,Arena live Music,Carpignano Salentino,0,0,0,0,0,0,0,0,0,0,0
 2831,Palestra Venus,Locorotondo,0,0,0,1,0,0,0,0,0,0,0
 2835,Ramses II,Lecce,0,1,1,0,0,0,0,0,0,0,0
 2838,Elite Pizza,Bari,0,0,1,0,0,0,0,0,0,0,0
@@ -2249,7 +2193,6 @@
 2855,Drago D'oro,Bari,0,0,1,0,0,0,0,0,0,0,0
 2856,Red Lion,Sava,0,1,1,0,0,0,0,1,0,0,0
 2857,Tonino Bello da Fabio,Crispiano,0,0,1,0,0,0,0,0,0,0,0
-2859,AltroMondoMusic,Bari,0,0,0,0,0,0,0,0,0,0,0
 2860,Begula Club Café Restaurant,Polignano a Mare,0,1,1,0,0,0,0,0,0,0,0
 2863,Fermento beershop,Bari,0,1,0,0,0,0,0,0,0,0,0
 2864,Gallone Ristorante,Tricase,0,1,1,0,0,0,0,0,0,0,0
@@ -2302,8 +2245,6 @@
 2926,Masseria Pezzuti,Trepuzzi,0,0,1,0,0,0,0,1,0,0,0
 2928,Moonlight,Acquaviva delle Fonti,0,1,0,0,0,0,0,0,0,0,0
 2929,Masseria Morrone,Ostuni,0,0,1,0,0,0,0,0,0,0,0
-2930,Masseria Pizzìca,Crispiano,0,0,0,0,0,0,0,0,0,0,0
-2931,Arena Ressa,Statte,0,0,0,0,0,0,0,0,0,0,0
 2932,Caffe' Vittorio,Crispiano,0,1,0,0,0,0,0,0,0,0,0
 2933,Khalida Pub,San Donato di Lecce,0,1,1,0,0,0,0,0,0,0,0
 2934,Saracino,Crispiano,0,0,1,0,0,0,0,0,0,0,0
@@ -2323,7 +2264,6 @@
 2949,Gonzo,Acquaviva delle Fonti,0,1,0,0,0,0,0,0,0,0,0
 2950,U Gnore,Bari,0,0,1,0,0,0,0,0,0,0,0
 2952,Auditorium Mary Pyle Chiesa di San Pio da Pietralcina,San Giovanni Rotondo,0,0,0,0,0,0,0,0,0,0,1
-2953,Zero DB music club,Motta Montecorvino,0,0,0,0,0,0,0,0,0,0,0
 2954,La Vela,Bari,0,0,1,0,0,0,0,0,0,0,0
 2955,Da Antimo,Porto Cesareo,0,0,1,0,0,0,0,0,0,0,0
 2956,Trattoria Meeting,Porto Cesareo,0,0,1,0,0,0,0,0,0,0,0
@@ -2354,7 +2294,6 @@
 2983,San Frediano,Mesagne,0,0,1,0,0,0,0,0,0,0,0
 2984,Rosticceria Oriente,Bari,0,0,1,0,0,0,0,0,0,0,0
 2985,Govinda Café,Alezio,0,1,0,0,0,0,0,0,0,0,0
-2987,Cave,Gallipoli,0,0,0,0,0,0,0,0,0,0,0
 2990,Bet &amp; Drink cafe',Guagnano,0,1,0,0,0,0,0,0,0,0,0
 2992,Pizzeria Nuviani,Bari,0,0,1,0,0,0,0,0,0,0,0
 2993,Pianeta Mare,Sammichele di Bari,0,0,1,0,0,0,0,0,0,0,0
@@ -2399,90 +2338,28 @@
 3044,Al Buco Preferito Tranquillage,Polignano a Mare,0,0,1,0,0,0,0,0,0,0,0
 3045,La terra vecchia ,Cerignola,0,0,1,0,0,0,0,0,0,0,0
 3046,Cinema Ariston,Taranto,0,0,0,0,0,0,0,0,0,0,1
-3047,Daniela,Taranto,0,0,0,0,0,0,0,0,0,0,0
-3048,Lumiere,Taranto,0,0,0,0,0,0,0,0,0,0,0
-3049,Savoia,Taranto,0,0,0,0,0,0,0,0,0,0,0
 3050,Nuovo Cinema Vittoria,Grottaglie,0,0,0,0,0,0,0,0,0,0,1
-3051,Cinema Abc,Bari,0,0,0,0,0,0,0,0,0,0,0
-3052,Cinema Nuovo Splendor,Bari,0,0,0,0,0,0,0,0,0,0,0
-3053,Cinema Grande,Altamura,0,0,0,0,0,0,0,0,0,0,0
 3054,Cinema Teatro Coviello,Bitonto,0,0,0,0,0,0,0,0,0,0,1
-3055,The Space Cinema Casamassima,Casamassima,0,0,0,0,0,0,0,0,0,0,0
-3056,In Astrovisione,Castellana Grotte,0,0,0,0,0,0,0,0,0,0,0
-3057,Milleluci,Castellana Grotte,0,0,0,0,0,0,0,0,0,0,0
-3058,Cinema Alfieri,Corato,0,0,0,0,0,0,0,0,0,0,0
-3059,Cinema Elia D'essai,Corato,0,0,0,0,0,0,0,0,0,0,0
-3060,Cinema Seven Cineplex,Gioia del Colle,0,0,0,0,0,0,0,0,0,0,0
-3061,Cinema Cosmo,Grumo Appula,0,0,0,0,0,0,0,0,0,0,0
-3062,Cinema Metropolis,Mola di Bari,0,0,0,0,0,0,0,0,0,0,0
-3063,Cinema Uci Cinemas Molfetta,Molfetta,0,0,0,0,0,0,0,0,0,0,0
-3064,Cinema Vittoria,Monopoli,0,0,0,0,0,0,0,0,0,0,0
-3065,Cinema Pixel Multicinema,Santeramo in Colle,0,0,0,0,0,0,0,0,0,0,0
-3066,Cinema Piccolo Garzia,Terlizzi,0,0,0,0,0,0,0,0,0,0,0
-3067,Cinema Andromeda,Brindisi,0,0,0,0,0,0,0,0,0,0,0
-3068,Cinema Cineblu,Carovigno,0,0,0,0,0,0,0,0,0,0,0
-3069,Cinema Kennedy,Fasano,0,0,0,0,0,0,0,0,0,0,0
-3070,Cinema Officine Teatro Ariston,Mesagne,0,0,0,0,0,0,0,0,0,0,0
-3071,Cinema Multisala Salerno,Oria,0,0,0,0,0,0,0,0,0,0,0
-3072,Cinema Massimo,San Pietro Vernotico,0,0,0,0,0,0,0,0,0,0,0
-3073,Cinema Antoniano,Lecce,0,0,0,0,0,0,0,0,0,0,0
-3074,Cinema Don Bosco D'essai Circuito D'autore,Lecce,0,0,0,0,0,0,0,0,0,0,0
-3075,Cinema Santa Lucia,Lecce,0,0,0,0,0,0,0,0,0,0,0
-3076,Cinema Tartaro,Galatina,0,0,0,0,0,0,0,0,0,0,0
-3077,Cinema Schipa,Gallipoli,0,0,0,0,0,0,0,0,0,0,0
-3078,Cinema Multiplex Teatro Fasano,Taviano,0,0,0,0,0,0,0,0,0,0,0
-3079,Cinema Aurora,Tricase,0,0,0,0,0,0,0,0,0,0,0
-3080,Cinema Paradiso,Tricase,0,0,0,0,0,0,0,0,0,0,0
-3081,Cinema Multisala Cinemars,Andria,0,0,0,0,0,0,0,0,0,0,0
-3082,Cinema Multisala Roma,Andria,0,0,0,0,0,0,0,0,0,0,0
-3083,Cinema Opera,Barletta,0,0,0,0,0,0,0,0,0,0,0
-3084,Cinema Paolillo,Barletta,0,0,0,0,0,0,0,0,0,0,0
-3085,Cinema Nuovo,Bisceglie,0,0,0,0,0,0,0,0,0,0,0
-3086,Cinema Politeama Italia,Bisceglie,0,0,0,0,0,0,0,0,0,0,0
-3087,Cinema Cine Teatro Supercinema,Spinazzola,0,0,0,0,0,0,0,0,0,0,0
-3088,Cinema Citta' Del Cinema,Foggia,0,0,0,0,0,0,0,0,0,0,0
-3089,Cinema Laltrocinema,Foggia,0,0,0,0,0,0,0,0,0,0,0
-3090,Cinema Sala Farina,Foggia,0,0,0,0,0,0,0,0,0,0,0
-3091,Cinema Sala Pio Xi,Bovino,0,0,0,0,0,0,0,0,0,0,0
-3092,Cinema Corso,Cerignola,0,0,0,0,0,0,0,0,0,0,0
-3093,Cinema Roma,Cerignola,0,0,0,0,0,0,0,0,0,0,0
-3094,Cinema Dell'Opera,Lucera,0,0,0,0,0,0,0,0,0,0,0
-3095,Cinema San Michele,Manfredonia,0,0,0,0,0,0,0,0,0,0,0
-3096,Cinema Palladino,San Giovanni Rotondo,0,0,0,0,0,0,0,0,0,0,0
-3097,Cinema De Robertis,San Marco in Lamis,0,0,0,0,0,0,0,0,0,0,0
-3098,Cinema Cicolella,San Severo,0,0,0,0,0,0,0,0,0,0,0
-3099,Cinema Ciardulli,Torremaggiore,0,0,0,0,0,0,0,0,0,0,0
-3231,Sidion,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,0
-3232,Cinema Vittoria,Ruvo di Puglia,0,0,0,0,0,0,0,0,0,0,0
 3233,L'Era Glaciale,Cisternino,0,0,0,0,0,1,0,0,0,0,0
-3234,Metropolitan,Ginosa,0,0,0,0,0,0,0,0,0,0,0
-3236,Ariston,Collepasso,0,0,0,0,0,0,0,0,0,0,0
-3237,Pianeta Cinema,Nardò,0,0,0,0,0,0,0,0,0,0,0
 3239,Masseria Gelso Antico,Monopoli,0,0,1,0,0,0,0,0,0,0,0
 3240,La Selva di Diana,Cassano delle Murge,0,0,1,0,0,0,0,0,0,0,0
 3241,Essenzanerocafe',Cassano delle Murge,0,1,1,0,0,0,0,1,0,0,0
 3242,Masseria San Nicola,Putignano,0,0,0,0,0,0,0,0,1,0,1
 3243,Casa Mariani,Turi,0,0,1,0,0,0,0,1,0,0,0
 3245,Trattoria Negroamaro,Latiano,0,0,1,0,0,0,0,0,0,0,0
-3246,Cinema Il Piccolo,Bari,0,0,0,0,0,0,0,0,0,0,0
 3247,Osteria al Consiglio,Bisceglie,0,1,1,0,0,0,0,1,0,0,0
 3257,Il Gabelliere,Polignano a Mare,0,0,1,0,0,0,0,0,0,0,0
 3258,Bar Sanremo,Ruvo di Puglia,0,0,0,0,0,1,0,0,0,0,0
 3259,Tolleranza zero,Foggia,0,1,0,0,0,0,1,0,0,0,0
-3260,Cinema Margherita,Putignano,0,0,0,0,0,0,0,0,0,0,0
-3261,Cinema Vittoria,Sava,0,0,0,0,0,0,0,0,0,0,0
 3262,New Port Café,Brindisi,0,1,0,0,0,0,0,0,0,0,0
 3263,Terra del Sol,Gallipoli,0,0,1,0,0,0,0,0,0,0,0
 3265,Da Angelo,Casamassima,0,0,1,0,0,0,0,0,0,0,0
 3266,Cabiria Café,Grottaglie,0,1,1,0,0,0,0,0,0,0,0
 3267,Birrbante,Bari,0,1,1,0,0,0,0,0,0,0,0
-3268,Esedra,Bari,0,0,0,0,0,0,0,0,0,0,0
 3270,Dream On Café,Massafra,0,1,0,0,0,0,0,0,0,0,0
 3271,Casa Cecilia,Grottaglie,0,0,0,0,1,0,0,0,0,0,0
 3272,Dellisanti,Ceglie Messapica,0,0,1,0,0,0,0,1,0,0,0
 3274,Il poeta Contadino,Lecce,0,0,1,0,0,0,0,1,0,0,0
-3276,Cinema Aurora,Botrugno,0,0,0,0,0,0,0,0,0,0,0
-3277,Supercinema Cicolella,Orta Nova,0,0,0,0,0,0,0,0,0,0,0
 3278,Ristorante Al Visconti,Bari,0,1,1,0,0,0,0,1,0,0,0
 3279,Km97,Lecce,0,0,0,0,0,0,0,0,1,0,1
 3280,Garage Sound Live,Bari,0,1,0,0,0,0,0,0,1,0,1
@@ -2491,7 +2368,6 @@
 3283,33 Giri - Alternative Dj Pub,Bari,0,1,1,0,0,0,0,0,0,0,0
 3284,Palazzo Roberti Alberotanza,Mola di Bari,0,0,0,0,0,0,0,0,1,0,0
 3285,Macelleria da Marcuccio,Polignano a Mare,0,0,1,0,0,0,0,0,0,0,0
-3286,Cinema Mastroianni,Fasano,0,0,0,0,0,0,0,0,0,0,0
 3287,Decanter Wine&amp;Food,Andria,0,1,1,0,0,0,0,0,0,0,0
 3288,La Tavernetta,Molfetta,0,0,1,0,0,0,0,0,0,0,0
 3289,La gatta al lardo - Norcineria,Lecce,0,0,1,0,0,0,0,0,0,0,0
@@ -2504,7 +2380,6 @@
 3296,Hotel San Giacomo,Bitetto,0,0,1,0,1,0,0,0,0,0,0
 3297,Il Pirata Malu',Mola di Bari,0,0,1,0,0,0,0,0,0,0,0
 3298,Agriturismo Lu Casale,San Cesario di Lecce,0,1,1,0,1,0,0,0,0,0,0
-3299,CicloSpazio,Bari,0,0,0,0,0,0,0,0,0,0,0
 3300,Altair Association,Bari,0,0,0,0,0,0,0,0,1,0,0
 3301,La'mbriana,Bari,0,0,1,0,0,0,0,0,0,0,0
 3302,Antichi sapori di Urbani,Grottaglie,0,0,1,0,0,0,0,0,0,0,0
@@ -2526,28 +2401,23 @@
 3323,Centro Artistico Culturale  La Casaccia ,Francavilla Fontana,0,0,0,0,0,0,0,0,1,0,0
 3324,L'8 Meraviglia Pasticceria,Casamassima,0,0,0,0,0,1,0,0,0,0,0
 3325,Silvano Ltd,Alberobello,0,1,1,0,0,0,0,0,0,0,0
-3326,Abusuan - Centro Interculturale,Bari,0,0,0,0,0,0,0,0,0,0,0
 3327,Tenuta Pinto,Mola di Bari,0,1,1,0,0,0,0,0,0,0,0
 3328,Arci Calypso,Sava,0,0,0,0,0,0,0,0,1,0,1
 3330,Cremeria del Borgo,Giovinazzo,0,1,1,0,0,0,0,0,0,0,0
 3331,Feltrinelli Point,Lecce,0,0,0,0,0,0,1,0,0,0,0
 3332,By Pass,Sammichele di Bari,0,1,1,0,0,0,0,0,0,0,0
 3334,Arci  Urlo ,Acquaviva delle Fonti,0,0,0,0,0,0,0,0,1,0,1
-3335,Heineken Disco Club,Gioia del Colle,0,0,0,0,0,0,0,0,0,0,0
 3336,Galleria Doppelgaenger,Bari,0,0,0,0,0,0,0,0,1,0,0
 3338,Seven B,Mesagne,0,1,1,0,0,0,0,0,0,0,0
 3339,Pantagruel,Ostuni,0,0,1,0,0,0,0,0,0,0,0
 3340,Glass Café,Maglie,0,1,0,0,0,0,0,0,0,0,0
 3342,Gambrinus Brasserie,Putignano,0,1,1,0,0,0,0,0,0,0,0
 3343,G-Lan Alberobello,Alberobello,0,0,0,0,0,0,0,0,0,0,1
-3344,Replay,Foggia,0,0,0,0,0,0,0,0,0,0,0
 3345,EX Officina  Laboratorio Urbano di Monteroni  Teatro dei Veleni,Monteroni di Lecce,0,0,0,0,0,0,0,0,1,0,1
-3346,L'Artificio ,Andria,0,0,0,0,0,0,0,0,0,0,0
 3348,Corvotorvo,Bitonto,0,1,1,0,0,0,0,0,0,0,0
 3349,Galleria Omphalos,Terlizzi,0,0,0,0,0,0,0,0,1,0,0
 3350,Sciascia carni,Villa Castelli,0,0,1,0,0,0,0,0,0,0,0
 3351,Don Saverio ,Altamura,0,0,1,0,0,0,0,1,0,0,0
-3352,Castello De Falconibus,Pulsano,0,0,0,0,0,0,0,0,0,0,0
 3353,Arci  La Torre di Babele ,Terlizzi,0,1,0,0,0,0,0,0,1,0,0
 3354,Welcome,Terlizzi,0,1,0,0,0,0,0,0,1,0,0
 3355,Terra Terra,Bari,0,1,1,0,0,0,0,0,0,0,0
@@ -2564,10 +2434,8 @@
 3394,Terre di Sizzaro,Sannicandro di Bari,0,0,1,0,0,0,0,0,0,0,0
 3395,Nonna Mina,Brindisi,0,0,1,0,0,0,0,0,0,0,0
 3396,Terranima,Bari,0,1,1,0,0,0,0,0,0,0,0
-3564,Officine Culturali Ergot,Lecce,0,0,0,0,0,0,0,0,0,0,0
 3565,Cinema Teatro Valentino,Castellaneta,0,0,0,0,0,0,0,0,0,0,1
 3566,Top Food,Taranto,0,0,0,0,0,1,0,0,0,0,0
-3567,MADcafé,Campi Salentina,0,0,0,0,0,0,0,0,0,0,0
 3568,Purple Haze,Mesagne,0,1,0,0,0,0,0,0,0,0,0
 3571,La Piccola Lanterna,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
 3572,Laboratorio urbano di Arnesano - Teatro dei Veleni,Arnesano,0,0,0,0,0,0,0,0,1,0,1
@@ -2584,7 +2452,6 @@
 3603,Nedina Caffè,Mesagne,0,1,0,0,0,0,0,0,0,0,0
 3604,Pala e20,Carosino,0,0,0,0,0,0,0,0,0,0,1
 3606,IL Pizzorante Da Nathalie,Bari,0,0,1,0,0,0,0,0,0,0,0
-3607,Oblò Disco Club,Leporano,0,0,0,0,0,0,0,0,0,0,0
 3644,Must – Museo storico di Lecce,Lecce,0,0,0,0,0,0,0,0,1,0,0
 3692,Teatro Comunale  Raffaele Lembo ,Canosa di Puglia,0,0,0,0,0,0,0,0,0,0,1
 3694,Superbar Carriero,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
@@ -2592,8 +2459,6 @@
 3696,Castello Angioino,Mola di Bari,0,0,0,0,0,0,0,1,0,0,1
 3697,Auditorium S.S. Medici,Bitonto,0,0,0,0,0,0,0,0,0,0,1
 3699,h24 fabrìKa,Lecce,0,0,0,0,0,0,0,0,1,0,0
-3702,Cineporto,Bari,0,0,0,0,0,0,0,0,0,0,0
-3703,Kimìko,Foggia,0,0,0,0,0,0,0,0,0,0,0
 3704,Teatro Comunale,Corato,0,0,0,0,0,0,0,0,0,0,1
 3705,Nuovo Cinema Paradiso,Melendugno,0,0,0,0,0,0,0,0,0,0,1
 3706,Club House Indian Bikers,Foggia,0,1,1,0,0,0,0,0,0,0,0
@@ -2641,17 +2506,13 @@
 3769,Braceria Mangiafuoco,Bari,0,0,1,0,0,0,0,0,0,0,0
 3771,L'Orchidea Cafè ,San Vito dei Normanni,0,1,1,0,0,0,0,0,0,0,0
 3772,Masseria Stali,Caprarica di Lecce,0,0,0,0,0,0,0,1,0,0,0
-3773,Salone del Conservatorio  Nino Rota ,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 3774,Masseria Galeota,Leporano,0,1,1,0,0,0,0,0,0,0,0
 3775,Macelleria Rosticceria da Lassandro Michele e Figli,Santeramo in Colle,0,0,1,0,0,0,0,0,0,0,0
 3776,Mattarella,Giovinazzo,0,0,1,0,0,0,0,0,0,0,0
-3777,Fellini,Foggia,0,0,0,0,0,0,0,0,0,0,0
 3778,Libreria Laterza,Bari,0,0,0,0,0,0,1,0,0,0,0
 3779,Museo Pino Pascali,Polignano a Mare,0,0,0,0,0,0,0,0,1,0,0
 3782,Babylis Club,Carosino,0,0,1,0,0,0,0,0,0,0,0
 3783,La Mancha,Ruvo di Puglia,0,1,0,0,0,0,0,0,0,0,0
-3784,Centro Commerciale Bariblu,Triggiano,0,0,0,0,0,0,0,0,0,0,0
-3785,Carsica,Andria,0,0,0,0,0,0,0,0,0,0,0
 3786,Luogo Comune Bari,Bari,0,0,0,0,0,0,0,0,1,0,1
 3787,400 il Ristorantino,Corigliano d'Otranto,0,0,1,0,0,0,0,0,0,0,0
 3788,Pizza Dream,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
@@ -2660,10 +2521,7 @@
 3791,Arte Franca,Martina Franca,0,0,0,0,0,0,0,0,0,0,1
 3792,Ristorante Pizzeria Ghiribizzo,Taranto,0,1,1,0,0,0,0,0,0,0,0
 3793,Dottor Panzerotto,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
-3794,Odeon,Bari,0,0,0,0,0,0,0,0,0,0,0
-3795,Vittoria,Cassano delle Murge,0,0,0,0,0,0,0,0,0,0,0
 3796,Schola Sarmenti,Nardò,0,1,0,0,0,0,0,0,0,0,0
-3797,Auditorium Comunale  Aldo Tundo ,Taviano,0,0,0,0,0,0,0,0,0,0,0
 3798,Break 184,Bari,0,0,0,0,0,1,0,0,0,0,0
 3799,Officina dell'Arte - BKK,Mola di Bari,0,0,0,0,0,0,0,0,1,0,1
 3800,Caffè diVino,Trani,0,1,0,0,0,0,0,0,0,0,0
@@ -2681,13 +2539,11 @@
 3824,Castello Imperiali,Francavilla Fontana,0,0,0,0,0,0,0,0,1,0,1
 3825,Campobello caffè,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
 3826,Gelato.it,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
-3828,Marrakech Club House,Ostuni,0,0,0,0,0,0,0,0,0,0,0
 3830,Autunno Ristorante Giapponese,Taranto,0,0,1,0,0,0,0,0,0,0,0
 3832,Giardini Colombo,Grottaglie,0,1,0,0,0,0,0,0,0,0,0
 3833,Arena Villa Carmine,Martina Franca,0,0,0,0,0,0,0,0,0,0,1
 3835,Max &amp; Angy cafe,Faggiano,0,1,1,0,0,0,0,0,0,0,0
 3837,Marino terraferma ,Taranto,0,0,1,0,0,0,0,0,0,0,0
-3838,Conforama,Fasano,0,0,0,0,0,0,0,0,0,0,0
 3839,Teatro Comunale Paisiello,Ruffano,0,0,0,0,0,0,0,0,0,0,1
 3840,Sixtynine Cocktail Experience,Santeramo in Colle,0,1,0,0,0,0,0,0,0,0,0
 3845,CoArt gallery,Corato,0,0,0,0,0,0,0,0,1,0,0
@@ -2696,7 +2552,6 @@
 3850,Masseria Tarturiello,Ceglie Messapica,0,0,1,0,1,0,0,0,0,0,0
 3855,Prosit Bar,Cursi,0,0,1,0,0,0,0,0,0,0,0
 3856,Galleria del Catapano,Bari,0,0,0,0,0,0,0,0,1,0,0
-3857,Circolo Arci Zero,Brindisi,0,0,0,0,0,0,0,0,0,0,0
 3858,Mierò,Corigliano d'Otranto,0,1,0,0,0,0,0,0,0,0,0
 3859,Biblioteca Provinciale Magna Capitana,Foggia,0,0,0,0,0,0,1,0,0,0,0
 3860,Laboratorio Urbano Liberal'arte,Gallipoli,0,0,0,0,0,0,0,0,1,0,0
@@ -2720,7 +2575,6 @@
 3883,Marco's Restaurant,Locorotondo,0,0,1,0,0,0,0,0,0,0,0
 3884,Western Pub,Mesagne,0,1,0,0,0,0,0,0,0,0,0
 3885,Teatro Garibaldi,Gallipoli,0,0,0,0,0,0,0,0,0,0,1
-3886,Cadillac Restaurant ,Casarano,0,0,0,0,0,0,0,0,0,0,0
 3889,Chiesa Della Morte,Molfetta,0,0,0,0,0,0,0,0,1,0,0
 3890,L'impronta,Taranto,0,0,0,0,0,0,0,0,1,0,0
 3892,Al Castellino,Taranto,0,1,1,0,0,0,0,0,0,0,0
@@ -2729,7 +2583,6 @@
 3896,Teatro Italia,Carovigno,0,0,0,0,0,0,0,0,0,0,1
 3897,Caffè Italiano,Taranto,0,1,0,0,0,0,0,0,0,0,0
 3898,Istanbul Dunya Kebab,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
-3903,Cadillac Cafe,Ostuni,0,0,0,0,0,0,0,0,0,0,0
 3906,Convivium,Castellana Grotte,0,0,1,0,0,0,0,1,0,0,0
 3907,La Vecchia Curte,San Cesario di Lecce,0,0,1,0,0,0,0,1,0,0,0
 3912,Teatro Comunale,Novoli,0,0,0,0,0,0,0,0,0,0,1
@@ -2738,7 +2591,6 @@
 3916,La Locanda,Conversano,0,1,1,0,0,0,0,0,0,0,0
 3917,L'Officina del Gusto,Noci,0,0,1,0,0,1,0,0,0,0,0
 3918,Martina Caffé,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
-3919,Archeotower,Taranto,0,0,0,0,0,0,0,0,0,0,0
 3921,Open Green,Ruvo di Puglia,0,1,1,0,0,0,0,0,0,0,0
 3922,Antiche mura,Palo del Colle,0,0,1,0,0,0,0,0,0,0,0
 3923,Pisco,Melissano,0,1,1,0,0,0,0,0,0,0,0
@@ -2746,7 +2598,6 @@
 3930,Sala francescana di cultura,Galatina,0,0,0,0,0,0,0,0,0,0,1
 3931,Il Brillo Parlante,Castrignano de' Greci,0,1,1,0,0,0,0,0,0,0,0
 3932,Basilica di San Martino,Martina Franca,0,0,0,0,0,0,0,0,1,0,0
-3933,Socrate Occupato,Bari,0,0,0,0,0,0,0,0,0,0,0
 3934,Museo della fotografia del Politecnico,Bari,0,0,0,0,0,0,0,0,1,0,0
 3935,Albergo del Sole,Taranto,0,0,0,0,1,0,0,0,0,0,0
 3937,Palazzo Galeota,Taranto,0,0,0,0,0,0,0,0,1,0,0
@@ -2824,9 +2675,7 @@
 4034,Masseria Caselli,Carovigno,0,0,0,0,1,0,0,0,0,0,0
 4039,SecondArea,Castellana Grotte,0,0,0,0,0,0,0,0,0,0,1
 4040,Feltrinelli Point,Brindisi,0,0,0,0,0,0,1,0,0,0,0
-4041,Parco Giochi Alaska,Veglie,0,0,0,0,0,0,0,0,0,0,0
 4042,Libreria Chiarito,Monopoli,0,0,0,0,0,0,1,0,0,0,0
-4043,C.A.G.- Brindisi per i Giovani ,Brindisi,0,0,0,0,0,0,0,0,0,0,0
 4044,Mimì - Ristorante in Carne,Bari,0,0,1,0,0,0,0,0,0,0,0
 4045,Trani Civica,Trani,0,0,0,0,0,0,0,0,1,0,0
 4046,Nincasi Fleur de Houblon,Cisternino,0,1,1,0,0,0,0,0,0,0,0
@@ -2844,7 +2693,6 @@
 4061,Circolo Pivot,Castellana Grotte,0,0,0,0,0,0,0,0,0,0,1
 4062,Diusis Loungebar,Carovigno,0,1,0,0,0,0,0,0,0,0,0
 4063,Libreria La Civetta,Altamura,0,0,0,0,0,0,1,0,0,0,0
-4064,Barcollo,Torre Santa Susanna,0,0,0,0,0,0,0,0,0,0,0
 4065,Castello di Barletta,Barletta,0,0,0,0,0,0,0,0,1,0,0
 4066,Masseria Il Pastore,Trani,0,0,0,0,1,0,0,0,0,0,0
 4067,Nettuno ricevimenti,Molfetta,0,0,1,0,0,0,0,0,0,0,0
@@ -2856,7 +2704,6 @@
 4075,Al Trullo B&amp;b,Castellana Grotte,0,0,0,0,1,0,0,0,0,0,0
 4076,Cave di Fantiano,Grottaglie,0,0,0,0,0,0,0,1,1,0,0
 4077,Terrazze Yacht Torre Moline,Maruggio,0,1,0,0,0,0,0,0,0,0,0
-4078,Cantina Albea,Alberobello,0,0,0,0,0,0,0,0,0,0,0
 4079,Laboratorio Urbano Fasano,Fasano,0,0,0,0,0,0,0,0,0,0,1
 4080,Extrò Café,San Giovanni Rotondo,0,1,0,0,0,0,0,0,0,0,0
 4081,Pro Loco,Conversano,0,0,0,0,0,0,0,0,1,0,0
@@ -2870,41 +2717,6 @@
 4090,Centro Cittadino di Sava,Sava,0,0,0,0,0,0,0,0,1,0,0
 4091,Due &amp; Undici - 2e11,Bisceglie,0,0,1,0,0,0,0,0,0,0,0
 4092,Libreria Mandese,Taranto,0,0,0,0,0,0,1,0,0,0,0
-4093,Parco La Saletta,Nardò,0,0,0,0,0,0,0,0,0,0,0
-4094,Casa Porcara,Veglie,0,0,0,0,0,0,0,0,0,0,0
-4095,Cooperativa a.r.l. Onlus Emmanus ,Foggia,0,0,0,0,0,0,0,0,0,0,0
-4096,Masseria didattica Coppa,Ruvo di Puglia,0,0,0,0,0,0,0,0,0,0,0
-4097,Masseria didattica Falcare,Cagnano Varano,0,0,0,0,0,0,0,0,0,0,0
-4098,Giardino degli Ulivi,Trinitapoli,0,0,0,0,0,0,0,0,0,0,0
-4099,La Ferrata,Ruvo di Puglia,0,0,0,0,0,0,0,0,0,0,0
-4100,Le Marangi,Mottola,0,0,0,0,0,0,0,0,0,0,0
-4101,Masseria Losurdo,Altamura,0,0,0,0,0,0,0,0,0,0,0
-4102,Masseria 'Lu Pirazzu ,Galatina,0,0,0,0,0,0,0,0,0,0,0
-4103,Masseria Albano,Foggia,0,0,0,0,0,0,0,0,0,0,0
-4105,Masseria Avellaneta,San Marco la Catola,0,0,0,0,0,0,0,0,0,0,0
-4106,Masseria Barbera,Minervino Murge,0,0,0,0,0,0,0,0,0,0,0
-4107,Masseria Bioagricola Marchesana,Gioia del Colle,0,0,0,0,0,0,0,0,0,0,0
-4108,Masseria Cannarozzi Michele,Carpino,0,0,0,0,0,0,0,0,0,0,0
-4109,Masseria Carrone,Carovigno,0,0,0,0,0,0,0,0,0,0,0
-4110,Masseria Cefalicchio,Canosa di Puglia,0,0,0,0,0,0,0,0,0,0,0
-4111,Masseria Chicco Rizzo ,Sternatia,0,0,0,0,0,0,0,0,0,0,0
-4112,Masseria Chimienti,Cassano delle Murge,0,0,0,0,0,0,0,0,0,0,0
-4113,Masseria Chinunno,Altamura,0,0,0,0,0,0,0,0,0,0,0
-4114,Masseria Chiomenti Marcella,Cerignola,0,0,0,0,0,0,0,0,0,0,0
-4115,Masseria Circhetta,Ortelle,0,0,0,0,0,0,0,0,0,0,0
-4117,Masseria Correo,Carovigno,0,0,0,0,0,0,0,0,0,0,0
-4118,Masseria De Grandi Vito - Frantoio Oleario,Cassano delle Murge,0,0,0,0,0,0,0,0,0,0,0
-4119,Masseria De Palma,Troia,0,0,0,0,0,0,0,0,0,0,0
-4120,Masseria Dei Monelli,Conversano,0,0,0,0,0,0,0,0,0,0,0
-4121,Masseria del Duca,Crispiano,0,0,0,0,0,0,0,0,0,0,0
-4123,Masseria Eredi Fragassi Antonio,Orsara di Puglia,0,0,0,0,0,0,0,0,0,0,0
-4124,Masseria Fatalò,Lizzanello,0,0,0,0,0,0,0,0,0,0,0
-4125,Masseria Rovello,San Paolo di Civitate,0,0,0,0,0,0,0,0,0,0,0
-4126,Masseria Ferri,Ostuni,0,0,0,0,0,0,0,0,0,0,0
-4127,Masseria Fiorentino,Torremaggiore,0,0,0,0,0,0,0,0,0,0,0
-4128,Masseria Fiume Irma,Putignano,0,0,0,0,0,0,0,0,0,0,0
-4129,Masseria Gaudiano,Cerignola,0,0,0,0,0,0,0,0,0,0,0
-4130,Masseria Gli Ulivi,Tricase,0,0,0,0,0,0,0,0,0,0,0
 4131,Samsara Beach,Gallipoli,0,0,0,0,0,0,0,0,0,1,0
 4132,Castello di Santo Stefano,Monopoli,0,0,0,0,0,0,0,0,1,1,0
 4133,Flying Circus,Bari,0,1,0,0,0,0,0,0,0,0,0
@@ -2916,18 +2728,10 @@
 4141,Cult Pub,Castrignano de' Greci,0,1,1,0,0,0,0,0,0,0,0
 4143,New Atmosphere,Rutigliano,0,1,0,0,0,0,0,0,0,0,0
 4144,Complesso Madonna della Rosa,Molfetta,0,0,0,0,0,0,0,0,1,0,0
-4146,Guendalina,Santa Cesarea Terme,0,0,0,0,0,0,0,0,0,0,0
-4148,Masseria Il Petraro,Modugno,0,0,0,0,0,0,0,0,0,0,0
-4149,Masseria Ittica Portovento,Ugento,0,0,0,0,0,0,0,0,0,0,0
-4150,Masseria La Calcara,Altamura,0,0,0,0,0,0,0,0,0,0,0
-4151,Masseria La Cerasola,Monteleone di Puglia,0,0,0,0,0,0,0,0,0,0,0
-4152,Masseria la Fattoria,Otranto,0,0,0,0,0,0,0,0,0,0,0
 4153,Saloon The Beach,Carovigno,0,1,0,0,0,0,0,0,0,1,0
 4154,Al Moletto - Molo Sant'Eligio,Taranto,0,1,1,0,0,0,0,0,0,0,0
 4155,Cliché,Conversano,0,1,1,0,0,0,0,1,0,0,0
 4156,Pizzeria L'incontro,Torricella,0,0,1,0,0,0,0,0,0,0,0
-4157,Nautilus N'Ice Club,Giovinazzo,0,0,0,0,0,0,0,0,0,0,0
-4158,Officine Culturali di Bitonto,Bitonto,0,0,0,0,0,0,0,0,0,0,0
 4159,La Rotonda Ristorante,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
 4164,Il Giardino Del Pettirosso,Lecce,0,0,1,0,0,0,0,0,0,0,0
 4165,Grand Hotel Tiziano e dei Congressi,Lecce,0,0,0,0,1,0,0,0,0,0,1
@@ -2950,7 +2754,6 @@
 4182,Lama degli Ulivi,Monopoli,0,0,0,0,0,0,0,0,1,0,0
 4183,Piazza Ferdinando IV - Casa D'Amore,Alberobello,0,0,0,0,0,0,0,0,1,0,0
 4184,Bastione San Giacomo,Brindisi,0,0,0,0,0,0,0,0,1,0,0
-4185,Miragica,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 4186,Libreria Liberrima,Lecce,0,0,0,0,0,0,1,0,0,0,0
 4188,Chiesa di San Salvatore,Monopoli,0,0,0,0,0,0,0,0,1,0,0
 4189,Eliseo Cafè,Morciano di Leuca,0,1,0,0,0,0,0,0,0,0,0
@@ -2964,7 +2767,6 @@
 4198,La Trattoria Pizzeria Da Favola,Sava,0,1,1,0,0,0,0,0,0,0,0
 4199,Ziu Belo,Avetrana,0,1,1,0,0,1,0,0,0,1,0
 4200,Palazzo della Provincia di Bari,Bari,0,0,0,0,0,0,0,0,1,0,0
-4201,Parco Perotti - Summer Music Village,Bari,0,0,0,0,0,0,0,0,0,0,0
 4202,Masseria Sociale Grofoleo,Locorotondo,0,0,0,0,1,0,0,0,0,0,0
 4203,Palazzo della Cultura,Noicattaro,0,0,0,0,0,0,0,0,1,0,0
 4204,Nuovo Caffè Paisiello ,Lecce,0,0,0,0,0,1,0,0,0,0,0
@@ -2979,14 +2781,11 @@
 4214,Porta San Giorgio Cafè,Grottaglie,0,1,1,0,0,0,0,0,0,0,0
 4215,Coco Beach Club,Polignano a Mare,0,0,0,0,0,0,0,0,0,1,0
 4216,La Volpe e l'Uva,Massafra,0,1,1,0,0,0,0,0,0,0,0
-4217,L'antico Palmento,Brindisi,0,0,0,0,0,0,0,0,0,0,0
-4218,Ex Macello - Laboratorio Urbano,Sava,0,0,0,0,0,0,0,0,0,0,0
 4219,Palazzo Baronale,Castellaneta,0,0,0,0,0,0,0,0,1,0,0
 4220,Liberamente Caffetteria,Lecce,0,1,0,0,0,0,0,0,0,0,0
 4221,Bar delle Ceramiche,Grottaglie,0,1,0,0,0,0,0,0,0,0,0
 4222,Villa Achille Tamborino,Maglie,0,0,0,0,0,0,0,0,1,0,0
 4223,Orto dei Tu'rat,Ugento,0,0,0,0,0,0,0,1,0,0,1
-4226,Gibò,Gagliano del Capo,0,0,0,0,0,0,0,0,0,0,0
 4227,Caffè Al Duomo,Molfetta,0,0,1,0,0,1,0,0,0,0,0
 4229,Birsciop,Lecce,0,1,0,0,0,0,0,0,0,0,0
 4230,Castello Medievale di Massafra,Massafra,0,0,0,0,0,0,0,0,1,0,0
@@ -3006,7 +2805,6 @@
 4250,Rendez Vous,Porto Cesareo,0,0,1,0,0,0,0,0,0,0,0
 4254,Lo Spillo Vintage Bar,Ginosa,0,1,1,0,0,0,0,0,0,0,0
 4255,Romano Galleria D'arte,Gallipoli,0,0,0,0,0,0,0,0,1,0,0
-4256,Laboratori Urbani Artefacendo,San Giovanni Rotondo,0,0,0,0,0,0,0,0,0,0,0
 4257,Scenarium Villa Adalgisa,Giovinazzo,0,1,1,0,0,0,0,0,0,1,0
 4259,Antico Granaio,Sogliano Cavour,0,1,0,0,0,0,0,1,0,0,0
 4263,Tana'&amp; Bahia,Minervino Murge,0,0,1,0,0,0,0,0,0,0,0
@@ -3020,11 +2818,9 @@
 4277,Pineta Ulmo,Ceglie Messapica,0,0,0,0,0,0,0,1,0,0,0
 4278,Caffetteria Il Bacio ,Turi,0,0,0,0,0,1,0,0,0,0,0
 4279,Al Chioschetto da Gerardo,Lucera,0,1,0,0,0,0,0,0,0,0,0
-4280,Macelleria Centro Storico,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 4281,L'Osteria,Casamassima,0,0,1,0,0,0,0,0,0,0,0
 4282,B&amp;B Gaestehaus TAGARO,Locorotondo,0,0,0,0,1,0,0,0,0,0,0
 4283,Vuddhie lounge bar,Castrignano del Capo,0,1,0,0,0,0,0,0,0,0,0
-4284,Circolo Tennis Taranto,Taranto,0,0,0,0,0,0,0,0,0,0,0
 4286,Giardino Scozzi,Carmiano,0,1,1,0,0,0,0,0,0,0,0
 4288,Monacizzo (fraz. di Torricella),Torricella,0,0,0,0,0,0,0,1,1,0,0
 4291,Le Muse Factory,Adelfia,0,0,0,0,0,0,0,0,1,0,0
@@ -3039,7 +2835,6 @@
 4303,SAM Stazione ArteMusica,San Ferdinando di Puglia,0,0,0,0,0,0,0,0,0,0,1
 4304,Consorzio Rosa Marina,Ostuni,0,0,0,0,0,0,0,0,0,1,0
 4305,Ristorante da Enzo,Alessano,0,0,1,0,0,0,0,0,0,0,0
-4307,Lio’ Fashion Club,Gallipoli,0,0,0,0,0,0,0,0,0,0,0
 4308,Cantine Teanum,San Severo,0,1,0,0,0,0,0,0,0,0,0
 4309,Bar Antico Forno,Sannicola,0,1,0,0,0,0,0,0,0,1,0
 4310,La Masseria,Maruggio,0,1,1,0,0,0,0,0,0,0,0
@@ -3067,27 +2862,21 @@
 4344,Caffè della Libertà,Maglie,0,1,0,0,0,0,0,0,0,0,0
 4346,Oasi Wwf Monte Sant'Elia,Martina Franca,0,0,0,0,0,0,0,0,1,0,0
 4347,Meiji Sushi Restaurant,Gallipoli,0,1,1,0,0,0,0,0,0,0,0
-4348,Contrada Cocolicchio,Fasano,0,0,0,0,0,0,0,0,0,0,0
 4349,Big Bang,Francavilla Fontana,0,1,1,0,0,0,0,0,0,0,0
 4350,Agriturismo Ciriè,Cassano delle Murge,0,0,1,0,0,0,0,0,0,0,0
 4351,Chiesa e Chiostro di San Domenico,Martina Franca,0,0,0,0,0,0,0,0,1,0,1
 4354,Associazione Culturale Arci URLO,Acquaviva delle Fonti,0,1,0,0,0,0,0,0,0,0,0
 4355,Dolci Tramonti,Porto Cesareo,0,0,0,0,0,1,0,0,0,0,0
-4356,Cineteatro La Pineta,Ginosa,0,0,0,0,0,0,0,0,0,0,0
 4357,Palazzo della Marra,Barletta,0,0,0,0,0,0,0,0,1,0,0
 4358,Madrigale Winebar,Mesagne,0,1,0,0,0,0,0,1,0,0,0
 4359,Chiesa di San Gaetano,Bari,0,0,0,0,0,0,0,0,1,0,0
 4360,Pizzeria Dalis,Conversano,0,0,1,0,0,0,0,0,0,0,0
 4362,Foody,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
 4363,American Bar,Poggiardo,0,1,1,0,0,0,0,0,0,0,0
-4364,Casa Sant'Antonio - Opera Don Guanella,Alberobello,0,0,0,0,0,0,0,0,0,0,0
-4367,Cine Arena Nano Calabrese,Galatone,0,0,0,0,0,0,0,0,0,0,0
-4368,Arena Santa Chiara,Foggia,0,0,0,0,0,0,0,0,0,0,0
 4370,Happy Hour Bat,Grumo Appula,0,1,1,0,0,0,0,0,0,0,0
 4371,Masseria la Gravinella,Massafra,0,0,1,0,0,0,0,0,0,0,0
 4372,Galleria del ponte,Polignano a Mare,0,0,0,0,0,0,0,0,1,0,0
 4375,La Deliziosa ,Palagiano,0,1,1,0,0,1,0,0,0,0,0
-4376,Blubay,Castro,0,0,0,0,0,0,0,0,0,0,0
 4378,Atrio ex Istituto Vittorio Emanuele II ,Giovinazzo,0,0,0,0,0,0,0,0,0,0,1
 4379,Teatro Roma,Ostuni,0,0,0,0,0,0,0,0,0,0,1
 4380,Pietra Bianca,Trani,0,0,1,0,0,0,0,0,0,0,0
@@ -3134,7 +2923,6 @@
 4439,Villa Buontempo,Francavilla Fontana,0,0,1,0,0,0,0,0,0,0,0
 4441,La Taverna del Lupus,Lucera,0,0,1,0,0,0,0,0,0,0,0
 4442,Teatro del Mediterraneo,Bisceglie,0,0,0,0,0,0,0,0,0,0,1
-4444,Nuovo Cinema Paradiso Circuito D'autore,Melendugno,0,0,0,0,0,0,0,0,0,0,0
 4445,Sfizio Campano,Massafra,0,0,0,0,0,1,0,0,0,0,0
 4447,B&amp;B Dimora Giangirolamo,Conversano,0,0,0,0,1,0,0,0,0,0,0
 4448,Giardini B&amp;B Residenza Mosco,Tuglie,0,0,0,0,1,0,0,0,0,0,0
@@ -3163,12 +2951,10 @@
 4477,Palazzo Palmieri,Trani,0,0,0,0,0,0,0,0,1,0,0
 4481,Osteria da Maria Neve,Troia,0,0,1,0,0,0,0,0,0,0,0
 4482,Palazzo Paolicelli Mediateca Federiciana,Apricena,0,0,0,0,0,0,0,0,1,0,0
-4485,Dorino  gite in barca,Polignano a Mare,0,0,0,0,0,0,0,0,0,0,0
 4486,Basilica cattedrale di Santa Maria Assunta,Lucera,0,0,0,0,0,0,0,0,1,0,0
 4487,Il Sottano Music Pub,Ruvo di Puglia,0,1,0,0,0,0,0,0,0,0,0
 4490,Parco Storico del Bosco,Toritto,0,0,0,0,0,0,0,0,1,0,0
 4491,Museo della Stampa Martano,Lecce,0,0,0,0,0,0,0,0,1,0,0
-4492,Pelledoca,Trani,0,0,0,0,0,0,0,0,0,0,0
 4493,Pub Birreria Brezel,Taranto,0,1,0,0,0,0,0,0,0,0,0
 4497,New Roxana,Pulsano,0,0,1,0,0,0,0,0,0,0,0
 4498,Via Dalfino,Sammichele di Bari,0,0,0,0,0,0,0,0,1,0,0
@@ -3184,7 +2970,6 @@
 4513,Salone di rappresentanza della Provicia di Brindisi,Brindisi,0,0,0,0,0,0,0,0,1,0,0
 4517,Terranobile Metaresort,Bari,0,0,1,0,1,0,0,1,0,0,0
 4518,Yucatan Music Café,Zollino,0,1,0,0,0,0,0,0,0,0,0
-4519,Dimora Sovrana,Cassano delle Murge,0,0,0,0,0,0,0,0,0,0,0
 4520,Cafè Clandestino,Turi,0,1,0,0,0,0,0,0,0,0,0
 4521,Villa Dea,Grottaglie,0,1,1,0,0,0,0,0,0,0,0
 4529,Second Life,Laterza,0,1,0,0,0,0,0,0,0,0,0
@@ -3198,7 +2983,6 @@
 4547,Whisky a Go Go,Bari,0,1,0,0,0,0,0,0,0,0,0
 4551,Éclair Café,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
 4552,Chiesa di San Francesco della Scarpa ,Lecce,0,0,0,0,0,0,0,0,1,0,0
-4553,Officina degli Esordi,Bari,0,0,0,0,0,0,0,0,0,0,0
 4554,Biblioteca Comunale D’Addosio,Capurso,0,0,0,0,0,0,0,0,1,0,0
 4555,L'eremita,Polignano a Mare,0,0,1,0,0,0,0,0,0,0,0
 4557,Mistral Caffe',Rutigliano,0,0,1,0,0,0,0,0,0,0,0
@@ -3206,19 +2990,14 @@
 4560,Ara Solis ,Taranto,0,0,0,0,1,0,0,0,0,1,0
 4564,Fortino Sant'Antonio,Bari,0,0,0,0,0,0,0,0,1,0,0
 4565,Birrificio Decimoprimo,Trinitapoli,0,1,0,0,0,0,0,0,0,0,0
-4566,Slow Cinema,Ostuni,0,0,0,0,0,0,0,0,0,0,0
-4567,Cicolella,Foggia,0,0,0,0,0,0,0,0,0,0,0
 4574,La Vera Tipica,Martano,0,1,1,0,0,0,0,0,0,0,0
 4575,Gotha,Aradeo,0,1,0,0,0,0,0,0,0,0,0
 4576,Birreria da Boe,Maglie,0,1,0,0,0,0,0,0,0,0,0
-4577,Al Falco D'oro,Bari,0,0,0,0,0,0,0,0,0,0,0
 4578,Galleria Civica di Arte Contemporanea  Torrione Angioino,Bitonto,0,0,0,0,0,0,0,0,1,0,0
 4579,Gold Barley,Muro Leccese,0,1,1,0,0,0,0,0,0,0,0
 4580,Braceria All'Ua,Torricella,0,1,1,0,0,0,0,1,0,0,0
 4581,Saletta teatrale Chiesa Sacro Cuore,Monopoli,0,0,0,0,0,0,0,0,0,0,1
 4586,Centro Storico ,Ostuni,0,0,0,0,0,0,0,0,1,0,0
-4591,Salotto della Badessa,Conversano,0,0,0,0,0,0,0,0,0,0,0
-4595,Le Ali di Pandora,Lecce,0,0,0,0,0,0,0,0,0,0,0
 4596,Ristorante Giapponese Sushi Autunno,Taranto,0,0,1,0,0,0,0,0,0,0,0
 4597,Bar Mezzaluna ,Carovigno,0,1,0,0,0,1,0,0,0,0,0
 4599,Relais Masseria Montalbano ,Ostuni,0,0,1,0,1,0,0,0,0,0,0
@@ -3232,7 +3011,6 @@
 4609,Macinate Cantine 1931,Specchia,0,1,1,0,0,0,0,1,0,0,0
 4612,Biblioteca comunale,Bitritto,0,0,0,0,0,0,1,0,0,0,0
 4613,Libreria Libriamoci,Bitritto,0,0,0,0,0,0,1,0,0,0,0
-4614,Circolo Arci Guernica,Arnesano,0,0,0,0,0,0,0,0,0,0,0
 4615,Ristorante Artusi,Altamura,0,0,1,0,0,0,0,0,0,0,0
 4616,Il Postaccio,Altamura,0,0,1,0,0,0,0,0,0,0,0
 4617,Gran Champagne,Altamura,0,0,1,0,0,0,0,0,0,0,0
@@ -3268,12 +3046,10 @@
 4658,Teatro Comunale Modugno,Modugno,0,0,0,0,0,0,0,0,1,0,1
 4659,I Due Sottani,Sannicandro di Bari,0,0,1,0,0,0,0,1,0,0,0
 4662,Teatro Giovanidee,Barletta,0,0,0,0,0,0,0,0,0,0,1
-4672,Cantiere delle Arti Koinè ,Vernole,0,0,0,0,0,0,0,0,0,0,0
 4679,PalaFlorio,Bari,0,0,0,0,0,0,0,0,0,0,1
 4681,Santuario della Madonna del Buoncammino,Altamura,0,0,0,0,0,0,0,0,1,0,1
 4689,L'insolito Posto,Bitetto,0,1,1,0,0,0,0,0,0,0,0
 4690,Hotel 33 Baroni,Gallipoli,0,0,0,0,1,0,0,1,0,0,0
-4691,Arci Paisà,Maruggio,0,0,0,0,0,0,0,0,0,0,0
 4692,Pais Bar,San Pancrazio Salentino,0,1,0,0,0,0,0,0,0,0,0
 4694,I Golosi di Ciacco ,Conversano,0,0,1,0,0,0,0,0,0,0,0
 4695,Centro Universitario Giovanile Jonico,Taranto,0,0,0,0,0,0,0,0,1,0,1
@@ -3297,29 +3073,21 @@
 4723,La Vineria ,Lecce,0,1,0,0,0,0,0,0,0,0,0
 4724,Al Gambero ,Taranto,0,1,1,0,0,0,0,0,0,0,0
 4725,Hobby Arte,Bari,0,0,0,0,0,0,0,0,1,0,0
-4729,Cinema Gigante,San Cesario di Lecce,0,0,0,0,0,0,0,0,0,0,0
-4730,Falso Movimento,Foggia,0,0,0,0,0,0,0,0,0,0,0
-4731,Formiche Di Puglia,Noci,0,0,0,0,0,0,0,0,0,0,0
-4732,Exviri laboratorio urbano,Noicattaro,0,0,0,0,0,0,0,0,0,0,0
 4733,Moonlight Cafè,Muro Leccese,0,1,0,0,0,0,0,0,0,0,0
 4734,Chiesa e Laboratorio Sant'Angelo,Monopoli,0,0,0,0,0,0,0,0,1,0,0
-4735,DopoLavoro - ex cinema Universal,Brindisi,0,0,0,0,0,0,0,0,0,0,0
 4736,Charis,Locorotondo,0,0,0,1,0,0,0,0,0,0,0
-4737,Circolo Arci Biblioteca di Sarajevo ,Maglie,0,0,0,0,0,0,0,0,0,0,0
 4738,Facoltà di Lingue e Letterature Straniere,Bari,0,0,0,0,0,0,1,0,0,0,0
 4742,Ristorante De Amicis,Modugno,0,0,1,0,0,0,0,0,0,0,0
 4744,Galleria della Fondazione Banca del Monte,Foggia,0,0,0,0,0,0,0,0,1,0,0
 4745,William's Pub,Cisternino,0,1,0,0,0,0,0,0,0,0,0
 4750,Chiesa del Purgatorio,Fasano,0,0,0,0,0,0,0,0,1,0,0
 4751,Auditorium scuola Ettore Majorana,Bari,0,0,0,0,0,0,0,0,0,0,1
-4752,Se.Strà,Barletta,0,0,0,0,0,0,0,0,0,0,0
 4753,Teatro Regio di Capitanata,Foggia,0,0,0,0,0,0,0,0,0,0,1
 4754,Libreria Eleutera,Turi,0,0,0,0,0,0,1,0,0,0,0
 4755,Exegypt,Maglie,0,1,0,0,0,0,0,0,0,0,0
 4756,Villa Prandico,Alezio,0,0,1,0,0,0,0,0,0,0,0
 4757,Cantine Gianfelice D'alfonso del Sordo,San Severo,0,0,0,0,0,0,0,0,1,0,0
 4759,Artelier,Bari,0,0,0,0,0,0,0,0,1,0,0
-4762,Nuovo Cinema Paradiso,Erchie,0,0,0,0,0,0,0,0,0,0,0
 4764,Lo Sfizio,Bitritto,0,0,1,0,0,0,0,1,0,0,0
 4765,Pagine al Caffe',Ruvo di Puglia,0,1,0,0,0,1,1,0,0,0,0
 4767,Le Grill,Maglie,0,0,1,0,0,0,0,0,0,0,0
@@ -3334,7 +3102,6 @@
 4789,SpazioleArti,Molfetta,0,0,0,0,0,0,0,0,0,0,1
 4790,Caffè 41,Scorrano,0,1,0,0,0,0,0,0,0,0,0
 4791,Hotel dei Normanni,San Vito dei Normanni,0,0,0,0,1,0,0,0,0,0,0
-4792,Chiesa di Santa Maria degli Angeli,Brindisi,0,0,0,0,0,0,0,0,0,0,0
 4794,Madras Lounge,Molfetta,0,1,1,0,0,0,0,0,0,0,0
 4795,La Camera Ducale,Gravina in Puglia,0,0,0,0,1,0,0,1,0,0,0
 4796,Chiesa di Santa Lucia,Alberobello,0,0,0,0,0,0,0,0,1,0,0
@@ -3352,8 +3119,6 @@
 4823,Cotton Pub,Copertino,0,1,0,0,0,0,0,0,0,0,0
 4828,Chiesa di San Pasquale,Bari,0,0,0,0,0,0,0,0,1,0,0
 4830,Big Ben Pub,Brindisi,0,1,0,0,0,0,0,0,0,0,0
-4831,La Traccia Nascosta,Manfredonia,0,0,0,0,0,0,0,0,0,0,0
-4832,Groove Live,Foggia,0,0,0,0,0,0,0,0,0,0,0
 4833,Il Borgo,Serracapriola,0,0,1,0,0,0,0,0,0,0,0
 4834,La Compagnia,Foggia,0,1,1,0,0,0,0,0,0,0,0
 4836,Coffee &amp; Sound Lounge Bar,Torchiarolo,0,1,0,0,0,0,0,1,0,0,0
@@ -3365,8 +3130,6 @@
 4843,Gelateria del Ponte,Taranto,0,0,0,0,0,1,0,0,0,0,0
 4852,Palazzo Baronale Grassi,Aradeo,0,0,0,0,0,0,0,0,1,0,0
 4853,Ferula Ferita Crepes &amp; Books,Altamura,0,1,1,0,0,0,1,0,0,0,0
-4855,Soniboni Officine Culturali,Maglie,0,0,0,0,0,0,0,0,0,0,0
-4857,Cav - Coordinamento Associazioni di Volontariato,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 4860,Il Bacco di Arianna ,Lecce,0,0,1,0,0,0,0,1,0,0,0
 4861,Palazzo Marchesale,Arnesano,0,0,0,0,0,0,0,0,1,0,0
 4862,Club 26 ,Gravina in Puglia,0,1,0,0,0,0,0,0,0,0,0
@@ -3381,10 +3144,8 @@
 4874,Monastero delle Benedettine,Lecce,0,0,0,0,0,0,0,0,1,0,0
 4875,Chiesa di Sant'Anna,Taranto,0,0,0,0,0,0,0,0,1,0,0
 4877,Time Café,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
-4879,Laboratorio Urbano Emotivamente,Grottaglie,0,0,0,0,0,0,0,0,0,0,0
 4881,Chiesa delle Monacelle - Museo di Civiltà preclassiche,Ostuni,0,0,0,0,0,0,0,0,1,0,0
 4882,Circolo Unione,Bari,0,0,0,0,0,0,0,0,0,0,1
-4883,MAT Laboratorio urbano,Terlizzi,0,0,0,0,0,0,0,0,0,0,0
 4884,Castello Acquaviva d'Aragona,Conversano,0,0,0,0,0,0,0,0,1,0,0
 4885,Torre dell'Orologio,Terlizzi,0,0,0,0,0,0,0,0,1,0,0
 4886,Opus Pistorium (da Lele),Bari,0,1,0,0,0,0,0,0,0,0,0
@@ -3410,7 +3171,6 @@
 4911,Palazzo del Plenilunio,Rutigliano,0,1,1,0,0,0,0,0,1,0,0
 4914,Istituto Preziosissimo Sangue,Bari,0,0,0,0,0,0,0,0,0,0,1
 4915,Mercure Delfino Taranto,Taranto,0,0,1,0,1,0,0,0,0,0,0
-4916,Setteventi - Cooperativa ,Giovinazzo,0,0,0,0,0,0,0,0,0,0,0
 4917,QBistrò,Taranto,0,1,1,0,0,0,0,0,0,0,0
 4918,Tenuta Virgilio,Valenzano,0,1,1,0,0,0,0,1,0,0,0
 4919,Westinghouse 990,Trani,0,1,1,0,0,0,0,0,0,0,0
@@ -3493,7 +3253,6 @@
 5028,Masseria Carparelli,Ostuni,0,0,1,0,1,0,0,1,0,0,0
 5029,Gianna Rock Cafè,Veglie,0,1,1,0,0,0,0,0,0,0,0
 5030,Mustache Cafè,Monopoli,0,1,0,0,0,0,0,0,0,0,0
-5033,Pin'Occhiolab,Conversano,0,0,0,0,0,0,0,0,0,0,0
 5034,Gramigna,Bari,0,1,0,0,0,0,0,0,0,0,0
 5035,Enoteca Salentusole,Parabita,0,1,0,0,0,1,1,0,0,0,0
 5037,Villa Aurelia,Mesagne,0,0,1,0,1,0,0,1,0,0,0
@@ -3532,7 +3291,6 @@
 5082,Black and White,Gravina in Puglia,0,1,0,0,0,0,0,0,0,0,0
 5083,Pepenero,Ruvo di Puglia,0,1,1,0,0,0,0,0,0,0,0
 5084,Blink,Maglie,0,1,1,0,0,0,0,0,0,0,0
-5086,Red Velvet,Carovigno,0,0,0,0,0,0,0,0,0,0,0
 5090,Haustheater,San Donato di Lecce,0,0,0,0,0,0,1,0,0,0,1
 5091,Chiesa del Gesù,Bari,0,0,0,0,0,0,0,0,1,0,0
 5092,Sud's pregiato birrificio meridionale,Noci,0,1,0,0,0,0,0,0,0,0,0
@@ -3547,11 +3305,9 @@
 5111,Parco Naturale Regionale delle Dune Costiere,Ostuni,0,0,0,0,0,0,0,0,1,1,0
 5112,Cantieri Maggese,Taranto,0,0,0,0,0,0,1,0,0,0,0
 5113,Laboratorio Urbano  TheFactory ,Palagiano,0,0,0,0,0,0,0,0,0,0,1
-5115,Centro Psicologia della Salute,Bari,0,0,0,0,0,0,0,0,0,0,0
 5116,Piazza Galtieri,Adelfia,0,0,0,0,0,0,0,0,1,0,0
 5117,Le Segrete,Adelfia,0,1,0,0,0,0,1,0,0,0,0
 5118,Auditorium Centro Anziani,Zollino,0,0,0,0,0,0,0,0,0,0,1
-5119,Boogaloo Disco,Surbo,0,0,0,0,0,0,0,0,0,0,0
 5120,Chiesa del Carmine,Bari,0,0,0,0,0,0,0,0,1,0,0
 5121,Bed and Breakfast 21,Martina Franca,0,0,0,0,1,0,0,1,0,0,0
 5123,Hyper Maxi Disko,Alberobello,0,0,0,0,0,0,0,0,0,0,1
@@ -3571,13 +3327,10 @@
 5145,Palazzo Baronale,Monteroni di Lecce,0,0,0,0,0,0,0,0,1,0,0
 5146,Circolo del Cinema Dino Risi,Trani,0,0,0,0,0,0,1,0,1,0,1
 5147,Miledand,Oria,0,0,1,0,0,0,0,0,0,0,0
-5148,The Hub Bari,Bari,0,0,0,0,0,0,0,0,0,0,0
 5157,Impact Hub Bari,Bari,0,0,0,0,0,0,1,0,1,0,1
 5158,Il Barroccio,Lecce,0,0,1,0,0,0,0,0,0,0,0
 5159,Amarcord,Galatina,0,1,1,0,0,0,0,0,0,0,0
-5160,Public,Corato,0,0,0,0,0,0,0,0,0,0,0
 5161,Istituto per ciechi A. Antonacci,Lecce,0,0,0,0,0,0,0,0,1,0,0
-5164,Tribunale di Monopoli,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 5168,Librerie.Coop Bari,Bari,0,1,0,0,0,0,1,0,0,0,0
 5173,John Skelton Pub,Spinazzola,0,1,0,0,0,0,0,0,0,0,0
 5175,Wwf Grumo Terre Peucete,Grumo Appula,0,0,0,0,0,0,1,0,0,0,0
@@ -3593,7 +3346,6 @@
 5199,Bis Bar,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
 5206,Dado Matto,Gravina in Puglia,0,1,0,0,0,1,0,0,0,0,0
 5207,Libreria Ubik,Taranto,0,0,0,0,0,0,1,0,0,0,0
-5208,P.zza San Giorgio,Melpignano,0,0,0,0,0,0,0,0,0,0,0
 5209,Ex Convento degli Agostiniani,Melpignano,0,0,0,0,0,0,0,0,1,0,0
 5214,Masseria Magliari,Mottola,0,0,0,0,0,0,0,0,1,0,0
 5215,Auditorium Il Purgatorio,Bitritto,0,0,0,0,0,0,0,0,1,0,1
@@ -3613,17 +3365,14 @@
 5247,Villa Petruscio,Mottola,0,0,1,0,1,0,0,0,0,0,0
 5248,Teatro Comunale,Nardò,0,0,0,0,0,0,0,0,0,0,1
 5249,Concattedrale di Maria Santissima Assunta,Bitonto,0,0,0,0,0,0,0,0,0,0,1
-5252,Masseria del Turco,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 5254,Vedetta sul Mediterraneo,Giovinazzo,0,0,0,0,0,0,1,0,1,0,0
 5258,Taverna Degli Amici,Castellana Grotte,0,1,1,0,0,0,0,0,0,0,0
 5260,Parrocchia la Pietà,Brindisi,0,0,0,0,0,0,0,0,1,0,0
 5262,Avio Selezione,Lecce,0,0,0,0,0,1,0,0,0,0,0
 5263,03G STUDIO Architetti,Ostuni,0,0,0,0,0,0,0,0,1,0,0
-5264,Waveahead studio,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 5269,Ozium,Poggiardo,0,0,1,0,0,0,0,0,0,0,0
 5270,Al 111,Bari,0,1,1,0,0,0,0,0,0,0,0
 5272,Zeus Beach,Gallipoli,0,1,0,0,0,0,0,0,0,1,0
-5273,Green Park by Casavola,Palagiano,0,0,0,0,0,0,0,0,0,0,0
 5276,Auditorium ITCS S.Pertini,Turi,0,0,0,0,0,0,0,0,0,0,1
 5277,Galleria Nazionale della Puglia – Palazzo Sylos Calò,Bitonto,0,0,0,0,0,0,0,0,1,0,0
 5279,Sede AA,Fasano,0,0,0,0,0,0,1,0,0,0,0
@@ -3648,7 +3397,6 @@
 5338,La Casa degli Artisti,Gallipoli,0,0,0,0,1,0,0,1,0,0,0
 5339,Masseria Narducci,Fasano,0,0,1,0,1,0,0,0,0,0,0
 5340,Icaro Bookstore,Lecce,0,0,0,0,0,0,1,0,0,0,0
-5341,Pista Jonica Mottola,Mottola,0,0,0,0,0,0,0,0,0,0,0
 5343,Artemisia,Bari,0,1,0,0,0,0,0,0,0,0,0
 5345,Yannis Club,Maruggio,0,1,0,0,0,0,0,0,0,1,0
 5346,Galè Lounge Bar,Terlizzi,0,1,1,0,0,0,0,0,0,0,0
@@ -3661,23 +3409,18 @@
 5367,Museo del Territorio  Casa Pezzolla ,Alberobello,0,0,0,0,0,0,0,0,1,0,0
 5368,Ex Convento dei Domenicani,Muro Leccese,0,0,0,0,0,0,0,0,1,0,0
 5370,LALDspace,Torre Santa Susanna,0,0,0,0,0,0,1,0,1,0,0
-5371,Bennardi Cafè,Locorotondo,0,0,0,0,0,0,0,0,0,0,0
-5378,Outline Club,Lecce,0,0,0,0,0,0,0,0,0,0,0
 5379,Copito,Andria,0,0,0,0,0,0,1,0,0,0,0
 5380,Sciakallaghan,Castellana Grotte,0,1,1,0,0,0,0,0,0,0,0
 5382,Pizza Town,Taranto,0,0,1,0,0,0,0,0,0,0,0
 5387,H7 It's Time Bar,Casarano,0,0,1,0,0,1,0,0,0,0,0
 5391,Libreria Campus,Bari,0,0,0,0,0,0,1,0,0,0,0
 5392,Eolo,Taranto,0,0,0,0,1,0,0,0,0,0,0
-5393,Centro Ippico Tarantino,Taranto,0,0,0,0,0,0,0,0,0,0,0
 5395,Sapemore,Molfetta,0,1,1,0,0,0,0,0,0,0,0
 5396,Conte Max-Le terrazze,Conversano,0,1,1,0,0,1,0,0,0,0,0
-5398,Il Circo della Farfalla,Francavilla Fontana,0,0,0,0,0,0,0,0,0,0,0
 5399,Freedom Irish Pub,Palagiano,0,1,1,0,0,0,0,0,0,0,0
 5402,Mon Cafe',Palagiano,0,1,0,0,0,1,0,0,0,0,0
 5403,White Ostuni Beach Club,Ostuni,0,1,1,0,0,0,0,0,0,1,0
 5405,Agriturismo il Pastore,Trani,0,0,1,0,0,0,0,0,0,0,0
-5406,C'è Pizz@ x Te!,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 5409,La Loggia,San Severo,0,1,0,0,0,0,0,0,0,0,0
 5410,Sushi &amp; Cocktail Bar Fugu,Brindisi,0,0,1,0,0,0,0,0,0,0,0
 5411,Museo Nuova Era,Bari,0,0,0,0,0,0,0,0,1,0,0
@@ -3702,7 +3445,6 @@
 5457,Masseria Brancati,Ostuni,0,0,0,0,1,0,0,0,0,0,0
 5459,Acquapark,Bari,0,0,0,0,0,0,0,0,0,1,0
 5462,Giardino Botanico Lama degli Ulivi,Monopoli,0,0,0,0,0,0,0,1,0,0,0
-5466,Pro Loco Unpli Gravina,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,0
 5467,Gaestehaus Tagaro,Locorotondo,0,0,0,0,1,0,0,0,0,0,0
 5468,Galleria d'Arte Nicole Scarpelli,Polignano a Mare,0,0,0,0,0,0,0,0,1,0,0
 5478,Biblioteca Capitolare Finia,Gravina in Puglia,0,0,0,0,0,0,0,0,1,0,0
@@ -3733,25 +3475,17 @@
 5528,Masseria Papaperta,Castellana Grotte,0,0,0,0,0,0,0,0,1,0,0
 5533,Grazy 4 Over,Casamassima,0,0,0,0,0,0,0,0,0,1,0
 5534,Masseria Orlandi,Turi,0,0,0,0,1,0,0,0,0,0,0
-5536,Opere Parrocchiali della SS. Annunziata,Palagiano,0,0,0,0,0,0,0,0,0,0,0
-5537,Chiesa del Buon Pastore,Barletta,0,0,0,0,0,0,0,0,0,0,0
 5538,La Mandra Farm,Noci,0,0,1,0,1,0,0,0,0,0,0
 5539,Mar di Levante,Bari,0,0,0,1,0,0,0,0,0,0,0
 5540,Dolce Vita,Scorrano,0,1,0,0,0,1,0,0,0,0,0
 5542,Centro Giovanile Benedetto XIII,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,1
 5546,My moon,Statte,0,0,1,0,0,0,0,0,0,0,0
-5547,Centro Jôbêl,Trani,0,0,0,0,0,0,0,0,0,0,0
-5550,InMOTION EVENTS,Bisceglie,0,0,0,0,0,0,0,0,0,0,0
-5552,Contrada Carpari,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 5553,BiOsteria AgriOstello Piccapane,Cutrofiano,0,1,1,0,1,0,0,0,0,0,0
 5555,Di Fonzo,Laterza,0,0,0,0,0,1,0,0,0,0,0
 5556,Marzulli,Taranto,0,0,0,0,0,1,0,0,0,0,0
 5557,Bilabì,Bari,0,1,1,0,0,0,0,0,0,0,0
 5559,Babilonia Torre Sant'Andrea,Melendugno,0,1,1,0,0,0,0,0,0,0,0
-5560,TrackZero,Fasano,0,0,0,0,0,0,0,0,0,0,0
 5565,Fatalamanga Art Farm,Alberobello,0,0,0,0,0,0,0,0,1,0,0
-5566,La Bachata,Gioia del Colle,0,0,0,0,0,0,0,0,0,0,0
-5568,IAT Grottaglie,Grottaglie,0,0,0,0,0,0,0,0,0,0,0
 5569,Chiosco da Jenny e Laura,Bari,0,0,0,0,0,0,0,0,0,1,0
 5572,Pascia Club,Giovinazzo,0,0,0,0,0,0,0,0,0,1,0
 5573,Lido Lafayette,Giovinazzo,0,0,0,0,1,0,0,0,0,1,0
@@ -3779,7 +3513,6 @@
 5612,Spiaggia Aeronautica Lido Silvana,Pulsano,0,0,0,0,0,0,0,0,0,1,0
 5616,Xfood,San Vito dei Normanni,0,0,1,0,0,0,0,1,0,0,0
 5618,Libreria Paideia,Modugno,0,0,0,0,0,0,1,0,0,0,0
-5620,Nuova Hellas,Massafra,0,0,0,0,0,0,0,0,0,0,0
 5621,Largo Castello,Monopoli,0,0,0,0,0,0,0,1,0,0,0
 5624,al Bewitching,Ruvo di Puglia,0,1,0,0,0,0,0,0,0,0,0
 5625,Masseria Santa Croce,Francavilla Fontana,0,0,1,0,0,1,0,0,0,0,0
@@ -3788,18 +3521,14 @@
 5628,Chiostro dell'ex Convento Frati Minori Osservanti,Maruggio,0,0,0,0,0,0,0,0,1,0,0
 5629,Masseria Cillarese,Brindisi,0,0,1,0,1,0,0,0,0,0,0
 5632,Tenuta Odegitria,Martina Franca,0,0,0,0,1,0,0,0,0,0,0
-5635,Casina Spina,Francavilla Fontana,0,0,0,0,0,0,0,0,0,0,0
-5636,Masseria La Signorella,Castellaneta,0,0,0,0,0,0,0,0,0,0,0
 5637,Mad,Bari,0,1,0,0,0,0,1,0,0,0,0
 5639,Fabbrica San Domenico,Molfetta,0,0,0,0,0,0,0,1,1,0,0
 5641,Anfiteatro Romano,Lecce,0,0,0,0,0,0,0,1,0,0,1
 5642,Core,Bari,0,1,1,0,0,0,0,0,0,0,0
-5644,Villa Comunale,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 5646,Davi',Casamassima,0,0,1,0,0,0,0,0,0,0,0
 5648,Corte Borromeo,Manduria,0,0,0,0,1,0,0,0,0,0,0
 5651,MAT Museo dell'Alto Tavoliere,San Severo,0,0,0,0,0,0,0,0,1,0,0
 5652,Friends Cafè,Locorotondo,0,1,1,0,0,0,0,0,0,0,0
-5655,NotEventi,Bari,0,0,0,0,0,0,0,0,0,0,0
 5659,Circolo Tennis Bari,Bari,0,0,0,1,0,0,0,0,0,0,0
 5660,Sciarabà,Alberobello,0,1,1,0,0,0,0,0,0,0,0
 5663,Dolce Vintage,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
@@ -3815,10 +3544,7 @@
 5677,II Vecchio Cortile,Bitonto,0,0,0,0,1,0,0,0,0,0,0
 5678,The garden,Pulsano,0,1,0,0,1,0,0,0,0,0,0
 5680,Bottega del Luppolo Gastrobirreria,Altamura,0,1,1,0,0,0,0,0,0,0,0
-5681,Oratorio Don Bosco,Manduria,0,0,0,0,0,0,0,0,0,0,0
 5682,Gold White Fashion Club,Ostuni,0,1,0,0,0,0,0,0,0,0,0
-5683,Arena,Lucera,0,0,0,0,0,0,0,0,0,0,0
-5684,Arena In Piazza,Manfredonia,0,0,0,0,0,0,0,0,0,0,0
 5686,Monacó Villa Club,Maruggio,0,1,1,0,0,0,0,0,0,0,0
 5687,La Cascina del Borgo,Taranto,0,0,1,0,0,0,0,0,0,0,0
 5688,Albatros,Sannicandro di Bari,0,0,1,0,0,0,0,0,0,0,0
@@ -3831,24 +3557,19 @@
 5702,SoftCrash,Rutigliano,0,0,0,0,0,0,1,0,0,0,0
 5704,Arena Green Village,Alezio,0,0,0,0,0,0,0,0,0,0,1
 5705,Arena Don Tonino Bello - Villa Comunale,San Vito dei Normanni,0,0,0,0,0,0,0,0,0,0,1
-5706,Le Ture,Barletta,0,0,0,0,0,0,0,0,0,0,0
 5708,Gioconda,Giovinazzo,0,1,1,0,0,0,0,0,0,0,0
 5709,Bar Risorgimento,Sava,0,1,0,0,0,0,0,0,0,0,0
 5712,Pineta Comunale Grumo Appula,Grumo Appula,0,0,0,0,0,0,0,1,0,0,0
 5714,Pasticceria Salutistica Portoghese,Bari,0,0,0,0,0,1,0,1,0,0,0
-5716,Zen ex Byllabong,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 5717,Parrocchia San Domenico,Molfetta,0,0,0,0,0,0,0,0,1,0,0
-5718,Ufficio IAT Gravina in Puglia,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,0
 5719,Cala Arena,Giovinazzo,0,0,0,0,0,0,0,0,0,1,0
 5720,Il Borgo degli Ulivi,Cassano delle Murge,0,0,1,0,0,0,0,0,0,0,0
 5725,Birrarium,Acquaviva delle Fonti,0,1,1,0,0,0,0,0,0,0,0
 5726,Tipicamente,Alberobello,0,0,1,0,0,0,0,0,0,0,0
 5727,Piazza Vittorio Emanuele III,Carosino,0,0,0,0,0,0,0,0,1,0,0
-5728,Free Park,Latiano,0,0,0,0,0,0,0,0,0,0,0
 5730,ART è,Giovinazzo,0,0,0,0,0,0,0,0,1,0,0
 5732,Biblioteca dei Ragazzi,Monopoli,0,0,0,0,0,0,1,0,0,0,0
 5734,Trullo La Gatta Felice,Cisternino,0,0,0,0,1,0,0,1,0,0,0
-5735,Largo Plebiscito,Valenzano,0,0,0,0,0,0,0,0,0,0,0
 5736,Apulia 70 Holidays,Polignano a Mare,0,0,0,0,1,0,0,1,0,0,0
 5738,Palazzo Ventura,Polignano a Mare,0,0,0,0,0,0,0,0,1,0,0
 5739,Spazio Libri Dischi,Putignano,0,0,0,0,0,0,1,0,0,0,0
@@ -3858,10 +3579,8 @@
 5743,Ristorante Da Rocco,Nardò,0,0,1,0,0,0,0,0,0,0,0
 5744,Oasi LIPU Gravina di Laterza,Laterza,0,0,0,0,0,0,0,1,1,0,0
 5745,Bloom Beach Bar,Molfetta,0,1,0,0,0,0,0,0,0,1,0
-5746,Bar Verde Mare,Massafra,0,0,0,0,0,0,0,0,0,0,0
 5747,La Giara,Bitonto,0,0,1,0,0,0,0,0,0,0,0
 5748,La Ruota Garden,Turi,0,0,1,0,0,0,0,0,0,0,0
-5749,Agriturismo Casal Sabini,Altamura,0,0,0,0,0,0,0,0,0,0,0
 5750,Reggia di Giano,Cassano delle Murge,0,0,1,0,0,0,0,1,0,0,0
 5751,Relais Sant'Eligio,Ostuni,0,0,1,0,1,0,0,0,0,0,0
 5753,Art@cafe',Massafra,0,1,0,0,0,1,0,0,0,0,0
@@ -3897,7 +3616,6 @@
 5980,Chiostro di Palazzo San Martino,Monopoli,0,0,0,0,0,0,0,0,1,0,0
 5990,Friggitoria Cose Fritte,Porto Cesareo,0,0,1,0,0,0,0,0,0,0,0
 6016,U Prisce,Ruvo di Puglia,0,1,1,0,0,1,0,0,0,0,0
-6021,Cortenova Ricevimenti,Casamassima,0,0,0,0,0,0,0,0,0,0,0
 6022,Cavanbah,Bari,0,1,1,0,0,0,0,0,0,0,0
 6028,Palazzo Iliceto Museo Civico,Canosa di Puglia,0,0,0,0,0,0,0,0,1,0,0
 6029,Arena dei Micenei,Pulsano,0,0,0,0,0,0,0,0,0,1,0
@@ -3914,11 +3632,9 @@
 6062,Sant'Andrea degli Armeni,Taranto,0,0,0,0,0,0,0,0,1,0,0
 6063,HistorYa Cafè,Pulsano,0,1,0,0,0,0,0,0,0,0,0
 6071,Castello Spagnolo,Statte,0,0,1,0,0,0,0,0,0,0,1
-6076,Fiera del Levante,Bari,0,0,0,0,0,0,0,0,0,0,0
 6091,Auditorium Chiesa Sant'Antonio,Monopoli,0,0,0,0,0,0,0,0,0,0,1
 6099,Fish &amp; Chips - Friggitoria,Mola di Bari,0,0,1,0,0,0,0,0,0,0,0
 6105,Labiritmi Dominant Music Center,Gravina in Puglia,0,0,0,0,0,0,1,0,0,0,0
-6174,Oratorio Don Bosco Taranto,Taranto,0,0,0,0,0,0,0,0,0,0,0
 6175,Chiosco di Piazza Berlinguer,Santeramo in Colle,0,1,0,0,0,0,0,0,0,0,0
 6193,Museo Civico Mostra Archeologica di Villa Castelli,Villa Castelli,0,0,0,0,0,0,0,0,1,0,0
 6194,Museo della Civiltà Contadina di Alberona,Alberona,0,0,0,0,0,0,0,0,1,0,0
@@ -3946,11 +3662,8 @@
 6222,Mercanti e Servi,Martano,0,1,0,0,0,0,0,0,0,0,0
 6224,Avio Natura,Lecce,0,0,0,1,0,1,0,0,0,0,0
 6225,Agriturismo Lama San Giorgio,Rutigliano,0,0,1,0,1,0,0,1,0,0,0
-6229,Centro Musica,Bari,0,0,0,0,0,0,0,0,0,0,0
 6231,Il Mulino di Amleto,Molfetta,0,0,0,0,1,0,1,0,0,0,0
 6232,That's Amore,Massafra,0,0,1,0,0,1,0,0,0,0,0
-6233,Meeting,Copertino,0,0,0,0,0,0,0,0,0,0,0
-6234,Centro Velico Alto Jonio,Taranto,0,0,0,0,0,0,0,0,0,0,0
 6236,Galleria Messapia - Associazione Culturale Salentina,Manduria,0,0,0,0,0,0,0,0,1,0,0
 6237,Sapori di Puglia,Villa Castelli,0,0,1,0,0,0,0,0,0,0,0
 6238,Auditorium  G. Boccardi ,Locorotondo,0,0,0,0,0,0,0,0,0,0,1
@@ -3961,18 +3674,14 @@
 6248,Vito Benedetto,Taranto,0,0,0,0,0,1,0,0,0,0,0
 6249,Auditorium casa di cura Opera Don Guanella,Bari,0,0,0,0,0,0,0,0,0,0,1
 6257,Ilovegreen,Andria,0,1,1,0,0,0,0,0,0,0,0
-6268,Studio Nicola Petrara,Altamura,0,0,0,0,0,0,0,0,0,0,0
 6269,Formaquattro Arte in circolo,Bari,0,0,0,0,0,0,0,0,1,0,0
-6270,Redazioni giornalistiche tarantine,Taranto,0,0,0,0,0,0,0,0,0,0,0
 6272,Giardino delle Menti,Conversano,0,1,0,0,0,0,1,0,0,0,0
 6273,Porticciolo Rootz Bar,Melendugno,0,1,0,0,0,0,0,0,0,0,0
 6276,Palazzo della Cultura,Massafra,0,0,0,0,0,0,1,0,1,0,0
 6339,Selva Nov@ntanove,Gravina in Puglia,0,1,1,0,1,0,0,0,0,0,0
-6341,Puglia Outlet Village,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 6346,B&amp;B Domus,Taranto,0,0,0,0,1,0,0,0,0,0,0
 6347,Teatro Mercadante,Altamura,0,0,0,0,0,0,0,0,0,0,1
 6348,Iris B&amp;B,Laterza,0,0,0,0,1,0,0,0,0,0,0
-6349,Centro Servizi del Tessile e delle Novità,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 6350,Cactus Hub,Taranto,0,0,0,0,0,0,1,0,0,0,0
 6351,Teatro Umberto Giordano,Foggia,0,0,0,0,0,0,0,0,0,0,1
 6353,TATAMI - Fusion Restaurant,Bari,0,1,1,0,0,0,0,0,0,0,0
@@ -3993,12 +3702,10 @@
 6402,Ristorante Le Capase,Cisternino,0,0,1,0,0,0,0,0,0,0,0
 6403,Osteria dei QuarantaQuattro Gatti,Bari,0,0,1,0,0,0,0,0,0,0,0
 6417,Palazzo Sinesi,Canosa di Puglia,0,0,0,0,0,0,0,0,1,0,0
-6418,Altre Frequenze,Arnesano,0,0,0,0,0,0,0,0,0,0,0
 6419,La Vite Bianca,Rutigliano,0,0,1,0,0,0,0,0,0,0,0
 6421,Casa Giannini,Bari,0,0,0,0,0,0,1,0,0,0,0
 6422,Pic Nic,Bari,0,0,1,0,0,0,0,0,0,0,0
 6423,Antik Design,Putignano,0,0,0,0,0,0,0,0,1,0,0
-6425,Planet Discoteca,Lequile,0,0,0,0,0,0,0,0,0,0,0
 6427,Cattedrale di Santa Maria Assunta Chiesa,Castellaneta,0,0,0,0,0,0,0,0,1,0,0
 6429,Agriturismo Salinola Puglia,Ostuni,0,0,0,0,1,0,0,1,0,0,0
 6430,RedRabbit,Lecce,0,0,0,0,0,0,1,0,0,0,0
@@ -4013,18 +3720,14 @@
 6446,BrezzaMarina Osteria,Taranto,0,0,1,0,0,0,0,0,0,0,0
 6448,Dolce e Salato,Corato,0,0,0,0,0,1,0,0,0,0,0
 6453,Rosticceria L'Abbuffata,Massafra,0,0,1,0,0,0,0,0,0,0,0
-6454,Dandy's Club,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 6456,Wild Saloon Live &amp; Beer,Veglie,0,1,1,0,0,0,0,0,0,0,0
-6457,Sanbor Disco Bar,Carovigno,0,0,0,0,0,0,0,0,0,0,0
 6458,La Promenade Ristorante,Oria,0,0,1,0,0,0,0,1,0,0,0
 6459,Flower's Cafè (caffè  vino e sfiziosità pugliesi),Molfetta,0,1,1,0,0,0,1,0,0,0,0
 6460,La Corte,Copertino,0,0,1,0,0,0,0,0,0,0,0
 6462,Auditorium San Gaspare del Bufalo,Putignano,0,0,0,0,0,0,0,0,0,0,1
 6463,Osteria Carbinia,Cavallino,0,0,1,0,0,0,0,0,0,0,0
 6464,Libreria Mondadori,Taranto,0,0,0,0,0,0,1,0,0,0,0
-6465,A.s.d. Studio Danza,Trani,0,0,0,0,0,0,0,0,0,0,0
 6466,Libreria Monbook,Bari,0,0,0,0,0,0,1,0,0,0,0
-6467,LED,Giovinazzo,0,0,0,0,0,0,0,0,0,0,0
 6473,Il Brigante,Alberobello,0,0,1,0,0,0,0,0,0,0,0
 6475,Live Area Eventi,Monteroni di Lecce,0,0,0,0,0,0,0,0,0,0,1
 6478,Capolinea,Andria,0,1,1,0,0,0,0,0,0,0,0
@@ -4032,7 +3735,6 @@
 6480,Cinema Moderno,Maglie,0,0,0,0,0,0,0,0,0,0,1
 6481,Café Cortes,Casarano,0,1,0,0,0,0,0,0,0,0,0
 6484,Perbacco,Locorotondo,0,1,1,0,0,0,0,1,0,0,0
-6497,Oratorio  Santa Rosa ,Castellana Grotte,0,0,0,0,0,0,0,0,0,0,0
 6499,Norcinoteca,Taranto,0,1,1,0,0,0,0,1,0,0,0
 6507,Chiostro ex Convento di San Domenico,Taranto,0,0,0,0,0,0,0,0,1,0,0
 6508,Vittorio Vini Taranto,Taranto,0,1,0,0,0,0,0,0,0,0,0
@@ -4043,7 +3745,6 @@
 6519,Birrosteria Moretti,Lecce,0,1,1,0,0,0,0,0,0,0,0
 6520,Il Castello Pub Oria,Oria,0,1,1,0,0,0,0,0,0,0,0
 6521,Studio Viva.io,Lecce,0,0,0,1,0,0,0,0,0,0,0
-6522,Biba Vintage &amp; Remake,Lecce,0,0,0,0,0,0,0,0,0,0,0
 6523,Biblioteca nazionale  Sagarriga Visconti Volpi ,Bari,0,0,0,0,0,0,1,0,1,0,0
 6526,Basilica di San Nicola,Bari,0,0,0,0,0,0,0,0,1,0,0
 6528,Pikasso Caffè,Rutigliano,0,1,0,0,0,0,0,0,0,0,0
@@ -4056,15 +3757,10 @@
 6539,Sala Convegni A.B.M.C.  Andrea Giorgio ,Altamura,0,0,0,0,0,0,1,0,0,0,0
 6543,Svbter,Alberobello,0,0,0,0,0,0,0,0,1,0,0
 6545,Auditorium Scuola Secondaria Rita Levi Montalcini,Bitritto,0,0,0,0,0,0,0,0,0,0,1
-6546,Corte di Torrelonga,Bari,0,0,0,0,0,0,0,0,0,0,0
 6550,Caffè Italiano,Villa Castelli,0,1,0,0,0,0,0,0,0,0,0
 6551,Chiesa di Ognissanti,Trani,0,0,0,0,0,0,0,0,1,0,0
-6552,Associazione Libera Idee,Trani,0,0,0,0,0,0,0,0,0,0,0
 6556,Ayers Rock Pub,Gravina in Puglia,0,1,0,0,0,0,0,0,0,0,0
-6558,Marquee Moon Club,Acquaviva delle Fonti,0,0,0,0,0,0,0,0,0,0,0
 6559,Associazione Teatro Archè,Modugno,0,0,0,0,0,0,1,0,0,0,0
-6560,Blooming - Boutique Donna,Bari,0,0,0,0,0,0,0,0,0,0,0
-6561,Chiesa parrocchiale di San Michele Arcangelo,Foggia,0,0,0,0,0,0,0,0,0,0,0
 6562,Auditorium Comunale,San Ferdinando di Puglia,0,0,0,0,0,0,0,0,0,0,1
 6563,La Locanda del Corso,Brindisi,0,0,1,0,0,0,0,0,0,0,0
 6564,Ex-Distilleria De Giorgi,San Cesario di Lecce,0,0,0,0,0,0,0,0,0,0,1
@@ -4084,7 +3780,6 @@
 6586,PalaDisfida,Barletta,0,0,0,0,0,0,0,0,0,0,1
 6587,Hotel Bizantino,Massafra,0,0,0,0,1,0,0,0,0,0,0
 6588,Masseria Garrappa,Monopoli,0,0,1,0,1,0,0,0,0,0,0
-6589,RebelArci Palagianello,Palagianello,0,0,0,0,0,0,0,0,0,0,0
 6590,Free time,Mesagne,0,1,1,0,0,0,0,0,0,0,0
 6591,FAME - Oil Bar &amp; Bruschetteria,Bitetto,0,1,1,0,0,0,0,0,0,0,0
 6592,Psicoluoghi,Andria,0,0,0,1,0,0,0,0,0,0,0
@@ -4092,7 +3787,6 @@
 6594,New Castle,Castrignano de' Greci,0,1,1,0,0,0,0,0,0,0,0
 6595,Ristorante Bernini,Bari,0,0,1,0,0,0,0,0,0,0,0
 6598,Agriturismo Masseria Ruotolo,Cassano delle Murge,0,0,1,1,1,0,0,0,0,0,0
-6599,Associazione No Media Onlus,Taranto,0,0,0,0,0,0,0,0,0,0,0
 6600,Il Peperoncino,Massafra,0,1,1,0,0,0,0,0,0,0,0
 6601,Vintage Enoteche,Taranto,0,1,1,0,0,0,0,0,0,0,0
 6602,Officina del Piano,Ruvo di Puglia,0,0,0,0,0,0,0,0,1,0,0
@@ -4103,11 +3797,8 @@
 6618,Dal Gatto &amp; la Volpe,Castellaneta,0,1,1,0,0,0,0,0,0,0,0
 6619,Biblioteca Comunale  G. Bovio ,Trani,0,0,0,0,0,0,1,0,1,0,0
 6621,Palazzo De Felice,Grottaglie,0,0,0,0,0,0,0,0,1,0,0
-6624,Associazione Allegra Brigata,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 6625,Amarcord di Francesco Petrosino,Grottaglie,0,1,0,0,0,0,0,0,0,0,0
 6627,La Vineria di Federico,Altamura,0,1,0,0,0,1,0,0,0,0,0
-6628,Sharivari,Bari,0,0,0,0,0,0,0,0,0,0,0
-6629,Arci StandBy,Santeramo in Colle,0,0,0,0,0,0,0,0,0,0,0
 6631,Eternia,Taranto,0,0,0,0,0,0,1,0,0,0,0
 6634,Basilica Cattedrale,Gravina in Puglia,0,0,0,0,0,0,0,0,1,0,0
 6635,Biblioteca Finia,Gravina in Puglia,0,0,0,0,0,0,0,0,1,0,0
@@ -4126,7 +3817,6 @@
 6649,Fontana pubblica delle  Quattro fontane ,Gravina in Puglia,0,0,0,0,0,0,0,0,1,0,0
 6650,Palazzo Meninni,Gravina in Puglia,0,0,0,0,0,0,0,0,1,0,0
 6651,San Michele delle Grotte,Gravina in Puglia,0,0,0,0,0,0,0,0,1,0,0
-6652,Complesso Rupestre  Sette Camere ,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,0
 6653,Roof Garden - The Nicolaus Hotel,Bari,0,0,1,0,0,0,0,1,0,0,0
 6654,The Seasons - The Nicolaus Hotel,Bari,0,0,1,0,0,0,0,0,0,0,0
 6656,The Circle Disco,Bari,0,1,0,0,0,0,0,0,0,0,0
@@ -4150,15 +3840,12 @@
 6721,Fourquette,Foggia,0,1,1,0,0,0,0,0,0,0,0
 6723,Teatro Don Bosco,San Pietro Vernotico,0,0,0,0,0,0,0,0,0,0,1
 6724,La Bella Trani,Trani,0,0,0,0,1,0,0,0,0,0,0
-6725,Selva Club Privè,Ceglie Messapica,0,0,0,0,0,0,0,0,0,0,0
 6726,Ristorante il Don,Torremaggiore,0,0,1,0,0,0,0,0,0,0,0
 6730,Casa del Turista,Melpignano,0,0,0,0,0,0,0,0,1,0,0
-6733,New One Way,Fasano,0,0,0,0,0,0,0,0,0,0,0
 6741,Accademia Musicale Biagio Abbate,Bisceglie,0,0,0,0,0,0,0,0,0,0,1
 6743,Circolo Culturale Mad Dog Crew,Acquaviva delle Fonti,0,1,0,0,0,0,0,0,0,0,0
 6744,Mad Dog Village,Acquaviva delle Fonti,0,1,0,0,0,0,0,0,0,0,0
 6745,Auditorium Chiesa  S. S. Pietro e Paolo ,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,1
-6746,Caffetteria Le Bonbon,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 6747,Ristorante Myosotis,Lecce,0,0,1,0,0,0,0,0,0,0,0
 6748,Evò,Ostuni,0,1,1,0,0,0,0,0,0,0,0
 6755,Kabuki,Bari,0,1,1,0,0,0,0,0,0,0,0
@@ -4167,13 +3854,10 @@
 6760,Molo 28,Barletta,0,1,0,0,0,0,0,1,0,0,0
 6764,Chiesa Madre,Ceglie Messapica,0,0,0,0,0,0,0,0,1,0,0
 6766,Le Blanc,Ostuni,0,0,1,0,0,0,0,0,0,0,0
-6767,New Rosary Club,Bari,0,0,0,0,0,0,0,0,0,0,0
 6775,Pittule e vino,Tuglie,0,0,1,0,0,0,0,0,0,0,0
 6780,Area 51 Club,Orta Nova,0,1,0,0,0,0,0,0,0,0,0
-6784,Area Mercatale e Fieristica,Manduria,0,0,0,0,0,0,0,0,0,0,0
 6790,Ass.Cult. Eticarte Waveahead,Monopoli,0,0,0,0,0,0,0,0,0,0,1
 6791,Pizzeria Peter Pan,Statte,0,0,1,0,0,0,0,0,0,0,0
-6792,Accademia di Belle Arti di Bari,Bari,0,0,0,0,0,0,0,0,0,0,0
 6796,Santa Maria della Giustizia,Taranto,0,0,0,0,0,0,0,0,1,0,0
 6800,Museo Civico di Lucera,Lucera,0,0,0,0,0,0,0,0,1,0,0
 6806,Cattedrale di San Nicola Pellegrino,Trani,0,0,0,0,0,0,0,0,1,0,0
@@ -4203,7 +3887,6 @@
 6852,Palazzo Baldi,Galatina,0,0,0,0,1,0,0,1,0,0,0
 6854,Gambrinus,Taviano,0,1,0,0,0,0,0,0,0,0,0
 6856,Ufficio turistico comunale,Palagianello,0,0,0,0,0,0,0,0,1,0,0
-6858,Circolo Arci Aggarbato,Leporano,0,0,0,0,0,0,0,0,0,0,0
 6859,La Pinta,Molfetta,0,1,0,0,0,0,0,0,0,0,0
 6860,La Kapannina,San Severo,0,0,1,0,0,0,0,0,0,0,0
 6861,Misfizio,Latiano,0,1,1,0,0,0,0,0,0,0,0
@@ -4215,9 +3898,7 @@
 6874,Pub Garibaldi,Monopoli,0,0,1,0,0,0,0,0,0,0,0
 6875,Barraottantaquattro,Nociglia,0,1,0,0,0,0,0,0,0,0,0
 6876,La Locanda del Guercio,Nardò,0,0,1,0,0,0,0,0,0,0,0
-6877,Nedina Revolution,Mesagne,0,0,0,0,0,0,0,0,0,0,0
 6878,Pizzeria Mediterranea,Lecce,0,0,1,0,0,0,0,0,0,0,0
-6882,Chiesa di S. Antonio,Mola di Bari,0,0,0,0,0,0,0,0,0,0,0
 6885,Pietrablu Resort &amp; SPA - CDSHotels,Polignano a Mare,0,0,1,1,1,0,0,0,0,1,0
 6886,Costa del Salento Village - CDSHotels,Ugento,0,0,0,0,1,0,0,0,0,1,0
 6889,Faso Cafè,Fasano,0,1,1,0,0,0,0,0,0,0,0
@@ -4254,7 +3935,6 @@
 6965,Osteria dei Quattrogatti,Bari,0,0,1,0,0,0,0,0,0,0,0
 6966,L'Incontro,Santeramo in Colle,0,1,1,0,0,0,0,0,0,0,0
 6968,Teatrolaboratorio Officina Teatrale - Teatro dell'accorgersi,Foggia,0,0,0,0,0,0,0,0,0,0,1
-6971,Parco  Don Tonino ,Castrignano de' Greci,0,0,0,0,0,0,0,0,0,0,0
 6973,Biblioteca Comunale,Tuglie,0,0,0,0,0,0,1,0,0,0,0
 6974,Eclipse,Sannicandro di Bari,0,1,1,0,0,0,0,0,0,0,0
 6976,SettediSette,Lecce,0,1,0,0,0,0,0,0,0,0,0
@@ -4263,24 +3943,19 @@
 6983,Museo Civico,Foggia,0,0,0,0,0,0,0,0,1,0,0
 6984,Fuori Orario Club,Foggia,0,1,1,0,0,0,0,0,0,0,0
 6985,Vida Loca,Fragagnano,0,1,1,0,0,0,0,0,0,0,0
-6987,Parco Santa Barbara,Veglie,0,0,0,0,0,0,0,0,0,0,0
 6988,Paradise Pub,Lizzanello,0,1,1,0,0,0,0,0,0,0,0
 6989,Basta Poco,Carmiano,0,1,1,0,0,0,0,0,0,0,0
-6990,VVER Trani Bowling,Trani,0,0,0,0,0,0,0,0,0,0,0
 6992,Habitue,Leverano,0,0,1,0,0,0,0,0,0,0,0
 6996,Le dimore di Federico,Andria,0,0,0,0,1,0,0,0,0,0,0
 6998,Tenuta Caradonna,Lequile,0,0,0,0,1,0,0,0,0,0,0
 6999,Buongusto e Sapori,Grottaglie,0,1,1,0,0,0,0,0,0,0,0
 7003,Masseria Didattica Sierro Lo Greco,Laterza,0,0,1,0,0,0,0,0,0,0,0
-7004,The Empty Space,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 7006,Terre del Mediterraneo,Bari,0,0,0,0,0,0,1,0,0,0,0
 7007,Anfiteatro Centro Polifunzionale  M.Kolbe ,Lecce,0,0,0,0,0,0,0,0,0,0,1
 7008,Teatro Valentino,Castellaneta,0,0,0,0,0,0,0,0,0,0,1
 7009,Auditorium Don Tonino Bello,Giovinazzo,0,0,0,0,0,0,0,0,0,0,1
 7010,Villa Quadrifoglio,Trani,0,0,0,0,0,0,1,0,0,0,1
-7012,Masseria Cariello Nuovo,Casamassima,0,0,0,0,0,0,0,0,0,0,0
 7013,Loop House,San Cesario di Lecce,0,0,0,0,0,0,1,0,0,0,0
-7014,ƒà - Fiera delle Autoproduzioni,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 7015,Eden Bar,Grottaglie,0,1,0,0,0,0,0,0,0,0,0
 7019,Gran Caffè Tito Schipa,Ostuni,0,1,1,0,0,0,0,0,0,0,0
 7020,Meridione Bistrot &amp; Restaurant,Lecce,0,1,1,0,0,0,0,0,0,0,0
@@ -4288,10 +3963,8 @@
 7025,Games Time Martina Franca,Martina Franca,0,0,0,0,0,0,1,0,0,0,0
 7026,Birreria Oi,Putignano,0,1,0,0,0,0,0,0,0,0,0
 7031,Samarè Ristoart,Fasano,0,1,1,0,0,0,0,0,0,0,0
-7034,Foro boario,Ostuni,0,0,0,0,0,0,0,0,0,0,0
 7035,Studio d'Arte Fedele,Monopoli,0,0,0,0,0,0,0,0,1,0,0
 7038,El Corte Garden,Gioia del Colle,0,1,1,0,0,0,0,0,0,0,0
-7041,Banchina San Domenico,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 7043,Libreria AmicoLibro,Crispiano,0,0,0,0,0,0,1,0,0,0,0
 7045,Masseria Nuova di Parco Del Vecchio,Castellaneta,0,0,0,0,0,0,0,1,0,0,0
 7046,Masseria Mustazzo,Manfredonia,0,1,1,0,0,0,0,0,0,0,0
@@ -4304,7 +3977,6 @@
 7058,Torre Poligonale,Conversano,0,0,0,0,0,0,0,0,0,0,1
 7059,Antica Masseria dell'Alta Murgia,Altamura,0,0,0,0,1,0,0,1,0,0,0
 7060,Un Centro per Amico,Sava,0,0,0,0,0,0,1,0,0,0,0
-7061,Masseria Stabile,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 7067,Maxim Bet &amp; Drink,Mesagne,0,1,0,0,0,0,0,0,0,0,0
 7068,Pensieri Vaganti,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
 7069,Quanto Basta,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
@@ -4316,8 +3988,6 @@
 7079,Spleen Cafè Letterario,Bitonto,0,0,1,0,0,1,1,0,0,0,0
 7081,SunFlower,Santeramo in Colle,0,0,1,0,0,0,0,0,0,0,0
 7083,Cineteatro DB d’Essai,Lecce,0,0,0,0,0,0,0,0,0,0,1
-7085,Azienda Agricola Melillo,Villa Castelli,0,0,0,0,0,0,0,0,0,0,0
-7086,Paintball Taranto,Taranto,0,0,0,0,0,0,0,0,0,0,0
 7087,Parco del Sorriso,Grottaglie,0,0,0,0,0,0,0,1,0,0,0
 7093,Hemingway,San Pancrazio Salentino,0,1,1,0,0,0,0,0,0,0,0
 7094,La Braceria De Pasquale,Manduria,0,0,1,0,0,0,0,0,0,0,0
@@ -4334,7 +4004,6 @@
 7119,Infinity Bar,Nardò,0,1,0,0,0,0,0,0,0,0,0
 7120,Palazzo di Città,Bitonto,0,0,0,0,0,0,0,0,1,0,0
 7121,B&amp;B Parco Alta Murgia,Cassano delle Murge,0,0,0,0,1,0,0,0,0,0,0
-7122,Venti di Scambio,Conversano,0,0,0,0,0,0,0,0,0,0,0
 7123,Old Fox Public House,Taranto,0,1,1,0,0,0,0,0,0,0,0
 7125,Centro Idea,Alberobello,0,1,1,0,0,0,1,0,0,0,0
 7126,Trulli La Ginestra,Ostuni,0,0,0,0,1,0,0,0,0,0,0
@@ -4344,11 +4013,9 @@
 7132,Baretto,Lizzanello,0,1,0,0,0,0,0,0,0,0,0
 7134,Grand'Italia Lounge Bar,Porto Cesareo,0,1,0,0,0,0,0,0,0,0,0
 7135,Mordi e fuggi,Porto Cesareo,0,1,1,0,0,1,0,0,0,0,0
-7136,Alexander,Porto Cesareo,0,0,0,0,0,0,0,0,0,0,0
 7138,Pineta delle Grotte di Castellana,Castellana Grotte,0,0,0,0,0,0,0,1,0,0,0
 7140,Trésor,Gallipoli,0,0,1,0,0,0,0,0,0,0,0
 7141,Il Nachiro,Specchia,0,1,1,0,0,0,0,0,0,0,0
-7142,Masseria Marangiosa,Latiano,0,0,0,0,0,0,0,0,0,0,0
 7144,Dionisus fashion cafè,Villa Castelli,0,1,0,0,0,0,0,0,0,0,0
 7145,Bioagriturismo Masseria  Sciaiani Piccola ,Villa Castelli,0,0,0,0,1,0,0,0,0,0,0
 7146,Museo Etnografico dell'Alta Murgia,Altamura,0,0,0,0,0,0,0,0,1,0,0
@@ -4359,7 +4026,6 @@
 7151,Borgo Bontà - Chiostro di San Domenico,Bitonto,0,0,0,0,0,1,0,0,0,0,0
 7153,Park Hotel Mar Grande,Taranto,0,0,0,0,1,0,0,0,0,0,0
 7157,Valente,Casarano,0,0,1,0,0,0,0,1,0,0,0
-7160,Masseria Cimadomo,Corato,0,0,0,0,0,0,0,0,0,0,0
 7161,Teatro Tito Schipa,Gallipoli,0,0,0,0,0,0,0,0,0,0,1
 7165,Arena Cinecronici,Mesagne,0,0,0,0,0,0,0,0,0,0,1
 7166,Underground Pub,Porto Cesareo,0,1,1,0,0,0,0,0,0,0,0
@@ -4374,11 +4040,9 @@
 7192,Larghetto Mastro Santo,Corato,0,0,0,0,0,0,0,0,0,0,1
 7195,Chiostro di San Francesco,Andria,0,0,0,0,0,0,0,0,1,0,0
 7201,Palaghiaccio,Bari,0,0,0,0,0,0,0,1,0,0,0
-7203,Civico 5,Manfredonia,0,0,0,0,0,0,0,0,0,0,0
 7206,Whisky a Go Go,Pulsano,0,1,1,0,0,0,0,0,0,0,0
 7207,Samarè Risto Art,Monopoli,0,1,1,0,0,0,1,0,0,0,0
 7208,Villaggio di Sant'Agostino,Martina Franca,0,0,0,0,0,0,1,0,1,0,1
-7213,Iat Molfetta,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 7214,Auditorium il Pentagramma,Bari,0,0,0,0,0,0,0,0,0,0,1
 7216,il Buco dei Golosi,Andria,0,0,1,0,0,0,0,0,0,0,0
 7217,Ristodante,San Michele Salentino,0,1,1,0,0,0,0,0,0,0,0
@@ -4391,12 +4055,10 @@
 7229,Le Meridiane,Ceglie Messapica,0,0,0,0,1,0,0,0,0,0,0
 7230,Nicole Scarpelli Arte,Polignano a Mare,0,0,0,0,0,0,0,0,1,0,0
 7231,Friggitoria Stellamar,Pulsano,0,0,1,0,0,0,0,0,0,0,0
-7232,Scuderie Le Torri,Polignano a Mare,0,0,0,0,0,0,0,0,0,0,0
 7235,Rusty Nail,Crispiano,0,1,1,0,0,0,0,0,0,0,0
 7236,Palazzo Ulmo,Taranto,0,0,0,0,0,0,0,0,1,0,0
 7237,Cibus Murgia,Minervino Murge,0,0,1,0,0,0,0,0,0,0,0
 7240,La Palestra in Fitness,Putignano,0,0,0,1,0,0,0,0,0,0,0
-7241,Parrocchia Santa Famiglia,Taranto,0,0,0,0,0,0,0,0,0,0,0
 7244,Sutta e Capanne du Ripa,Specchia,0,0,0,0,0,0,0,0,1,0,0
 7245,Camera a Sud,Bitonto,0,1,1,0,0,0,0,0,0,0,0
 7246,Solinio Village,Cassano delle Murge,0,0,1,0,1,0,0,0,0,0,0
@@ -4410,7 +4072,6 @@
 7264,Auditorium Liceo Musicale Don Milano,Acquaviva delle Fonti,0,0,0,0,0,0,0,0,0,0,1
 7265,Attenti al Luppolo,Noci,0,1,1,0,0,0,0,0,0,0,0
 7267,Club 70,Lecce,0,1,1,0,0,0,0,0,0,0,0
-7268,A Putéje arte e (è) cultura,Taranto,0,0,0,0,0,0,0,0,0,0,0
 7269,La Casa della Felicitudine,Lecce,0,0,0,1,1,0,0,1,0,0,0
 7273,Teatr'atelier,Bari,0,0,0,0,0,0,0,0,0,0,1
 7275,Tortuga Public House,Trani,0,1,1,0,0,0,0,0,0,0,0
@@ -4443,7 +4104,6 @@
 7323,Què tal? Tapas e drinks,Andria,0,1,1,0,0,0,0,0,0,0,0
 7325,Tanaliberatutti,Bari,0,0,1,0,0,0,0,0,0,0,0
 7326,Spops,Bari,0,1,1,0,0,0,1,0,0,0,0
-7327,Le Macerie - Baracche Ribelli,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 7328,Il Trappetello,Monopoli,0,0,0,0,1,0,0,0,0,0,0
 7329,The Hills Pub,Gioia del Colle,0,1,1,0,0,0,0,0,0,0,0
 7330,Cittadella degli Artisti,Molfetta,0,0,0,0,0,0,1,0,0,0,1
@@ -4488,7 +4148,6 @@
 7400,Chiesa del Purgatorio,Barletta,0,0,0,0,0,0,0,0,0,0,1
 7401,InCheSenso,Conversano,0,1,1,0,0,1,0,0,0,0,0
 7402,Chiesa di San Giuseppe,Mottola,0,0,0,0,0,0,0,0,1,0,0
-7403,Industrie Musicali,Maglie,0,0,0,0,0,0,0,0,0,0,0
 7404,Groove Arci,Carpignano Salentino,0,1,0,0,0,0,0,0,0,0,1
 7412,Cantine Polvanera,Gioia del Colle,0,1,0,0,0,0,0,0,0,0,0
 7418,King Artur,Carapelle,0,1,1,0,0,0,0,0,0,0,0
@@ -4497,13 +4156,10 @@
 7422,Twentyfour,Lecce,0,0,0,0,0,0,0,0,0,0,1
 7424,Caffeine Wine Bar,San Marzano di San Giuseppe,0,1,0,0,0,0,0,0,0,0,0
 7425,Kairos,Specchia,0,1,0,0,0,0,0,0,0,0,0
-7428,Spazio On,Trani,0,0,0,0,0,0,0,0,0,0,0
 7435,Bar dell'Angolo,Manduria,0,1,0,0,0,1,0,0,0,0,0
 7436,Retrogusto,Mola di Bari,0,0,1,0,0,0,0,0,0,0,0
 7440,Cristal,Massafra,0,0,1,0,0,0,0,0,0,0,0
 7441,Ilya Pub,Toritto,0,1,0,0,0,0,0,0,0,0,0
-7442,Ass.Culturale Il Tre Ruote Ebbro,Locorotondo,0,0,0,0,0,0,0,0,0,0,0
-7444,Astoria Palace,Corato,0,0,0,0,0,0,0,0,0,0,0
 7445,Trani '70,Trani,0,0,1,0,0,0,0,0,0,0,0
 7447,Boccaccio,Bari,0,1,1,0,0,0,0,0,0,0,0
 7448,Persepolis,Andria,0,0,0,0,0,1,1,0,0,0,0
@@ -4544,12 +4200,8 @@
 7505,Tesoretto,Poggiardo,0,0,1,0,0,0,0,0,0,0,0
 7506,ReArte,Molfetta,0,0,0,0,0,0,1,0,0,0,0
 7509,La Fava,Giovinazzo,0,1,1,0,0,0,0,0,0,0,0
-7510,Notorius Club,Massafra,0,0,0,0,0,0,0,0,0,0,0
-7511,The Club Tonino Lamborghini,Bari,0,0,0,0,0,0,0,0,0,0,0
 7515,Storie in corso,Martina Franca,0,0,0,0,0,0,1,0,0,0,0
-7519,Piper Club,Foggia,0,0,0,0,0,0,0,0,0,0,0
 7521,GOLA Gourmet Kitchen,Bari,0,0,1,0,0,1,0,0,0,0,0
-7522,Les Souk,Ginosa,0,0,0,0,0,0,0,0,0,0,0
 7523,Museo della Ceramica,Grottaglie,0,0,0,0,0,0,0,0,1,0,0
 7524,Il Brillo Parlante,Giovinazzo,0,1,1,0,0,0,0,0,0,0,0
 7525,North Zone,Mola di Bari,0,1,1,0,0,0,0,0,0,0,0
@@ -4566,7 +4218,6 @@
 7540,Pizzeria Bella Capri,Castellana Grotte,0,0,1,0,0,0,0,0,0,0,0
 7541,Sala San Felice,Giovinazzo,0,0,0,0,0,0,1,0,0,0,1
 7542,La Terrazza sul Mare,Trani,0,0,1,0,0,0,0,0,0,0,0
-7543,Jan-net,Cisternino,0,0,0,0,0,0,0,0,0,0,0
 7547,Baboo's,Bari,0,1,1,0,0,0,0,0,0,0,0
 7548,Hotel Akropolis,Taranto,0,0,0,0,1,0,0,0,0,0,0
 7549,Li Cannaruti,Manduria,0,1,1,0,0,0,0,0,0,0,0
@@ -4595,13 +4246,10 @@
 7591,Antichi Sapori,Fasano,0,0,1,0,0,0,0,0,0,0,0
 7592,Mad'in Italy,Lizzano,0,1,1,0,0,0,0,0,0,0,0
 7593,Auditorium Divino Amore,Martina Franca,0,0,0,0,0,0,0,0,0,0,1
-7594,Viale della Libertà,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 7597,Gaas,Foggia,0,1,1,0,0,0,0,0,0,0,0
 7598,In Vino Veritas,Trani,0,0,1,0,0,0,0,0,0,0,0
 7599,La Prima,Bitetto,0,0,0,0,0,0,1,0,0,0,0
-7600,Centro Interculturale Nelson Mandela,Taranto,0,0,0,0,0,0,0,0,0,0,0
 7603,Escodirado,Bari,0,1,1,0,0,0,0,0,0,0,0
-7604,Kabao Club,Sannicandro di Bari,0,0,0,0,0,0,0,0,0,0,0
 7610,Teatro Cavallino Bianco,Galatina,0,0,0,0,0,0,0,0,0,0,1
 7611,Chiesa di Santa Fara,Bari,0,0,0,0,0,0,0,0,1,0,0
 7618,History Pub,Ruvo di Puglia,0,1,1,0,0,0,0,0,0,0,0
@@ -4615,9 +4263,7 @@
 7638,Jungle,Gallipoli,0,1,1,0,0,1,0,0,0,0,0
 7639,Anfi,Foggia,0,0,1,0,0,0,0,0,0,0,0
 7640,Gioia,Galatone,0,0,1,0,0,0,0,0,0,0,0
-7649,La Perla del Doge,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 7650,Veronero Caffè,Bari,0,1,1,0,0,1,0,0,0,0,0
-7654,Mexico 70,Taranto,0,0,0,0,0,0,0,0,0,0,0
 7658,POSH - Bar &amp; Fish Restaurant,Bari,0,1,1,0,0,0,0,0,0,0,0
 7659,Bar Della Villa,Cavallino,0,1,0,0,0,1,0,0,0,0,0
 7663,Tankard Pub,Bari,0,1,1,0,0,0,0,0,0,0,0
@@ -4641,17 +4287,14 @@
 7698,One Way Pub,Racale,0,1,1,0,0,0,0,0,0,0,0
 7700,Caffè degli Artisti,Sava,0,1,1,0,0,0,0,0,0,0,0
 7708,Just One Food&amp;Drink,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
-7709,Alter Hortus,Lecce,0,0,0,0,0,0,0,0,0,0,0
 7712,Cinque Sensi,Trani,0,0,1,0,0,0,0,0,0,0,0
 7717,Mya Caffe',Grottaglie,0,1,1,0,0,1,0,0,0,0,0
-7720,Circolo Peppino Impastato,Taranto,0,0,0,0,0,0,0,0,0,0,0
 7730,Joey,Maglie,0,1,1,0,0,0,0,0,0,0,0
 7731,Volver Club,San Marzano di San Giuseppe,0,1,1,0,0,0,0,0,0,0,0
 7733,Verde Matematico,Bisceglie,0,1,1,0,0,0,0,0,0,0,0
 7734,Bar Nicolas,Capurso,0,1,0,0,0,1,0,0,0,0,0
 7737,Aromi Bistrot,Sannicandro di Bari,0,1,1,0,0,1,0,0,0,0,0
 7740,Club 77,Barletta,0,1,0,0,0,0,0,0,0,0,0
-7741,Masseria Capone,Putignano,0,0,0,0,0,0,0,0,0,0,0
 7742,Le Tre Lanterne,Taranto,0,0,1,0,0,0,0,0,0,0,0
 7743,Bebop,Manduria,0,1,1,0,0,0,0,0,0,0,0
 7756,All Nchianata,Grottaglie,0,0,1,0,0,0,0,0,0,0,0
@@ -4668,9 +4311,7 @@
 7773,FishFizz,Bari,0,1,0,0,0,0,0,0,0,0,0
 7774,Cabaret Voltaire 1916,Bari,0,1,0,0,0,0,0,0,0,0,0
 7780,Libreria La Sapientia,Capurso,0,0,0,0,0,0,1,0,0,0,0
-7781,Kebabberia da Ambrogio,Manduria,0,0,0,0,0,0,0,0,0,0,0
 7782,Epigeo 59,Ostuni,0,1,1,0,0,0,0,0,0,0,0
-7784,Villa Torre Quadra,Bitonto,0,0,0,0,0,0,0,0,0,0,0
 7789,Guaranà Wonder Club,Carovigno,0,1,0,0,0,0,0,0,0,0,0
 7790,Museo Civico,Bari,0,0,0,0,0,0,0,0,1,0,0
 7791,Arci Train de Vie,Bitonto,0,0,0,0,0,0,1,0,0,0,0
@@ -4683,7 +4324,6 @@
 7807,TerramareBio,Mola di Bari,0,0,1,0,0,0,0,0,0,0,0
 7811,Alle Radici,Andria,0,1,1,0,0,0,0,0,0,0,0
 7813,Il regno di Bacco,Sannicola,0,0,1,0,0,0,0,0,0,0,0
-7814,Fuori Rotta,Maruggio,0,0,0,0,0,0,0,0,0,0,0
 7815,Libreria Minopolis,Monopoli,0,0,0,0,0,0,1,0,0,0,0
 7819,Associazione Culturale K2 Studio Anforah,Giovinazzo,0,0,0,0,0,0,1,0,0,0,0
 7820,Kairòs,Gagliano del Capo,0,1,1,0,0,0,0,0,0,0,0
@@ -4719,11 +4359,9 @@
 7873,AI 9,Polignano a Mare,0,1,0,0,0,0,0,0,0,0,0
 7874,Villa Pinciana,Torre Santa Susanna,0,0,1,0,0,0,0,0,0,0,0
 7876,Verde Mare Caffè,Massafra,0,1,0,0,0,0,0,0,0,0,0
-7878,Baia San Giovanni music bar,Polignano a Mare,0,0,0,0,0,0,0,0,0,0,0
 7879,Ad Maiora cafe,Molfetta,0,1,0,0,0,1,0,0,0,0,0
 7880,Locanda Maremagno,Bari,0,0,1,0,0,0,0,1,0,0,0
 7882,Associazione Culturale K2 Studio Anforah,Giovinazzo,0,0,0,0,0,0,1,0,0,0,0
-7883,Parco Montalbano,Oria,0,0,0,0,0,0,0,0,0,0,0
 7884,Masseria Agriturismo Pace,Martina Franca,0,0,0,0,1,0,0,0,0,0,0
 7885,Decibel,Manduria,0,1,1,0,0,0,0,0,0,0,0
 7886,Relais del Duca,Martina Franca,0,0,0,0,1,0,0,1,0,0,0
@@ -4738,10 +4376,8 @@
 7896,Happy Days,Bisceglie,0,0,1,0,0,0,0,0,0,0,0
 7897,Tayga Beach,Maruggio,0,0,0,0,0,0,0,0,0,1,0
 7898,Castello Imperiale,Sant'Agata di Puglia,0,0,0,0,0,0,0,0,1,0,0
-7899,Circolo Arci di Monopoli,Monopoli,0,0,0,0,0,0,0,0,0,0,0
 7902,Casa vacanze Parco della Vitosa,Martina Franca,0,0,0,0,1,0,0,0,0,0,0
 7904,Le Frivolezze - Caffetteria Bar Gelateria -,Conversano,0,1,0,0,0,0,0,0,0,0,0
-7906,Bosco di Bitonto,Bitonto,0,0,0,0,0,0,0,0,0,0,0
 7908,Galleria d'Arte Nicole Scarpelli,Polignano a Mare,0,0,0,0,0,0,0,0,1,0,0
 7909,Porto Rosso,Monopoli,0,0,1,0,0,0,0,0,0,0,0
 7912,Teatro Kopó,Brindisi,0,0,0,0,0,0,0,0,0,0,1
@@ -4754,7 +4390,6 @@
 7929,Casale Torre San Magno,Corato,0,0,0,0,1,0,0,1,0,0,0
 7933,Parco Astronomico San Lorenzo,Casarano,0,1,0,0,0,0,0,0,1,0,0
 7934,Pane Amore e Fantasia,Massafra,0,1,1,0,0,1,1,0,0,0,0
-7935,Planetario di Bari,Bari,0,0,0,0,0,0,0,0,0,0,0
 7936,Sinensis,Putignano,0,0,0,0,0,1,1,0,0,0,0
 7937,Palazzo Baronale di Collepasso,Collepasso,0,0,0,0,0,0,1,0,1,0,0
 7938,Castello di Mesagne,Mesagne,0,0,0,0,0,0,0,0,1,0,0
@@ -4774,22 +4409,18 @@
 7962,Laboratorio Urbano Torrente del Vento,Grottaglie,0,0,0,0,0,0,1,0,0,0,0
 7963,Tenute Rubino,Brindisi,0,1,0,0,0,0,0,0,0,0,0
 7965,Charad Pub,Aradeo,0,1,1,0,0,0,0,0,0,0,0
-7966,Matrix Group asd,Noci,0,0,0,0,0,0,0,0,0,0,0
 7967,Orizu',Cisternino,0,1,1,0,0,0,0,0,0,0,0
 7972,Libreria Marconi,Bisceglie,0,0,0,0,0,0,1,0,0,0,0
 7974,Villa Bellino House Theatre,Noicattaro,0,0,1,0,1,0,0,0,0,0,1
 7975,Sayonara Sushi Bar &amp; Fusion Restaurant,Bari,0,0,1,0,0,0,0,1,0,0,0
 7977,Chiesa dell'Addolorata,Casamassima,0,0,0,0,0,0,0,0,1,0,0
-7978,Fiore Art Factory,Andria,0,0,0,0,0,0,0,0,0,0,0
 7980,Macina Pepe,Conversano,0,0,1,0,0,0,0,0,0,0,0
 7981,Tarallucci&amp;Vino,Polignano a Mare,0,1,1,0,0,0,0,0,0,0,0
 7982,Dreams Cocktaileria,Martina Franca,0,1,0,0,0,0,0,0,0,0,0
-7983,Movida Club,Tricase,0,0,0,0,0,0,0,0,0,0,0
 7984,Castello Caracciolo,Cellamare,0,0,0,0,0,0,0,0,1,0,0
 7986,Dexter - Beer &amp; Jazz,Bari,0,1,1,0,0,0,0,0,0,0,0
 7989,Le Radici - Osteria Tipica Martinese,Martina Franca,0,1,1,0,0,0,0,1,0,0,0
 7991,Stone's Club,Molfetta,0,1,1,0,0,0,0,0,0,0,0
-7993,Hendrix Club,San Severo,0,0,0,0,0,0,0,0,0,0,0
 7994,Cappero,Barletta,0,1,1,0,0,0,0,0,0,0,0
 7995,Palazzo del Governo  Salone della Provincia,Taranto,0,0,0,0,0,0,0,0,1,0,0
 7996,Tesla Associazione Culturale,Molfetta,0,0,0,0,0,0,1,0,0,0,0
@@ -4797,7 +4428,6 @@
 7999,Sala Athenaeum,Barletta,0,0,0,0,0,0,0,0,0,0,1
 8000,Teatro Sacro Cuore,Gioia del Colle,0,0,0,0,0,0,0,0,0,0,1
 8001,Chiesa Sant'Alfonso Maria de' Liguori,Francavilla Fontana,0,0,0,0,0,0,0,0,1,0,0
-8003,Circolo Arci 1984,Casamassima,0,0,0,0,0,0,0,0,0,0,0
 8007,Bistrot Malcangi,Trani,0,0,1,0,0,1,0,0,0,0,0
 8008,Ristornate Maresca,Arnesano,0,0,1,0,0,0,0,0,0,0,0
 8009,Volgo Retró,Andria,0,1,1,0,0,0,0,0,0,0,0
@@ -4814,7 +4444,6 @@
 8036,Gold Fashion Pub,Cerignola,0,1,1,0,0,0,0,0,0,0,0
 8039,Teatro Comunale,Galatone,0,0,0,0,0,0,0,0,0,0,1
 8040,Lega Navale Italiana sezione di Taranto,Taranto,0,0,0,0,0,0,0,0,0,0,1
-8042,Des Amis,San Giovanni Rotondo,0,0,0,0,0,0,0,0,0,0,0
 8043,Teatro Sotterraneo,Spongano,0,0,0,0,0,0,0,0,0,0,1
 8044,Ufficio IAT Bisceglie,Bisceglie,0,0,0,0,0,0,0,0,1,0,0
 8045,Locanda Sant'Eligio,Martina Franca,0,0,1,0,0,0,0,0,0,0,0
@@ -4824,7 +4453,6 @@
 8049,Caffè Françoise,Taranto,0,1,1,0,0,0,0,0,0,0,0
 8050,La vie est belle,Alberobello,0,1,0,0,0,0,0,1,0,0,0
 8051,Scuderie di Palazzo Gallone,Tricase,0,0,0,0,0,0,0,0,1,0,0
-8052,Fratelli Di Pinta,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 8053,Libreria Piazzo,Brindisi,0,0,0,0,0,0,1,0,0,0,0
 8054,Testecalde,Rutigliano,0,0,1,0,0,0,0,0,0,0,0
 8055,Chiostro di San Domenico,Noci,0,0,0,0,0,0,0,0,1,0,0
@@ -4842,9 +4470,7 @@
 8079,El Barrio Verde,Alezio,0,1,1,0,0,0,0,0,0,0,0
 8082,La Nicchia - Porta San Giorgio Cafè,Grottaglie,0,1,1,0,0,0,0,0,0,0,0
 8083,Chiesa Russa di San Nicola,Bari,0,0,0,0,0,0,0,0,1,0,0
-8084,GENERALI ITALIA S.p.A.  Agenzia Principale di Taranto,Taranto,0,0,0,0,0,0,0,0,0,0,0
 8085,Astragali Teatro,Lecce,0,0,0,0,0,0,0,0,0,0,1
-8087,Kikau Store,Massafra,0,0,0,0,0,0,0,0,0,0,0
 8091,Ludoscuola  BimBumBam ,Terlizzi,0,0,0,0,0,0,1,0,0,0,0
 8093,BirBacco,Altamura,0,1,1,0,0,0,0,0,0,0,0
 8094,Dada Reastaurant and Lounge Bar,Lecce,0,1,1,0,0,0,0,0,0,0,0
@@ -4852,9 +4478,6 @@
 8096,Jolie le Club,Canosa di Puglia,0,1,0,0,0,0,0,0,0,0,1
 8097,Ristorante Gourmet by Villa Ciardi,Bisceglie,0,0,1,0,0,0,0,1,0,0,0
 8099,Centro Multimediale “Giovanni Paolo II”,Bari,0,0,0,0,0,0,0,0,0,0,1
-8100,Moonlight,Taranto,0,0,0,0,0,0,0,0,0,0,0
-8101,Il Piano Matto di E.P. STUDIO DESIGN,Andria,0,0,0,0,0,0,0,0,0,0,0
-8102,Cooperativa teatrale Animalenta,Conversano,0,0,0,0,0,0,0,0,0,0,0
 8105,Balì Cafè,Fasano,0,1,0,0,0,1,0,0,0,0,0
 8106,Palazzo Settanni,Rutigliano,0,0,0,0,0,0,1,0,1,0,0
 8108,Giglionero taverna dei gurgi,Putignano,0,0,1,0,0,0,0,0,0,0,0
@@ -4877,9 +4500,7 @@
 8138,Dolce e Salato Club,Casamassima,0,0,1,0,0,0,0,0,0,0,0
 8139,Il ritrovo degli spartani,Taranto,0,0,1,0,0,0,0,0,0,0,0
 8140,Habitus,Taviano,0,1,1,0,0,0,0,0,0,0,0
-8141,Diaulicchie pub,Cisternino,0,0,0,0,0,0,0,0,0,0,0
 8142,Chiesa di Sant'Antonio da Padova,Martina Franca,0,0,0,0,0,0,0,1,1,0,0
-8143,Red eventi di gusto,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 8145,Divineria,Lecce,0,1,0,0,0,1,0,0,0,0,0
 8148,Corten Bistrot,Lizzano,0,1,1,0,0,0,0,0,0,0,0
 8153,Officine dell'Arte - BKK,Mola di Bari,0,0,0,0,0,0,0,0,1,0,1
@@ -4888,8 +4509,6 @@
 8156,Villa Montoto o Gigli,Maruggio,0,0,0,0,0,0,0,0,1,0,0
 8157,Gran Caffe' La Fenice,Taranto,0,1,0,0,0,0,0,0,0,0,0
 8159,Filomondo - Fatti dai Sud della Terra,Andria,0,0,0,0,0,1,1,0,0,0,0
-8162,Grotta di Curtomartino,Acquaviva delle Fonti,0,0,0,0,0,0,0,0,0,0,0
-8163,12.03 City Club - Events,Bari,0,0,0,0,0,0,0,0,0,0,0
 8164,Book Bar Di Marsico,Bari,0,0,0,0,0,0,1,0,0,0,0
 8166,Bassa Marea,Manduria,0,1,1,0,0,1,0,0,0,0,0
 8167,Garden Cafè,Novoli,0,1,1,0,0,0,0,0,0,0,0
@@ -4909,19 +4528,13 @@
 8190,Chiosco della Stazione,Galatina,0,1,0,0,0,1,0,0,0,0,0
 8193,Tonga - Tiki Bar,Vieste,0,1,0,0,0,0,0,0,0,0,0
 8194,Pro Loco Babilonia,Molfetta,0,0,0,0,0,0,1,0,0,0,0
-8195,Laboratorio Urbano Conversano,Conversano,0,0,0,0,0,0,0,0,0,0,0
-8196,Parco di Belloluogo,Lecce,0,0,0,0,0,0,0,0,0,0,0
 8199,Mauro Caffè,Villa Castelli,0,1,0,0,0,0,0,0,0,0,0
 8200,Vico dei Sotterranei,Lecce,0,0,1,0,0,0,0,0,0,0,0
 8201,Circolo Arci Zei Spazio Sociale,Lecce,0,0,0,0,0,0,1,0,0,0,0
 8206,Spirit Bar,Trani,0,1,1,0,0,0,0,0,0,0,0
 8209,Caicco Trani,Trani,0,1,0,0,1,0,0,0,0,0,0
-8213,Foresta Mercadante,Cassano delle Murge,0,0,0,0,0,0,0,0,0,0,0
 8214,Beer,Grottaglie,0,1,1,0,0,0,0,0,0,0,0
 8218,Miramare Cafè,Bari,0,1,0,0,0,0,0,0,0,0,0
-8222,Il Rifugio Mellitto,Grumo Appula,0,0,0,0,0,0,0,0,0,0,0
-8223,Oasi Romanazzi,Gioia del Colle,0,0,0,0,0,0,0,0,0,0,0
-8224,Praja La Bella Vita,Gallipoli,0,0,0,0,0,0,0,0,0,0,0
 8228,JollyBlu,Villa Castelli,0,1,0,0,0,0,0,0,0,0,0
 8229,Fondazione Palmieri,Lecce,0,0,0,0,0,0,0,0,1,0,1
 8230,Sugo e Basilico,Taranto,0,0,1,0,0,0,0,0,0,0,0
@@ -4931,7 +4544,6 @@
 8237,Aula Magna Palazzo Ateneo,Bari,0,0,0,0,0,0,0,0,0,0,1
 8240,Parrocchia Sacra Famiglia,San Severo,0,0,0,0,0,0,0,0,0,0,1
 8242,Camera di Commercio di Bari,Bari,0,0,0,0,0,0,0,0,1,0,0
-8243,Hangar Summer,Casamassima,0,0,0,0,0,0,0,0,0,0,0
 8245,Ipanema Club,Barletta,0,1,1,0,0,0,0,0,0,0,0
 8247,Mamma Elvira Alla Scisa,Lecce,0,0,1,0,0,0,0,0,0,0,0
 8249,Il Vicolo,Carovigno,0,0,1,0,0,0,0,0,0,0,0
@@ -4942,7 +4554,6 @@
 8271,Castiglione,Conversano,0,0,0,0,0,0,0,1,0,0,0
 8273,Terra d'Incontro,Casamassima,0,0,1,0,0,0,0,0,0,0,0
 8274,Bahia Beach Club,Molfetta,0,0,0,0,0,0,0,0,0,1,0
-8275,Caffè Noir,Molfetta,0,0,0,0,0,0,0,0,0,0,0
 8279,Mama Out,Cerignola,0,1,0,0,0,0,0,0,0,0,0
 8281,Ai 2 Ghiottoni a Mare,Polignano a Mare,0,0,1,0,0,0,0,0,0,0,0
 8282,Ristorante Diomede presso Malucri Resort,San Marco in Lamis,0,1,1,0,0,0,0,1,0,0,0
@@ -4957,15 +4568,11 @@
 8297,Cactus,Polignano a Mare,0,1,0,0,0,0,1,0,0,0,0
 8300,Relais Masseria Sant'Elia,Martina Franca,0,0,0,0,1,0,0,0,0,0,0
 8301,Ladisa Pasticceria,Capurso,0,0,0,0,0,1,0,0,0,0,0
-8303,Campo di mare,Lecce,0,0,0,0,0,0,0,0,0,0,0
 8304,Karadrà,Cutrofiano,0,0,0,0,1,0,0,0,0,0,0
-8305,La Masseria dei Briganti,Carovigno,0,0,0,0,0,0,0,0,0,0,0
 8306,l'Osteria del DivinGustare,Ceglie Messapica,0,1,1,0,0,0,0,0,0,0,0
-8307,Piazzale degli Artisti - Borgo Celano,San Marco in Lamis,0,0,0,0,0,0,0,0,0,0,0
 8310,Masseria Palesi,Martina Franca,0,0,1,0,1,0,0,0,0,0,0
 8311,La Biblioteca Di Babele,Trani,0,0,0,0,0,0,1,0,0,0,0
 8312,Sensi Food&amp;Wine,Bari,0,1,1,0,0,1,0,1,0,0,0
-8313,Laboratorio Urbano Rigenera,Palo del Colle,0,0,0,0,0,0,0,0,0,0,0
 8317,BellAgio Food &amp; Beverage,Pulsano,0,1,0,0,0,0,0,0,0,0,0
 8318,Torre Quetta,Bari,0,0,0,0,0,0,0,0,0,1,0
 8319,Spiaggia club loving beach,Gallipoli,0,1,0,0,0,0,0,0,0,1,0
@@ -4984,16 +4591,13 @@
 8337,Gradisca Bistronomia,Conversano,0,0,1,0,0,0,0,0,0,0,0
 8338,Panzerottiamo,Conversano,0,0,0,0,0,1,0,0,0,0,0
 8340,CriVal,Palagiano,0,1,1,0,0,1,0,0,0,0,0
-8343,Piscina Comunale Sant'Agata di Puglia,Sant'Agata di Puglia,0,0,0,0,0,0,0,0,0,0,0
 8345,Clover #eatdrinkenjoy,Ostuni,0,1,1,0,0,0,0,0,0,0,0
-8346,Atrio dell'Ateneo Bruni,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 8348,Castello Aragonese,Castro,0,0,0,0,0,0,0,0,1,0,0
 8350,Bazart,Locorotondo,0,0,0,0,0,0,0,0,1,0,0
 8351,Bellinfusto - Birreria Pub Indipendente,Ostuni,0,1,1,0,0,0,0,1,0,0,0
 8352,Azienda Agricola Archivecchi,Ceglie Messapica,0,0,1,0,0,1,0,0,0,0,0
 8353,u Jùse,Locorotondo,0,0,0,0,0,0,0,0,1,0,0
 8355,Tomà Restaurant,Crispiano,0,0,1,0,0,0,0,1,0,0,0
-8356,Master gallery,Poggiardo,0,0,0,0,0,0,0,0,0,0,0
 8357,Chiesa di Santa Maria la Nova - ex Convento francescano dei Minori Osservanti,Terlizzi,0,0,0,0,0,0,0,0,1,0,0
 8358,Arena San Girolamo,Statte,0,0,0,0,0,0,0,0,0,0,1
 8359,Ex Regia Stazione Ippica,Martina Franca,0,0,0,0,0,0,0,0,1,0,0
@@ -5011,13 +4615,11 @@
 8373,Auditorium  Ing.Pietro Milella ,Acquaviva delle Fonti,0,0,0,0,0,0,0,0,0,0,1
 8374,Hotel Resort Corte di Ferro,Carovigno,0,0,0,1,1,0,0,0,0,0,0
 8376,Agriturismo Laire Alberobello,Alberobello,0,0,0,0,1,0,0,0,0,0,0
-8377,Gate 23,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 8378,B&amp;b Cieli di Dante,Conversano,0,0,0,0,1,0,0,1,0,0,0
 8379,Sartoria del Gusto,Foggia,0,1,1,0,0,0,0,0,0,0,0
 8380,Gin&amp;Praio,Bari,0,1,1,0,0,0,0,0,0,0,0
 8381,Tomba degli Atleti,Taranto,0,0,0,0,0,0,0,0,1,0,0
 8382,The Seed of Time,Altamura,0,0,0,0,1,0,0,0,1,0,0
-8383,Scena Muta,Copertino,0,0,0,0,0,0,0,0,0,0,0
 8396,Auditorium Diocesano Salvucci,Molfetta,0,0,0,0,0,0,0,0,1,0,0
 8397,Chiesa dell'Amalfitana,Monopoli,0,0,0,0,0,0,0,0,1,0,0
 8398,Bed and Breakfast Poggio degli Ulivi,Locorotondo,0,0,0,0,1,0,0,1,0,0,0
@@ -5032,25 +4634,18 @@
 8411,Peppo,Bari,0,1,1,0,0,0,0,0,0,0,0
 8414,A Casa di Archita,Taranto,0,0,0,0,0,0,1,0,0,0,0
 8415,Vecchie Segherie e altre storie,Bisceglie,0,0,0,0,0,0,1,0,0,0,1
-8416,Cafeteria de la Plaza,Castellana Grotte,0,0,0,0,0,0,0,0,0,0,0
 8418,Biblioteca Comunale Pietro Acclavio,Taranto,0,0,0,0,0,0,1,0,0,0,0
-8420,La Nuova Ferramenta,Lecce,0,0,0,0,0,0,0,0,0,0,0
-8421,Parrocchia Maria SS. Addolorata (don Guanella),Bari,0,0,0,0,0,0,0,0,0,0,0
 8422,Trapetum,Bisceglie,0,1,1,0,0,0,0,0,0,0,0
 8423,Artcafè,Castellana Grotte,0,1,1,0,0,0,0,0,0,0,0
-8424,Bosco di Sant'Antuono,Mottola,0,0,0,0,0,0,0,0,0,0,0
 8425,Dinamo,Taranto,0,1,1,0,0,0,0,0,0,0,0
 8428,Hollywood California,Pulsano,0,0,1,0,0,0,0,0,0,0,0
 8429,Museo dell'Olio,Sava,0,0,0,0,0,0,0,0,1,0,0
 8430,Malerbe - Cucina semplice di Amula,Alberobello,0,0,1,0,0,0,0,1,0,0,0
 8431,Auditorium Sacro Cuore (Teatro Del Sorriso),Taranto,0,0,0,0,0,0,0,0,0,0,1
-8432,iBicipedi,Andria,0,0,0,0,0,0,0,0,0,0,0
-8433,Laboratorio Urbano Giovanile Agorà,Corigliano d'Otranto,0,0,0,0,0,0,0,0,0,0,0
 8434,Palazzo Ducale,Presicce,0,0,0,0,0,0,0,0,1,0,0
 8435,La Mandragora - erboristeria e sala da tè,Lecce,0,1,0,0,0,1,0,0,0,0,0
 8436,Antica Cantina Puglia Bella,Putignano,0,0,0,0,0,0,0,0,1,0,0
 8437,Caveau,Bitonto,0,1,1,0,0,0,0,0,0,0,0
-8440,Accademia Musicale Federiciana,Andria,0,0,0,0,0,0,0,0,0,0,0
 8441,Tenuta Antico Leccio,Gioia del Colle,0,0,1,0,1,0,0,0,0,0,0
 8442,Cimitero Vecchio (Chiesa Santa Maria di Costantinopoli),Cisternino,0,0,0,0,0,0,0,0,1,0,0
 8443,Palazzo De Donno,Cursi,0,0,0,0,0,0,0,0,1,0,0
@@ -5063,24 +4658,16 @@
 8453,Negroamaro Restaurant,Lecce,0,0,1,0,0,0,0,0,0,0,0
 8454,Tenute Parco Piccolo,Carovigno,0,0,0,0,0,1,0,0,0,0,0
 8455,TNT tap'n'table,Bari,0,1,1,0,0,1,0,0,0,0,0
-8458,Masseria Seppunisi,Ceglie Messapica,0,0,0,0,0,0,0,0,0,0,0
 8459,Masseria Santanna,Monopoli,0,0,0,0,1,0,0,0,0,0,0
 8460,Mercato 29,Lucera,0,0,1,0,0,0,0,0,0,0,0
 8461,Le Véronique Einaudi,Bari,0,1,1,0,0,0,0,0,0,0,0
 8462,Fattoatoast taranto,Taranto,0,1,1,0,0,1,0,0,0,0,0
 8463,UROBORO pub,Monopoli,0,1,1,0,0,0,0,0,0,0,0
 8464,Scatola Sonora,Noci,0,0,0,0,0,0,1,0,0,0,0
-8466,Masseria Sociale Parco dei Fichi D'India,Rutigliano,0,0,0,0,0,0,0,0,0,0,0
-8467,Ortensia Lounge Cafè,Sannicola,0,0,0,0,0,0,0,0,0,0,0
-8468,Bar Movida Kafe,Nardò,0,0,0,0,0,0,0,0,0,0,0
-8469,Binario1,Taviano,0,0,0,0,0,0,0,0,0,0,0
-8470,Anno Zero Musik&amp;Drink,Aradeo,0,0,0,0,0,0,0,0,0,0,0
 8471,Palazzo Guerrieri,Trepuzzi,0,0,0,0,0,0,0,0,1,0,0
 8472,Otto il Panzerotto,Noci,0,1,1,0,0,1,0,0,0,0,0
-8473,Golf Club Barialto,Casamassima,0,0,0,0,0,0,0,0,0,0,0
 8474,Museo della Preistoria di Nardò,Nardò,0,0,0,0,0,0,0,0,1,0,0
 8475,Meu Pai Food &amp; Drink,Taranto,0,1,1,0,0,0,0,0,0,0,0
-8476,Mercatino delle Arti e delle Etnie,Lecce,0,0,0,0,0,0,0,0,0,0,0
 8477,Complesso Sant'Anna di Renna,Locorotondo,0,0,0,0,0,0,0,0,1,0,0
 8478,Sud Hotel,Pulsano,0,0,0,0,1,0,0,0,0,1,0
 8479,Hostaria Excelsior,Sammichele di Bari,0,0,1,0,0,1,0,1,0,0,0
@@ -5089,7 +4676,6 @@
 8482,Dipartimento Jonico dell'Università degli Studi  Aldo Moro ,Taranto,0,0,0,0,0,0,0,0,1,0,0
 8484,Fuego!,Nardò,0,0,1,0,0,0,0,0,0,0,0
 8485,Crocevia,Lecce,0,0,0,0,0,0,0,0,1,0,1
-8487,Rocket,Giovinazzo,0,0,0,0,0,0,0,0,0,0,0
 8494,Parco dei Principi,Bari,0,0,0,0,1,0,0,0,0,0,0
 8496,Porta Lecce,Brindisi,0,0,0,0,0,0,0,0,1,0,0
 8498,Bizarre,Gravina in Puglia,0,0,1,0,0,0,0,1,0,0,0
@@ -5106,7 +4692,6 @@
 8520,Quattordici Luglio,Mesagne,0,0,1,0,0,1,0,0,0,0,0
 8522,Il Polpo Gourmet,Trani,0,0,1,0,0,0,0,0,0,0,0
 8523,Albergo diffuso Rococò,Martina Franca,0,0,0,0,1,0,0,0,0,0,0
-8524,Amarcord Hostaria,Galatina,0,0,0,0,0,0,0,0,0,0,0
 8527,Spazio MICROBA,Bari,0,0,0,0,0,0,0,0,1,0,0
 8529,Fra Fra,Taranto,0,1,0,0,0,0,0,0,0,0,0
 8532,Teatro Vida,Gravina in Puglia,0,0,0,0,0,0,0,0,0,0,1
@@ -5119,25 +4704,20 @@
 8541,Macondo,Modugno,0,0,1,0,0,0,0,0,0,0,0
 8542,KUBO,Bari,0,0,0,0,0,0,0,0,1,0,0
 8543,GrowLab,Barletta,0,0,0,0,0,0,1,0,0,0,0
-8545,Oleificio Cooperativo di Bitritto,Bitritto,0,0,0,0,0,0,0,0,0,0,0
 8546,Locanda Don Mimi',Fasano,0,0,1,0,0,0,0,0,0,0,0
 8547,Camping Santomaj,Leporano,0,0,0,0,1,0,0,0,0,0,0
 8549,Imbiss Kebab,Fasano,0,0,1,0,0,0,0,0,0,0,0
 8551,Teatro GIU' La Maschera,Bari,0,0,0,0,0,0,1,0,0,0,0
 8552,Old Wild West GSM,Molfetta,0,0,1,0,0,0,0,0,0,0,0
-8553,Porta dello Speziale,Bari,0,0,0,0,0,0,0,0,0,0,0
-8554,Caffè del Conte Ristorante,Cerignola,0,0,0,0,0,0,0,0,0,0,0
 8555,Psico Bar,Sava,0,1,0,0,0,0,1,0,0,0,0
 8556,La Salottina di Via Aprile,Locorotondo,0,1,1,0,1,0,0,0,0,0,0
 8557,Avenida,Bitonto,0,1,1,0,0,1,0,0,0,0,0
 8559,Bennett Urban Bistrot,Taranto,0,0,1,0,0,0,0,0,0,0,0
-8560,Masseria Monti Basile,Martina Franca,0,0,0,0,0,0,0,0,0,0,0
 8561,Granata,Corato,0,1,1,0,0,0,0,0,0,0,0
 8562,Benett Urban Bistro,Taranto,0,1,1,0,0,0,0,0,0,0,0
 8563,Chiesa di San Benedetto,Conversano,0,0,0,0,0,0,0,0,1,0,0
 8566,Casa Armonica,Gravina in Puglia,0,0,0,0,0,0,1,0,0,0,0
 8567,Palazzo Fizzarotti,Bari,0,0,0,0,0,0,0,0,1,0,0
-8568,La Madre,Parabita,0,0,0,0,0,0,0,0,0,0,0
 8569,Biblioteca  Tommaso Fiore ,Cisternino,0,0,0,0,0,0,1,0,0,0,0
 8571,The Stuart  Scottish pub,Bari,0,1,1,0,0,0,0,0,0,0,0
 8572,Le Tre Forchette,Bagnolo del Salento,0,0,1,0,0,0,0,0,0,0,0
@@ -5148,12 +4728,10 @@
 8577,Ristorante Il Fauno - Grand Hotel**** Degli Angeli,San Giovanni Rotondo,0,0,0,0,1,0,0,0,0,0,0
 8578,Chiesa Beata Vergine Immacolata Bari,Bari,0,0,0,0,0,0,0,0,1,0,1
 8579,13 Volte - Luogo e Gusto,Gravina in Puglia,0,1,1,0,0,0,0,0,0,0,0
-8580,Marameo,Monteparano,0,0,0,0,0,0,0,0,0,0,0
 8581,Palazzo Tanzarella,Ostuni,0,0,0,0,0,0,0,0,1,0,0
 8582,Chiostro di Sant'Antonio,Taranto,0,0,0,0,0,0,0,0,0,0,1
 8583,Palazzo di Città,Bari,0,0,0,0,0,0,0,0,1,0,0
 8584,Il Giglio,Martina Franca,0,0,0,0,0,1,0,0,0,0,0
-8585,Biblioteca Cappuccini,San Severo,0,0,0,0,0,0,0,0,0,0,0
 8586,Balù bar,Ruffano,0,1,0,0,0,0,0,0,0,0,0
 8588,Libreria Skribi Parole Suoni Cose,Conversano,0,0,0,0,0,0,1,0,0,0,0
 8589,Piazza Libertini,Lecce,0,0,0,0,0,0,0,0,1,0,0
