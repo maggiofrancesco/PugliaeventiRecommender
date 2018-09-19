@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/placehold.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/data/items.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/items.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/data/ratings_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/ratings_train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/users.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,23 +89,26 @@
     <session id="345723609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.16" value="5" />
+          <entry key="project.closed" value="62" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.15" value="6" />
+          <entry key="project.open.time.16" value="6" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="3" />
-          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="3" />
           <entry key="project.open.time.25" value="7" />
           <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="2" />
-          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="1" />
@@ -112,7 +116,7 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="52" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -121,11 +125,11 @@
           <entry key="csv" value="113" />
           <entry key="download" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="91" />
+          <entry key="html" value="95" />
           <entry key="jpg" value="1" />
           <entry key="js" value="10" />
           <entry key="png" value="8" />
-          <entry key="py" value="217" />
+          <entry key="py" value="221" />
           <entry key="pyi" value="2" />
           <entry key="recommender_place" value="3" />
           <entry key="recommender_profile" value="1" />
@@ -137,11 +141,11 @@
           <entry key="CSS" value="9" />
           <entry key="CSV" value="112" />
           <entry key="Database Element" value="4" />
-          <entry key="HTML" value="91" />
+          <entry key="HTML" value="95" />
           <entry key="Image" value="9" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="217" />
+          <entry key="Python" value="221" />
           <entry key="PythonStub" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -151,16 +155,16 @@
           <entry key="csv" value="25" />
           <entry key="dummy" value="63" />
           <entry key="gitignore" value="51" />
-          <entry key="html" value="5429" />
+          <entry key="html" value="5452" />
           <entry key="py" value="42507" />
-          <entry key="txt" value="2212" />
+          <entry key="txt" value="2280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="25" />
-          <entry key="HTML" value="5429" />
-          <entry key="PLAIN_TEXT" value="2326" />
+          <entry key="HTML" value="5452" />
+          <entry key="PLAIN_TEXT" value="2394" />
           <entry key="Python" value="42506" />
           <entry key="SQL" value="1" />
         </counts>
@@ -172,22 +176,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="348">
+              <caret line="88" column="69" selection-start-line="88" selection-start-column="69" selection-end-line="88" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -273,7 +279,6 @@
         <option value="$PROJECT_DIR$/templates/places.html" />
         <option value="$PROJECT_DIR$/templates/header.html" />
         <option value="$PROJECT_DIR$/templates/head_css_js.html" />
-        <option value="$PROJECT_DIR$/templates/profile.html" />
         <option value="$PROJECT_DIR$/templates/signup.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/recommender_webapp/initializer.py" />
@@ -285,12 +290,13 @@
         <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/urls.py" />
-        <option value="$PROJECT_DIR$/templates/profile_configuration.html" />
         <option value="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" />
         <option value="$PROJECT_DIR$/engine/export_data_to_django.py" />
         <option value="$PROJECT_DIR$/engine/data/items.csv" />
         <option value="$PROJECT_DIR$/engine/data/users.csv" />
         <option value="$PROJECT_DIR$/engine/data/ratings_train.csv" />
+        <option value="$PROJECT_DIR$/templates/profile_configuration.html" />
+        <option value="$PROJECT_DIR$/templates/profile.html" />
       </list>
     </option>
   </component>
@@ -301,9 +307,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1506" />
-    <option name="width" value="1307" />
-    <option name="height" value="555" />
+    <option name="x" value="49" />
+    <option name="y" value="25" />
+    <option name="width" value="659" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -311,6 +318,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,11 +347,26 @@
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -663,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536491925064</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Removed items without features from LightFM dataset items.csv">
+      <created>1536688996714</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1536688996714</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -676,15 +706,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1920" height="1202" extended-state="6" />
+    <frame x="49" y="25" width="1317" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.1696905" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.28796223" />
       <window_info id="Structure" order="1" sideWeight="0.5006353" side_tool="true" weight="0.18676628" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48880598" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28384992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43393147" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -693,7 +723,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.40764925" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.406199" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32929105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -738,7 +768,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added classes implementing LightFM model" />
     <MESSAGE value="Added new dataset from which LightFM model must learn" />
     <MESSAGE value="Implemented user sign up with email (rather than username as it is default)" />
     <MESSAGE value="Implemented login and signup of Users with relative Profile information" />
@@ -763,7 +792,8 @@
     <MESSAGE value="Refactoring and added new comments" />
     <MESSAGE value="Now it's used an initializing class for loading places objects when django starts. In this way, the system gives recommendations in a more efficient way" />
     <MESSAGE value="Added other comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added other comments" />
+    <MESSAGE value="Removed items without features from LightFM dataset items.csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed items without features from LightFM dataset items.csv" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -854,13 +884,6 @@
     <entry file="file://$PROJECT_DIR$/static/js/jquery-ui-1.12.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/head_css_js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/my_places.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -916,32 +939,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/backend.py" />
     <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/constant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -984,22 +986,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/stars.png" />
-    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1008,21 +1000,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine/data/labels_item.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data/items_complete.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76655" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data/items_complete.csv" />
     <entry file="file://$PROJECT_DIR$/engine/export_data_to_django.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -1044,13 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine/data/ratings_train.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="940">
@@ -1065,13 +1039,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/head_css_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1815">
+          <caret line="121" column="69" selection-start-line="121" selection-start-column="69" selection-end-line="121" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="88" column="69" selection-start-line="88" selection-start-column="69" selection-end-line="88" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
