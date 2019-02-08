@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27e1e9e-d96c-4db3-8ffa-73aa6a60191a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/placehold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-3.2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/selectstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/selectstyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pugliaeventi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pugliaeventi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/data/items.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/items.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/data/ratings_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/ratings_train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engine/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/engine/data/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/export_data_to_django.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/export_data_to_django.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pugliaeventi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pugliaeventi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-4.0.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-4.0.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-4.1.3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-4.1.3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/head_css_js.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/head_css_js.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +27,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pugliaeventi$lightfm_pugliaeventi.coverage" NAME="lightfm_pugliaeventi Coverage Results" MODIFIED="1535661793996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/engine" />
+    <SUITE FILE_PATH="coverage/PugliaeventiRecommender$import_data.coverage" NAME="import_data Coverage Results" MODIFIED="1549624067205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/engine" />
     <SUITE FILE_PATH="coverage/pugliaeventi$import_data.coverage" NAME="import_data Coverage Results" MODIFIED="1536686214709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/engine" />
+    <SUITE FILE_PATH="coverage/pugliaeventi$lightfm_pugliaeventi.coverage" NAME="lightfm_pugliaeventi Coverage Results" MODIFIED="1535661793996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/engine" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -85,115 +98,98 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="345723609">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="62" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="3" />
-          <entry key="project.open.time.15" value="6" />
-          <entry key="project.open.time.16" value="6" />
-          <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="3" />
-          <entry key="project.open.time.20" value="4" />
-          <entry key="project.open.time.21" value="3" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="3" />
-          <entry key="project.open.time.25" value="7" />
-          <entry key="project.open.time.26" value="3" />
-          <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.29" value="2" />
-          <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.33" value="3" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.63" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="67" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="9" />
-          <entry key="csv" value="113" />
-          <entry key="download" value="1" />
-          <entry key="gitignore" value="2" />
-          <entry key="html" value="95" />
-          <entry key="jpg" value="1" />
-          <entry key="js" value="10" />
-          <entry key="png" value="8" />
-          <entry key="py" value="221" />
-          <entry key="pyi" value="2" />
-          <entry key="recommender_place" value="3" />
-          <entry key="recommender_profile" value="1" />
-          <entry key="sql" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="9" />
-          <entry key="CSV" value="112" />
-          <entry key="Database Element" value="4" />
-          <entry key="HTML" value="95" />
-          <entry key="Image" value="9" />
-          <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="221" />
-          <entry key="PythonStub" value="2" />
-          <entry key="Scratch" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="csv" value="25" />
-          <entry key="dummy" value="63" />
-          <entry key="gitignore" value="51" />
-          <entry key="html" value="5452" />
-          <entry key="py" value="42507" />
-          <entry key="txt" value="2280" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSV" value="25" />
-          <entry key="HTML" value="5452" />
-          <entry key="PLAIN_TEXT" value="2394" />
-          <entry key="Python" value="42506" />
-          <entry key="SQL" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/export_data_to_django.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="150" column="48" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="88" column="69" selection-start-line="88" selection-start-column="69" selection-end-line="88" selection-end-column="69" />
+            <state relative-caret-position="458">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/data/items.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8189">
+              <caret line="4254" column="4" selection-start-line="4254" selection-start-column="4" selection-end-line="4254" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/data/ratings_train.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="2417" column="12" selection-start-line="2417" selection-start-column="12" selection-end-line="2417" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine/data/users.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-80">
+              <caret line="585" column="32" selection-start-line="585" selection-start-column="32" selection-end-line="585" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/profile.html">
+        <entry file="file://$PROJECT_DIR$/templates/head_css_js.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
+        <entry file="file://$PROJECT_DIR$/templates/header.html">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="338" selection-start-line="338" selection-end-line="338" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -234,6 +230,10 @@
       <find>Mood</find>
       <find>6475</find>
       <find>8312</find>
+      <find>5111</find>
+      <find>Officina</find>
+      <find>6180</find>
+      <find>Esordi</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -278,39 +278,32 @@
         <option value="$PROJECT_DIR$/templates/place.html" />
         <option value="$PROJECT_DIR$/templates/places.html" />
         <option value="$PROJECT_DIR$/templates/header.html" />
-        <option value="$PROJECT_DIR$/templates/head_css_js.html" />
         <option value="$PROJECT_DIR$/templates/signup.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/recommender_webapp/initializer.py" />
         <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/pugliaeventi/views.py" />
         <option value="$PROJECT_DIR$/engine/lightfm_pugliaeventi_old.py" />
         <option value="$PROJECT_DIR$/engine/lightfm_data_fetcher.py" />
         <option value="$PROJECT_DIR$/engine/lightfm_pugliaeventi.py" />
         <option value="$PROJECT_DIR$/recommender_webapp/views.py" />
-        <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
         <option value="$PROJECT_DIR$/pugliaeventi/urls.py" />
-        <option value="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" />
-        <option value="$PROJECT_DIR$/engine/export_data_to_django.py" />
-        <option value="$PROJECT_DIR$/engine/data/items.csv" />
-        <option value="$PROJECT_DIR$/engine/data/users.csv" />
-        <option value="$PROJECT_DIR$/engine/data/ratings_train.csv" />
         <option value="$PROJECT_DIR$/templates/profile_configuration.html" />
         <option value="$PROJECT_DIR$/templates/profile.html" />
+        <option value="$PROJECT_DIR$/pugliaeventi/settings.py" />
+        <option value="$PROJECT_DIR$/recommender_webapp/initializer.py" />
+        <option value="$PROJECT_DIR$/engine/data/items.csv" />
+        <option value="$PROJECT_DIR$/engine/export_data_to_django.py" />
+        <option value="$PROJECT_DIR$/pugliaeventi/views.py" />
+        <option value="$PROJECT_DIR$/engine/data/users.csv" />
+        <option value="$PROJECT_DIR$/engine/data/ratings_train.csv" />
+        <option value="$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py" />
+        <option value="$PROJECT_DIR$/templates/head_css_js.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
-    <option name="y" value="25" />
-    <option name="width" value="659" />
-    <option name="height" value="743" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -318,55 +311,74 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender_webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pugliaeventi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugliaeventi" type="462c0819:PsiDirectoryNode" />
+              <item name="PugliaeventiRecommender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PugliaeventiRecommender" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,23 +386,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Scrivania/movie-website-django-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\franc\PycharmProjects\PugliaeventiRecommender\static\css" />
+      <recent name="C:\Users\franc\PycharmProjects\PugliaeventiRecommender\static\js" />
+      <recent name="$PROJECT_DIR$/recommender_webapp/common" />
+      <recent name="$PROJECT_DIR$/pugliaeventi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/engine" />
       <recent name="$PROJECT_DIR$/pugliaeventi/static/images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/recommender_webapp/common" />
-      <recent name="$PROJECT_DIR$/pugliaeventi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,6 +510,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535181032537</updated>
+      <workItem from="1549541392049" duration="2912000" />
+      <workItem from="1549547137878" duration="236000" />
+      <workItem from="1549548912289" duration="401000" />
+      <workItem from="1549549403454" duration="1749000" />
+      <workItem from="1549615343988" duration="12969000" />
     </task>
     <task id="LOCAL-00001" summary="Created Django project including LightFM engine">
       <created>1535192123004</created>
@@ -696,6 +715,9 @@
     <option name="localTasksCounter" value="29" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18267000" />
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -706,16 +728,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="25" width="1317" height="743" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.28796223" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936467" visible="true" weight="0.2080537" />
       <window_info id="Structure" order="1" sideWeight="0.5006353" side_tool="true" weight="0.18676628" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32929105" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28384992" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43393147" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.674221" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42776203" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929105" />
@@ -723,7 +744,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.406199" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.40509915" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32929105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -764,9 +785,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new dataset from which LightFM model must learn" />
     <MESSAGE value="Implemented user sign up with email (rather than username as it is default)" />
@@ -795,6 +813,17 @@
     <MESSAGE value="Removed items without features from LightFM dataset items.csv" />
     <option name="LAST_COMMIT_MESSAGE" value="Removed items without features from LightFM dataset items.csv" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/engine/export_data_to_django.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
@@ -810,6 +839,46 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>sql</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>date(2018, 8, 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>date_from_events_query = date(2018, 8, 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datetime.strptime(date_from.split(&quot; &quot;)[0], '%Y-%m-%d').date()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datetime.strptime(date_from.split(&quot; &quot;)[0], '%Y-%m-%d')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>date_from.split(&quot; &quot;)[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f.readlines()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>search_rec_form.fields['km_range']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -819,100 +888,12 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>search_rec_form.km_range()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>search_rec_form.km_range</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>search_rec_form.km_range.name</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>search_rec_form</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>search_rec_form.cleaned_data.get('km_range').name</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>search_rec_form.cleaned_data.get('km_range').value</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mood</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-4.1.3.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery-3.3.1.slim.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/popper.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap-4.1.3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/font-passion-one.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/font-oxygen.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/jquery-ui-1.12.1.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.12.4.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery-ui-1.12.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/my_places.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="111" lean-forward="true" selection-start-line="28" selection-start-column="111" selection-end-line="28" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/places.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.11.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js" />
     <entry file="file://$PROJECT_DIR$/static/js/bootstrap-4.0.0.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap-4.0.0.min.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -940,51 +921,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/backend.py" />
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/lightfm_data_fetcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4575">
-          <caret line="305" column="26" selection-start-line="305" selection-start-column="21" selection-end-line="305" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/404.html" />
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/br_down.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/br_down.png" />
     <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/demo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/ful_grid_img.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/google.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/ful_grid_img.png" />
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/google.png" />
     <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/movie.jpg" />
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/search.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/search.png" />
     <entry file="file://$PROJECT_DIR$/pugliaeventi/static/images/stars.png" />
     <entry file="file://$PROJECT_DIR$/pugliaeventi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -993,73 +938,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine/data/labels_item.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/data/items_complete.csv" />
-    <entry file="file://$PROJECT_DIR$/engine/export_data_to_django.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="196" column="19" lean-forward="true" selection-start-line="196" selection-start-column="19" selection-end-line="196" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data/items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data/ratings_train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="2399" column="11" selection-start-line="2399" selection-start-column="11" selection-end-line="2399" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/data/users.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="599" column="33" selection-start-line="599" selection-start-column="33" selection-end-line="599" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/head_css_js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="69" selection-start-line="121" selection-start-column="69" selection-end-line="121" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/common/constant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1067,34 +949,228 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        <state relative-caret-position="270">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/lightfm_pugliaeventi_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/lookups.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python/Python37-32/Lib/_bootlocale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/psycopg2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python/Python37-32/Lib/encodings/cp1252.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python/Python37-32/Lib/_strptime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="587" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data/eventi.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="273">
+          <caret line="129" column="81" selection-start-line="129" selection-start-column="60" selection-end-line="129" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/initializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data/ratings_test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data/labels_user.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/lightfm_data_fetcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1418">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pugliaeventi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/export_data_to_django.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="150" column="48" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data/items.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8189">
+          <caret line="4254" column="4" selection-start-line="4254" selection-start-column="4" selection-end-line="4254" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/data/users.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="585" column="32" selection-start-line="585" selection-start-column="32" selection-end-line="585" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender_webapp/common/lightfm_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="88" column="69" selection-start-line="88" selection-start-column="69" selection-end-line="88" selection-end-column="69" />
+        <state relative-caret-position="458">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender_webapp/common/data_loader.py">
+    <entry file="file://$PROJECT_DIR$/engine/data/ratings_train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="2417" column="12" selection-start-line="2417" selection-start-column="12" selection-end-line="2417" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender_webapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+    <entry file="file://$PROJECT_DIR$/templates/profile_configuration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="170">
+          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/head_css_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
         </state>
       </provider>
     </entry>

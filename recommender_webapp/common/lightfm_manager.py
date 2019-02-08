@@ -21,14 +21,14 @@ def add_user(user_id, user_location,  user_contexts, data):
         contextual_lightfm_user_id = str(lightfm_user_id) + str(user_context.get('mood').value) + str(user_context.get('companionship').value)
 
         # Add user (SPLIT) to users.csv
-        with open(r'engine/data/users.csv', 'a') as f:
+        with open(r'engine/data/users.csv', 'a', newline='') as f:
             writer = csv.writer(f)
             writer.writerow([contextual_lightfm_user_id, user_location, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
         contextual_ratings = data.filter(mood=user_context.get('mood').name, companionship=user_context.get('companionship').name)
 
         # Add ratings to ratings.csv
-        with open(r'engine/data/ratings_train.csv', 'a') as f:
+        with open(r'engine/data/ratings_train.csv', 'a', newline='') as f:
             writer = csv.writer(f)
             for rating in contextual_ratings:
                 writer.writerow([contextual_lightfm_user_id, rating.place.placeId, rating.rating])
@@ -53,18 +53,18 @@ def add_rating(contextual_lightfm_user_id, place_id, rating):
     """
 
     # Add rating to ratings.csv
-    with open(r'engine/data/ratings_train.csv', 'a') as f:
+    with open(r'engine/data/ratings_train.csv', 'a', newline='') as f:
         writer = csv.writer(f)
         writer.writerow([contextual_lightfm_user_id, place_id, rating])
 
     max_user_id = 0
     max_item_id = 0
     # I need the max user ID and the max item ID
-    with open(r'engine/data/users.csv') as csvfile:
+    with open(r'engine/data/users.csv', encoding="utf8", newline='') as csvfile:
         for row in reversed(list(csv.reader(csvfile, delimiter=','))):
             max_user_id = int(row[0])
             break
-    with open(r'engine/data/items.csv') as csvfile:
+    with open(r'engine/data/items.csv', encoding="utf8", newline='') as csvfile:
         for row in reversed(list(csv.reader(csvfile, delimiter=','))):
             max_item_id = int(row[0])
             break

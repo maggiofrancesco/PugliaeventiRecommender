@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'django_pugliaeventi',
         'USER': 'postgres',
-        'PASSWORD': 'Frapama29',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': 5432
     }

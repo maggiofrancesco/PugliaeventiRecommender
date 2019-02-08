@@ -22,23 +22,25 @@ def single_quote(s):
 
 
 def import_places():
-    with open('data/items.csv') as f:
-        for row in f.readlines():
-            columns = row.split(',')
-            place_id = columns[0]
-            place_name = columns[1]
-            place_location = columns[2]
-            free_entry = columns[3]
-            bere = columns[4]
-            mangiare = columns[5]
-            benessere = columns[6]
-            dormire = columns[7]
-            goloso = columns[8]
-            libri = columns[9]
-            romantico = columns[10]
-            museo = columns[11]
-            spiaggia = columns[12]
-            teatro = columns[13]
+    with open('data/items.csv', encoding="utf8") as f:
+        file_reader = csv.reader(f, delimiter=',')
+        for row in file_reader:
+            place_id = row[0]
+            if place_id == '5112':
+                print("qui")
+            place_name = row[1]
+            place_location = row[2]
+            free_entry = row[3]
+            bere = row[4]
+            mangiare = row[5]
+            benessere = row[6]
+            dormire = row[7]
+            goloso = row[8]
+            libri = row[9]
+            romantico = row[10]
+            museo = row[11]
+            spiaggia = row[12]
+            teatro = row[13]
 
             try:
                 sql = (
@@ -146,7 +148,7 @@ def import_distanze():
 
 
 def import_eventi():
-    with open('data/eventi.csv') as csvfile:
+    with open('data/eventi.csv', encoding="utf8") as csvfile:
         file_reader = csv.reader(csvfile, delimiter=',')
         for row in file_reader:
             event_id = int(row[0])
@@ -174,14 +176,14 @@ def import_eventi():
                         place_id = result[0]
 
                         sql = (
-                            '''INSERT INTO recommender_webapp_event VALUES ({},\'{}\',\'{}\',\'{}\',{},\'{}\',\'{}\',{})'''.format(
+                            '''INSERT INTO recommender_webapp_event VALUES ({},\'{}\',\'{}\',\'{}\',\'{}\',{},\'{}\',{})'''.format(
                                 event_id,
                                 single_quote(title),
+                                single_quote(location),
                                 single_quote(date_from),
                                 single_quote(date_to),
                                 popularity,
                                 single_quote(description),
-                                single_quote(location),
                                 place_id
                             ))
                         execute_sql(sql)
@@ -192,8 +194,8 @@ def import_eventi():
 
 
 if __name__ == "__main__":
-    import_places()
+    # import_places()
     # import_sample_ratings() INUTILE
-    import_comuni()
-    import_distanze()
+    # import_comuni()
+    # import_distanze()
     import_eventi()
